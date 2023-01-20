@@ -1,0 +1,194 @@
+{
+  "objectName" : "irkenspike",
+  "colonyTags" : ["irken"],
+  "rarity" : "Common",
+  "category" : "trap",
+  "price" : 45,
+
+  "description" : "BZZZZZZZZT, ouch.",
+  "shortdescription" : "Irken Spike",
+  "race" : "irken",
+
+  "apexDescription" : "Irken traps. I'd better not touch.",
+  "avianDescription" : "If only I could fly over these traps.",
+  "floranDescription" : "Floran dislikess lightning machines.",
+  "glitchDescription" : "Fearful. There appears to be enough current here to entirely fry my circuits.",
+  "humanDescription" : "Uh oh, looks dangerous.",
+  "hylotlDescription" : "Similar devices are used defensively beneath the ocean. The Hylotl build moats of electricity currents as intruder deterrents.",
+  "novakidDescription" : "I don't fancy getting a nasty jolt. Better steer clear.",
+
+  "lightColor" : [128, 0, 128],
+
+  "flickerPeriod" : 0.2,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "irkenspikeicon.png",
+  "orientations" : [
+    
+    // PREVIEW ORIENTATION
+    {
+      "image" : "irkenspike.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 0] ]
+    },
+
+    // NORMAL ORIENTATIONS
+    {
+      "image" : "irkenspiketopleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "left" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "irkenspiketopright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "right" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "irkenspikebottomleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "irkenspikebottomright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "right" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "irkenspike.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "irkenspikeceiling.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "irkenspikeleft.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "irkenspikeright.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 25,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/irkenspike.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "smashOnBreak" : true,
+  "smashSounds" : [ ],
+  "smashParticles" : [ { "count" : 6, "particle" : "steelshard" } ]
+}

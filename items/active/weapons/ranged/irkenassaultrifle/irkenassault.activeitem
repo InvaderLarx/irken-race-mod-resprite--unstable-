@@ -1,0 +1,72 @@
+{
+  "itemName" : "irkenassaultrifle",
+  "price" : 3900,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "medium range Irken Rifle.",
+  "shortdescription" : "Irken Rifle",
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "level" : 4,
+  "inventoryIcon" : "irkenassault.png",
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "irkenassault.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_ar1.ogg"]
+    }
+  },
+  "baseOffset" : [1.2, 0.3],
+  "muzzleOffset" : [2.9, 0.2],
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+  "elementalType" : "electric ",
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+    "fireTime" : 0.05,
+    "baseDps" : 40.5,
+    "energyUsage" : 25.5,
+    "inaccuracy" : 0.006,
+    "projectileCount" : 1,
+    "fireType" : "auto",
+    "projectileType" : "stickyplasma",
+    "projectileParameters" : {
+      "knockbackRange" : [12,22]
+    },
+	
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.25,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "altAbilityType" : "spray",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

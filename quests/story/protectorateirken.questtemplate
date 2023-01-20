@@ -1,0 +1,39 @@
+{
+  "id" : "protectorateirken",
+  "mainQuest" : true,
+  "title" : "Welcome Irken Invader",
+  "text" : "Have your PAK. You cannot function without it.",
+  "completionText" : "Remember you know what our REAL mission is. We serve no one but the Almighty Tallest!",
+  "moneyRange" : [50, 50],
+  "canBeAbandoned" : false,
+  "showCompleteDialog" : false,
+  "invisible" : false,
+  "logOnly" : true,
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/tutorial/protectorateirken.lua",
+  "scriptConfig" : {
+    "portraits" : {
+    "questGiverIndicator" : "mainquestgiver",
+    "questReceiverIndicator" : "mainquestreceiver"
+    },
+	"radioMessages": {
+            "received": {
+                "messageId": "itemhackMessageReceived",
+                "type": "quest",
+                "unique": false,
+                "senderName": "Irken Invader",
+                "text": "Message received.",
+                "portraitImage": "/interface/chatbubbles/irkeninvadertalk.png:<frame>"
+            }
+        },
+
+    "descriptions" : {
+      "graduate" : "Attend your graduation ceremony",
+      "matterManipulator" : "Take the matter manipulator",
+      "escape" : "Escape the destruction"
+    },
+
+    "followUp" : "bootship"
+  }
+}

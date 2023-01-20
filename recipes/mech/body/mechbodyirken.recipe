@@ -1,0 +1,10 @@
+{
+	"input" : [
+		{ "item" : "refinedresistium", "count" : 30 },
+		{ "item" : "salvagebody", "count" : 25 },
+		{ "item" : "salvagetier5", "count" : 10 }
+	],
+	"duration" : 5,
+	"output" : { "item" : "mechbodyirken", "count" : 1 },
+	"groups" : [ "irkenassembler3", "vehicles", "all"]
+}

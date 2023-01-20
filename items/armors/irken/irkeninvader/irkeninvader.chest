@@ -1,0 +1,50 @@
+{
+  "itemName" : "irkeninvaderchest",
+  "price" : 75,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestwear",
+  "description" : "Standard issue Irken invader uniform top.",
+  "shortdescription" : "Irken Invader Top",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "colorOptions" : [
+    // BASE
+    { "5c213e" : "5c213e", "8a4064" : "8a4064", "a56483" : "a56483", "eda6c8" : "eda6c8", "4e081f" : "4e081f", "5f0928" : "5f0928", "710a31" : "710a31", "9f0b48" : "9f0b48", "c20d5a" : "c20d5a" },
+    // BLACK
+    { "5c213e" : "2a1d24", "8a4064" : "423239", "a56483" : "53444b", "eda6c8" : "7b6b73", "4e081f" : "191919", "5f0928" : "1e1e1e", "710a31" : "232323", "9f0b48" : "2f2f2f", "c20d5a" : "393939" },
+    // GREY
+    { "5c213e" : "3f3f3f", "8a4064" : "656565", "a56483" : "858585", "eda6c8" : "cacaca", "4e081f" : "2e282a", "5f0928" : "373133", "710a31" : "423a3c", "9f0b48" : "5a5053", "c20d5a" : "6e6265" },
+    // WHITE
+    { "5c213e" : "737373", "8a4064" : "9a9a9a", "a56483" : "b2b2b2", "eda6c8" : "f0f0f0", "4e081f" : "404040", "5f0928" : "4e4e4e", "710a31" : "5d5d5d", "9f0b48" : "828282", "c20d5a" : "9f9f9f" },
+    // RED
+    { "5c213e" : "5c213e", "8a4064" : "8a4064", "a56483" : "a56483", "eda6c8" : "eda6c8", "4e081f" : "4e081f", "5f0928" : "5f0928", "710a31" : "710a31", "9f0b48" : "9f0b48", "c20d5a" : "c20d5a" },
+    // ORANGE
+    { "5c213e" : "5c3621", "8a4064" : "8a5b40", "a56483" : "a57c64", "eda6c8" : "edc0a6", "4e081f" : "431f07", "5f0928" : "522308", "710a31" : "612809", "9f0b48" : "893209", "c20d5a" : "a73b0b" },
+    // YELLOW
+    { "5c213e" : "818054", "8a4064" : "a5a46c", "a56483" : "bab988", "eda6c8" : "f1f0ba", "4e081f" : "615d28", "5f0928" : "6f692a", "710a31" : "7e752b", "9f0b48" : "a5942d", "c20d5a" : "c3ac30" },
+    // GREEN
+    { "5c213e" : "586c37", "8a4064" : "7c9653", "a56483" : "97ae73", "eda6c8" : "d6efaf", "4e081f" : "0f3a20", "5f0928" : "114625", "710a31" : "14532a", "9f0b48" : "1a7537", "c20d5a" : "1f8e42" },
+    // BLUE
+    { "5c213e" : "3c5f70", "8a4064" : "578398", "a56483" : "779cb0", "eda6c8" : "b1daef", "4e081f" : "0d1832", "5f0928" : "0f1f3d", "710a31" : "112548", "9f0b48" : "173665", "c20d5a" : "1b437c" },
+    // PURPLE
+    { "5c213e" : "560b45", "8a4064" : "7d1e67", "a56483" : "8f3d7b", "eda6c8" : "c86eb3", "4e081f" : "33223a", "5f0928" : "3a2643", "710a31" : "412a4d", "9f0b48" : "533365", "c20d5a" : "613a78" },
+    // PINK
+    { "5c213e" : "5c213e", "8a4064" : "8a4064", "a56483" : "a56483", "eda6c8" : "eda6c8", "4e081f" : "75274f", "5f0928" : "8f3061", "710a31" : "aa3973", "9f0b48" : "cf6fa1", "c20d5a" : "e1a4c3" },
+    // BROWN
+    { "5c213e" : "6e6b50", "8a4064" : "85805f", "a56483" : "928f71", "eda6c8" : "b6b392", "4e081f" : "251e0e", "5f0928" : "2d2311", "710a31" : "352914", "9f0b48" : "4a371a", "c20d5a" : "5a4220" }
+  ]
+}

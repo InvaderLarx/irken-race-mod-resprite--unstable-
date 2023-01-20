@@ -1,0 +1,81 @@
+{
+  "objectName" : "invasion2go",
+  "colonyTags" : ["irken"],
+  "rarity" : "Common",
+  "category" : "other",
+  "description" : "This shop offers invasion equipment.",
+  "shortdescription" : "Invasion 2 Go",
+  "race" : "irken",
+
+  "apexDescription" : "A shop selling weapons and technology. This could come in handy.",
+  "avianDescription" : "Oh, it's a shop selling technology! Very useful to know.",
+  "floranDescription" : "Floran can buy weaponsss from this shop.",
+  "glitchDescription" : "Interested. A vendor selling technology!",
+  "humanDescription" : "A shop full of weapons. A set up for the perfect raid...",
+  "hylotlDescription" : "A shop selling weapons. Maybe I should browse it.",
+  "novakidDescription" : "A shop sellin' weapons... For a price.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Invasion 2 Go",
+        "subtitle" : " ^#b9b5b2;We want your monies"
+      }
+    },
+    "buyFactor" : 1.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "nanowrap" },
+      { "item" : "orangestim" },
+      { "item" : "bluestim" },
+      { "item" : "greenstim" },
+      { "item" : "redstim" },
+      { "item" : "yellowstim" },
+      { "item" : "battery" },
+	  { "item" : "irkencookingtable" },
+      { "item" : "irkeninvaderchest" },
+      { "item" : "irkeninvaderlegs" },
+      { "item" : "irkenheadpiece" },
+      { "item" : "spittlerunnercontroller" },
+      { "item" : "irkenstunclaw" },
+      { "item" : "irkenenergysword" },
+	  { "item" : "irkenspear5" },
+	  { "item" : "irkenrocketlauncher" },
+	  { "item" : "irkenbomb" },
+	  { "item" : "irkenbrainextractor" },
+	  { "item" : "irkenmg" },
+      { "item" : "irkencrossbow" },    
+      { "item" : "sugar" },
+      { "item" : "soda" }
+    ]
+  },
+  
+  
+  "printable" : false,
+  "lightColor" : [128, 0, 128],
+  "lightPosition" : [0, 7],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "invasion2go.png:<frame>", "fullbright" : true }, { "image" : "invasion2golit.png:<frame>" } ],
+      "direction" : "right",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 46,
+      "animationCycle" : 4.0,
+
+      "spaces" : [
+        [-1, 4], [0, 4], [1, 4],
+        [-1, 3], [0, 3], [1, 3],
+        [-1, 2], [0, 2], [1, 2],
+        [-3, 1], [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-3, 0], [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+
+}

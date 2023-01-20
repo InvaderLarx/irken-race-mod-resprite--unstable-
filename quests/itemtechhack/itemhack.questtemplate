@@ -1,0 +1,36 @@
+{
+    "id": "itemhack",
+	"ephemeral" : true,
+    "title": "An invader's PAK comes equipped with most essential functions!",
+    "text": "Your PAK shall function eventually.",
+    "completionText": "Remember you know what our REAL mission is. We serve no one but the Almighty Tallest!",
+    "moneyRange": [
+        50,
+        50
+    ],
+    "canBeAbandoned": true,
+	"invisible": true,
+    "logOnly": true,
+	"debug" : true,
+    "updateDelta": 10,
+    "script": "/quests/scripts/items/itemhack.lua",
+    "scriptConfig": {
+        "portraits": {
+            "questStarted" : "questGiver",
+            "questComplete" : "questReceiver"
+        },
+        "radioMessages": {
+            "received": {
+                "messageId": "itemhackMessageReceived",
+                "type": "quest",
+                "unique": false,
+                "senderName": "Irken Invader",
+                "text": "Message received.",
+                "portraitImage": "/interface/chatbubbles/irkeninvadertalk.png:<frame>"
+            }
+        },
+        "descriptions": {
+            "default": "you should not see this ever"
+        }
+    }
+}

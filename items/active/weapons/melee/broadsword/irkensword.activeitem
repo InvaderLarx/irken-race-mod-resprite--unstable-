@@ -1,0 +1,28 @@
+{
+  "itemName" : "irkensword",
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A begginers weapon?",
+  "shortdescription" : "Irken Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "irkensword.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "irkensword.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "electric",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.89,
+    "baseDps" : 7
+  },
+  "altAbilityType" : "travelingslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

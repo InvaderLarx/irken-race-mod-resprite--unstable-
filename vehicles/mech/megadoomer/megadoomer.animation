@@ -1,0 +1,406 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+          "idle" : { },
+
+          "jump" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "end",
+            "properties" : {
+              "immediateSound" : "/sfx/tech/mech_jump3.ogg"
+
+            }
+          },
+
+          "fall" : {
+            "frames" : 4,
+            "cycle" : 0.5,
+            "mode" : "end"
+          },
+
+          "walk" : {
+            "frames" : 10,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.ogg", "", "", "", "", "/sfx/tech/mech_step.ogg", "", "", "", "" ]
+            }            
+          },
+
+          "backWalk" : {
+            "frames" : 10,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "frameProperties" : {
+              "immediateSound" : [ "/sfx/tech/mech_step.ogg", "", "", "", "", "/sfx/tech/mech_step.ogg", "", "", "", "" ]
+              }
+          }
+        }
+      },
+
+      "frontFiring" : {
+        "default" : "off",
+
+        "states" : {
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "immediateSound" : "/sfx/gun/mech_gun2.ogg"
+            }
+          },
+
+          "off" : { }
+        }
+      },
+
+      "backFiring" : {
+        "default" : "off",
+
+        "states" : {
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "immediateSound" : "/sfx/gun/mech_gun2.ogg"
+            }
+          },
+
+          "off" : { }
+        }
+      }
+    },
+
+    "parts" : {
+      "body" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3,
+          "sitPosition" : [2.0, 1.2]
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle",
+                "immediateSound" : "/sfx/tech/mech_jump3.ogg"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0.5], [0, 0.5], [0, 0.375], [0, 0.375] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, 0.25], [0, 0.25], [0, 0.125], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "immediateSound" : [ "/sfx/tech/mech_step.ogg", "", "", "", "", "/sfx/tech/mech_step.ogg", "", "", "", "" ],
+                "offset" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              },
+              "frameProperties" : {
+                "immediateSound" : [ "/sfx/tech/mech_step.ogg", "", "", "", "", "/sfx/tech/mech_step.ogg", "", "", "", "" ],
+                "offset" : [ [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25], [0, 0.375], [0, 0.125], [0, 0], [0, 0.125], [0, 0.25] ]
+              }
+            }
+          }
+        }
+      },
+
+      "backLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -2,
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            }
+          }
+        }
+      },
+
+      "background" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -1,
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            }
+          }
+        }
+      },
+
+      "backGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1.5,
+          "offset" : [6, -0.35],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [2.4, 0],
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "backFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "/vehicles/mech/bulletmuzzle1.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "backGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "rotationGroup" : "guns",
+          "offset" : [2, 0],
+          "rotationCenter" : [2.4, 0],
+          "firePoint" : [6.5, -0.35],
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3.5,
+          "offset" : [4, -0.35],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [0.4, -0.25],
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "frontFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "/vehicles/mech/bulletmuzzle1.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 4,
+          "rotationGroup" : "guns",
+          "rotationCenter" : [0.4, -0.25],
+          "firePoint" : [4.5, -0.35],
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontLeg" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 5,
+          "anchorPart" : "body"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "<partImage>:idle"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "<partImage>:jump.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.5], [0, -0.5], [0, -0.375], [0, -0.375] ]
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "<partImage>:fall.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.25], [0, -0.25], [0, -0.125], [0, 0] ]
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "<partImage>:move.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "<partImage>:bmove.<frame>"
+              },
+              "frameProperties" : {
+                "offset" : [ [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25], [0, -0.375], [0, -0.125], [0, 0], [0, -0.125], [0, -0.25] ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "rotationGroups" : {
+    "guns" : {
+      "angularVelocity" : 10.0
+    }
+  }
+}

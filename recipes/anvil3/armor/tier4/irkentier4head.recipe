@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 6 },
+    { "item" : "fabric", "count" : 2 },
+	{ "item" : "leather", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "irkentier4head", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

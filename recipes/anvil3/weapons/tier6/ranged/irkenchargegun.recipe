@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "refinedviolium", "count" : 10 },
+	{ "item" : "solariumstar", "count" : 5 },
+	{ "item" : "diamond", "count" : 4 },
+    { "item" : "smallbattery", "count" : 4 }
+  ],
+  "output" : { "item" : "irkenchargegun", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

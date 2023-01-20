@@ -1,0 +1,51 @@
+{
+  "itemName" : "irkenenergysword",
+  "price" : 1960,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An irken energysword that can easily jab someone in the eye.",
+  "shortdescription" : "Irken Energysword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "melee", "broadsword"],
+
+  "inventoryIcon" : "irkenenergyswordicon.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/energybroadsword.animation",
+  "animationParts" : {
+    "handle" : "handle.png",
+    "handleFullbright" : "handlefullbright.png",
+    "blade" : "blade.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire2" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ],
+      "fire3" : [ "/sfx/melee/laser_weapon_swing1.ogg", "/sfx/melee/laser_weapon_swing2.ogg", "/sfx/melee/laser_weapon_swing3.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 14.5,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

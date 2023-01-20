@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedresistium", "count" : 1 },
+    { "item" : "glass", "count" : 5 }
+  ],
+  "output" : { "item" : "irkenairlock", "count" : 1 },
+  "groups" : [ "craftingfurniture", "doors", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 2 },
+    { "item" : "refinedviolium", "count" : 6 },
+	{ "item" : "leather", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "irkentier5head", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

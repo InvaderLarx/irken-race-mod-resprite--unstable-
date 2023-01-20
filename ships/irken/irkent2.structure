@@ -1,0 +1,24 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 2
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "irkent2.png",
+      "position" : [6.625, 14],
+      "fullbright" : true
+    },
+    {
+      "image" : "irkent2lit.png",
+      "position" : [6.625, 14]
+    }
+  ],
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "irkent2blocks.png"
+}

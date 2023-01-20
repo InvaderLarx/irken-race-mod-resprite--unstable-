@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "irkenencounter",
+    "species" : "irken",
+    "rules" : [
+    ],
+
+    "anchor" : [ "merchant_irken","irkencamp1" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "merchant_irken",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "merchant_irken.json" ]
+    },
+    {
+      "name" : "irkencamp1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "irkencamp1.json" ]
+    }
+  ]
+}

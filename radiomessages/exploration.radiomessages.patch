@@ -1,0 +1,13 @@
+[
+  
+  {
+    "op": "add",
+    "path": "/roomwithamoose",
+    "value": {
+      "unique": false,
+      "text": "^red;WARNING! IT'S HORRIBLE^reset;! Find a way out, now!",
+      "portraitImage": "yell.<frame>",
+      "textSpeed": 70
+    }
+  }
+]

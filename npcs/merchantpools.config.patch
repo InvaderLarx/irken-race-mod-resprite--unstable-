@@ -1,0 +1,34 @@
+[
+   { "op" : "add",
+		"path" : "/irkenthrowables",
+		"value" : [
+			[ 0, [
+			    { "item": { "name": "purpledye" }, "rarity" : 0.06 },
+				{ "item": { "name": "irkenheataugment" }, "rarity" : 0.01 },
+				{ "item": { "name": "irkenradaugment" }, "rarity" : 0.01 },
+				{ "item": { "name": "irkencoldaugment" }, "rarity" : 0.01 },
+				{ "item": { "name": "irkenbrainextractor" }, "rarity" : 0.01 },
+				{ "item": { "name": "irkenbomb" }, "rarity" : 0.06 }
+			] ]
+		]
+	},
+   { "op" : "add",
+    "path" : "/irkenfood",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "irkenchips" }, "rarity" : 0.05 },
+        { "item": { "name": "irkendonuts" }, "rarity" : 0.05 },
+        { "item": { "name": "irkenpopcorn" }, "rarity" : 0.05 },
+	    { "item": { "name": "irkenburger" }, "rarity" : 0.05 },
+		{ "item": { "name": "irkennachos" }, "rarity" : 0.05 },
+		{ "item": { "name": "shloogorghgrub" }, "rarity" : 0.05 },
+		{ "item": { "name": "shloogorghfries" }, "rarity" : 0.05 },
+		{ "item": { "name": "irkensandwich" }, "rarity" : 0.05 },
+		{ "item": { "name": "shloogorghchunks" }, "rarity" : 0.05 },
+		{ "item": { "name": "izbrainjuice" }, "rarity" : 0.05 },
+		{ "item": { "name": "suckmunkey" }, "rarity" : 0.05 },
+        { "item": { "name": "irkensoda" }, "rarity" : 0.05 }
+      ] ]
+    ]
+  } 
+]

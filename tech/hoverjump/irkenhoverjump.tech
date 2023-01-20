@@ -1,0 +1,27 @@
+{
+  "name" : "irkenhoverjump",
+  "type" : "legs",
+
+  "scripts" : ["irkenhoverjump.lua"],
+  "animator" : "irkenhoverjump.animation",
+
+  "rarity" : "Legendary",
+  "icon" : "/tech/irkenhoverjump.png",
+  "description" : "Hover and glide around. Best for low gravity.",
+  "shortDescription" : "Hover Pak",
+
+  "chipCost" : 8,
+  "layer" : "back",
+  
+
+  "jetpackSpeed" : 20.0,
+  "jetpackForce" : 250.0,
+  "energyCostPerSecond" : 10.0,
+   "fallingParameters" : {
+    "airForce" : 30,
+	"airFriction" : 0,
+    "runSpeed" : 14,
+    "walkSpeed" : 14
+  },
+  "maxFallSpeed" : -14
+}

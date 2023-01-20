@@ -1,0 +1,73 @@
+{ "columns":0,
+ "margin":0,
+ "name":"materials-irken",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":5,
+ "tileheight":8,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"A strong looking metal girder.",
+         "\/\/name":"irkengirder",
+         "\/\/shortdescription":"Irken Girder",
+         "material":"irkengirder"
+        },
+     "1":
+        {
+         "\/\/description":"A heavy pipe, used by Irkens.",
+         "\/\/name":"irkenpipe",
+         "\/\/shortdescription":"Irken Pipe",
+         "material":"irkenpipe"
+        },
+     "2":
+        {
+         "\/\/description":"A solid block used by Irkens.",
+         "\/\/name":"irkenplate",
+         "\/\/shortdescription":"Irken Reinforced Block",
+         "material":"irkenplate"
+        },
+     "3":
+        {
+         "\/\/description":"A simple platform used by Irkens.",
+         "\/\/name":"irkenplatform",
+         "\/\/shortdescription":"Irken Platform",
+         "material":"irkenplatform"
+        },
+     "4":
+        {
+         "\/\/description":"Irken hi-tech plated material.",
+         "\/\/name":"irkenwall",
+         "\/\/shortdescription":"Irken Wall Block",
+		 "material":"irkenwall"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/tiled\/irken-custom\/materials\/irkengirder.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/tiled\/irken-custom\/materials\/irkenpipe.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/..\/tiled\/irken-custom\/materials\/irkenplate.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/..\/tiled\/irken-custom\/materials\/irkenplatform.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/..\/tiled\/irken-custom\/materials\/irkenwall.png"
+        }
+    },
+ "tilewidth":8
+}

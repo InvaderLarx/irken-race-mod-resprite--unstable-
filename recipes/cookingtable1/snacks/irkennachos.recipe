@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "chili", "count" : 1 }
+  ],
+  "output" : { "item" : "irkennachos", "count" : 1 },
+  "groups" : [ "craftingfood", "snacks" ]
+}

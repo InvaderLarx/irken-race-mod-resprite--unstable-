@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 10 },
+	{ "item" : "refinedviolium", "count" : 10 },
+    { "item" : "smallbattery", "count" : 2 }
+  ],
+  "output" : { "item" : "irkenassaultrifle", "count" : 1 },
+  "groups" : [ "craftingseparator", "weapons", "all" ]
+}

@@ -1,0 +1,53 @@
+{
+  "itemName" : "irkenspacearmorpants",
+  "price" : 4960,
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "legarmour",
+  "description" : "A Irken legpiece made for space and allows augments.",
+  "shortdescription" : "Irken Spacearmor Pants",
+  "tooltipKind" : "armorirkenaugment",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+  
+  "acceptsAugmentType" : "back",
+  
+   "statusEffects" : [
+	"irkenprotectdamage"
+  ],
+  
+  
+  "itemTags" : [ "tier6armour" ],
+  "colorOptions" : [
+    // DEFAULT
+    { "4b002d" : "4b002d", "ed2725" : "ed2725", "722424" : "722424", "1b0000" : "1b0000" },
+    // RED
+    { "4b002d" : "ab4734", "ed2725" : "e9000b", "722424" : "c9000a", "1b0000" : "510000" },
+    // PURPLE
+    { "4b002d" : "683f63", "ed2725" : "f35fac", "722424" : "442040", "1b0000" : "31082d" }
+  ]
+}

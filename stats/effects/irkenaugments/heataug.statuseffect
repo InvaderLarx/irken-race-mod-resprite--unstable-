@@ -1,0 +1,8 @@
+{
+  "name" : "heataug",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "heataug.lua"
+  ]
+}

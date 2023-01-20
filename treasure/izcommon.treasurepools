@@ -1,0 +1,71 @@
+{
+  // ==============================================================================================
+  //                                     TREASURE POOLS
+  // ==============================================================================================
+
+  
+  // ================================
+  //            Costumes
+  // ================================
+
+  "izcostume" : [
+    [0, {
+      "pool" : [
+	    {"weight" : 0.0003, "item" : [ "zimwig", 1]},
+        {"weight" : 0.0003, "item" : [ "girsuitchest", 1]},
+        {"weight" : 0.0003, "item" : [ "girsuitpants", 1]},
+        {"weight" : 0.0003, "item" : [ "girsuithead", 1]}
+      ]
+    }]
+  ],
+  
+   
+  // ================================
+  //            Recipes
+  // ================================
+  
+  "izuniqueTechRecipe" : [
+    [0, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "irkenspacearmorchest-recipe" },
+        {"weight" : 1.0, "item" : "irkenspacearmorhead-recipe" },
+        {"weight" : 1.0, "item" : "irkenspacearmorpants-recipe" },
+        {"weight" : 1.0, "item" : "irkenspacesuitchest-recipe" },
+        {"weight" : 1.0, "item" : "irkenspacesuithead-recipe" },
+        {"weight" : 1.0, "item" : "irkenspacesuitpants-recipe" },
+        {"weight" : 1.0, "item" : "irkenradaugment-recipe" },
+        {"weight" : 1.0, "item" : "vootcruisercontroller-recipe" },
+        {"weight" : 1.0, "item" : "irkenbikecontroller-recipe" }
+      ]
+    }]
+  ],
+
+
+
+
+  // ================================
+  //      Custom Chests
+  // ================================
+
+  "izTreasure" : [
+    [1, {
+      "poolRounds" : [
+        [0.5, 2],
+        [0.3, 3],
+        [0.2, 4]
+      ],
+      "pool" : [
+	    {"weight" : 0.44, "pool" : "chestMoney"},
+        {"weight" : 0.16, "pool" : "valuableTechTreasure"},
+		{"weight" : 0.14, "pool" : "izuniqueTechRecipe"},
+        {"weight" : 0.16, "pool" : "valuableTreasure"},
+        {"weight" : 0.1, "pool" : "izcostume"}
+      ],
+	  "allowDuplication" : false
+    }]
+  ]
+
+
+
+
+}

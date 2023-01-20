@@ -1,0 +1,36 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 10
+    }
+  },
+
+  "backgroundOverlays" : [
+    {
+      "image" : "irkent7.png",
+      "position" : [-15.975, 4.75],
+      "fullbright" : true
+    },
+    {
+      "image" : "irkent7lit.png",
+      "position" : [-15.975, 4.75]
+    }
+  ],
+   "foregroundOverlays" : [
+    {
+      "image" : "irkent7fg.png",
+      "position" : [-15.975, 4.75],
+      "fullbright" : true
+    },
+    {
+      "image" : "irkent7litfg.png",
+      "position" : [-15.975, 4.75]
+    }
+  ],
+   
+
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "irkent7blocks.png"
+}

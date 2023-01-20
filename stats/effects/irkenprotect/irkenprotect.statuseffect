@@ -1,0 +1,9 @@
+{
+  "name" : "irkenprotect",
+  "effectConfig" : {"protection" : 1, "healTime" : 180},
+   "defaultDuration" : 5,
+
+  "scripts" : [
+    "irkenprotect.lua"
+  ]
+}

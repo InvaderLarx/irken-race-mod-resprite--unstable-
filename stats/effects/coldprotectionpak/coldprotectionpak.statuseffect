@@ -1,0 +1,8 @@
+{
+  "name" : "coldprotectionpak",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "coldprotectionpak.lua"
+  ]
+}

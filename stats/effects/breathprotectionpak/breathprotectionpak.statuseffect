@@ -1,0 +1,8 @@
+{
+  "name" : "breathprotectionpak",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "breathprotectionpak.lua"
+  ]
+}

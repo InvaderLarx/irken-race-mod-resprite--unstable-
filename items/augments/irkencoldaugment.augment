@@ -1,0 +1,22 @@
+{
+  "itemName" : "irkencoldaugment",
+  "price" : 12500,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "irkencoldaugment.png",
+  "description" : "An EPP module that allows you to resist cold planets. You are slowed by 15 percent and gain 10 power.",
+  "shortdescription" : "Irken Cold Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "irkencold",
+    "displayName" : "IrkenCold",
+    "displayIcon" : "/items/augments/irkencoldaugment.png",
+    "effects" : [ "irkenrunslow", "coldaug" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

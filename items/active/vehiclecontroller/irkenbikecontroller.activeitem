@@ -1,0 +1,28 @@
+{
+  "itemName" : "irkenbikecontroller",
+  "level" : 1,
+  "price" : 12500,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "description" : "Create an Irken hoverbike from stored nanites.",
+  "shortdescription" : "IrkenHoverbike Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "irken.png",
+  "respawnTime" : 1.0,
+  "vehicleType" : "hoverbikeirken",
+  "vehicleBoundingBox" : [-5, -3, 5, 3],
+  "vehicleImage" : "/vehicles/hoverbike/hoverbikeirkenwarp.png:warp.7",
+  "animationParts" : {
+    "casing" : "irkenbikecontroller.png"
+  },
+  "inventoryIcon" : "irkenbikecontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/irkenbikecontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/irkenbikecontroller.png:full"
+}

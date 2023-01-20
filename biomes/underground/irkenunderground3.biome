@@ -1,0 +1,204 @@
+{
+  "name" : "irkenunderground3",
+  "friendlyName" : "Irken underground3",
+
+  "parallax" : "/parallax/underground/underground3d.parallax",
+  
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 4,
+        "pool" : [ 
+		  [ 1.0, "defenseunit" ],
+          [ 1.0, "lilodon" ],
+          [ 1.0, "lumoth" ],
+          [ 1.0, "wisper" ],
+          [ 1.0, "sirunit2" ],
+          [ 1.0, "scandroid" ]
+        ]
+      },
+	  {
+        "select" : 3,
+        "pool" : "nightTerrors"
+      }, 
+	  {
+        "select" : 1,
+        "pool" : "defenseunit"
+      },
+	  
+      {
+        "select" : 1,
+        "pool" : "sirunit2"
+      }
+    ],
+      "monsterParameters" : {
+        "colors" : "volcanic",
+        "statusSettings" : {
+          "stats" : {
+		   "powerMultiplier" : {
+			"baseMultiplier" : 4.0
+		  },
+            "lavaImmunity" : {
+              "baseValue" : 1.0
+            },
+            "fireStatusImmunity" : {
+              "baseValue" : 1.0
+            }
+          }
+        }
+      }
+  },
+  
+  
+  "mainBlock" : "irkenplate",
+  "subBlocks" : [ "irkenwall" ],
+  "ores" : "depth3irken",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/magma_underground.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/magma_underground.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/try-b4.ogg", "/music/try-b4.ogg", "/music/combat-montage.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/combat-montage.ogg", "/music/try-b4.ogg", "/music/try-b4.ogg" ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "sand" ],
+    "grassModDensity" : 0.4,
+
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.3,
+
+    "items" : [ {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "irkenChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:hazardUndergroundLower",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.80, "irkenspike" ] ]
+          }
+        ]
+      },
+      {
+        "mode" : "ceiling",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:hazardUndergroundCeilingLower",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.80, "irkenspike" ] ]
+          }
+        ]
+      },
+   {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChallengeDoors",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "challengedoor" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mooseRandomEncounter",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "mimicdoor" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "underground5bmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "undergroundencounterdungeons" ]
+      }
+    ]
+  },
+
+  "hueShiftOptions" : [0]
+}

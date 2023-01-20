@@ -1,0 +1,15 @@
+{
+  "itemName" : "irkenplatform",
+  "price" : 0,
+  "category" : "platform",
+  "rarity" : "Common",
+  "inventoryIcon" : "irkenplatformicon.png",
+  "description" : "A simple platform used by Irkens.",
+  "shortdescription" : "Irken Platform",
+  "glitchdescription" : "Facinated. These platforms are portable.",
+  "florandescription" : "Jusst another metal platform.",
+  "novakiddescription" : "Pretty strange lookin' metal platform.",
+  "learnBlueprintsOnPickup" : [ "irkenplatform" ],
+
+  "materialId" : 2195
+}

@@ -1,0 +1,70 @@
+{
+  "itemName" : "irkencrossbow",
+  "price" : 6500,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A irken crossbow used for hunting the mighty snarl beast.",
+  "shortdescription" : "Irken Crossbow",
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","sniperrifle"],
+  "level" : 6,
+
+  "inventoryIcon" : "irkencrossbowicon.png",
+
+  "animation" : "irkencrossbow.animation",
+  "animationParts" : {
+    "gun" : "irkencrossbow.png",
+    "gunfullbright" : "irkencrossbowfullbright.png"
+  },
+  "animationCustom" : {},
+  "muzzleOffset" : [2.5, 0.5],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "chargefire",
+  "primaryAbility" : {
+    "chargeLevels" : [
+      {
+        "time" : 0,
+        "energyCost" : 30,
+        "cooldown" : 0.25,
+        "projectileType" : "irkenplasmapierce",
+        "projectileCount" : 1,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 6,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 0.5,
+        "energyCost" : 60,
+        "cooldown" : 0.25,
+        "projectileType" : "irkenplasmapierce",
+        "projectileCount" : 1,
+        "spreadAngle" : 10,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 8,
+        "fireSound" : "fire"
+      },
+      {
+        "time" : 1.0,
+        "energyCost" : 120,
+        "cooldown" : 0.25,
+        "projectileType" : "irkenplasmapierce",
+        "projectileCount" : 1,
+        "spreadAngle" : 10,
+        "projectileParameters" : {},
+        "inaccuracy" : 0,
+        "baseDamage" : 10,
+        "fireSound" : "fire"
+      }
+    ]
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

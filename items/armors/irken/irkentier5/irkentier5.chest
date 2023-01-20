@@ -1,0 +1,72 @@
+{
+  "itemName" : "irkentier5chest",
+  "price" : 4800,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestarmour",
+  "description" : "An Irken Guard chestpiece used by the toughest of the tallests Guards.",
+  "shortdescription" : "Irken Guard chest",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+"level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+  "itemTags" : [ "tier5armour" ],
+  "colorOptions" : [
+    // base purple
+    { "360545" : "360545", "7a408d" : "7a408d", "6a2284" : "6a2284", "70445d" : "70445d" },
+    // black
+    { "360545" : "000000", "7a408d" : "2a2a2a", "6a2284" : "1d1d1d", "70445d" : "2a2a2a" },
+    // gray
+    { "360545" : "2a2a2a", "7a408d" : "8f8f8f", "6a2284" : "505050", "70445d" : "2a2a2a" },
+    // white
+    { "360545" : "8f8f8f", "7a408d" : "e7e7e7", "6a2284" : "505050", "70445d" : "2a2a2a" },
+    // red
+    { "360545" : "42030a", "7a408d" : "8c4540", "6a2284" : "832b25", "70445d" : "2a2a2a" },
+    // orange
+    { "360545" : "73490f", "7a408d" : "bd7906", "6a2284" : "9a660e", "70445d" : "2a2a2a" },
+    // yellow
+    { "360545" : "423503", "7a408d" : "9d9712", "6a2284" : "838225", "70445d" : "2a2a2a" },
+    // green
+    { "360545" : "034204", "7a408d" : "1ea123", "6a2284" : "288325", "70445d" : "2a2a2a" },
+    // blue
+    { "360545" : "031b42", "7a408d" : "40598c", "6a2284" : "254983", "70445d" : "2a2a2a" },
+    // purple
+    { "360545" : "360545", "7a408d" : "7a408d", "6a2284" : "6a2284", "70445d" : "70445d" },
+    // pink
+    { "360545" : "420328", "7a408d" : "8c406a", "6a2284" : "83255c", "70445d" : "2a2a2a" },
+    // brown
+    { "360545" : "34291b", "7a408d" : "5b4a33", "6a2284" : "4d3e29", "70445d" : "2a2a2a" }
+  
+  ]
+}

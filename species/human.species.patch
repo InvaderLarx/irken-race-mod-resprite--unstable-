@@ -1,0 +1,5 @@
+[
+	{"op":"add", "path" : "/genders/0/hair/-", "value":"dibhair"},
+	{"op":"add", "path" : "/genders/1/hair/-", "value":"gazhair"},
+	{"op":"add", "path" : "/genders/1/hair/-", "value":"takhair"}
+]

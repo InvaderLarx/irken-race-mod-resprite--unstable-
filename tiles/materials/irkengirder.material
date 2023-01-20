@@ -1,0 +1,26 @@
+{
+  "materialId" : 2019,
+  "materialName" : "irkengirder",
+  "frames" : "irkengirder.png",
+  "particleColor" : [128, 0, 128, 255],
+  "variants" : 1,
+  "itemDrop" : "irkengirder",
+  "description" : "A strong looking metal girder.",
+  "shortdescription" : "Irken Girder",
+  "glitchDescription" : "Impressed. This reinforced metal girder is very strong.",
+  "floranDescription" : "Cold metal girderss.",
+  "novakidDescription" : "A strange lookin' metal girder.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "irkengirder.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3320
+  }
+}

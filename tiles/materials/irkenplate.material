@@ -1,0 +1,24 @@
+{
+  "materialId" : 2010,
+  "materialName" : "irkenplate",
+  "particleColor" : [124, 124, 124, 255],
+  "itemDrop" : "irkenplate",
+  "shortdescription" : "Irken Reinforced Block",
+  "description" : "A solid block used by Irkens.",
+  "glitchDescription" : "Observant. These blocks have been constructed strangly.",
+  "floranDescription" : "Shiny blockss.",
+  "novakidDescription" : "Some smooth lookin' blocks",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "irkenplate.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3000
+  }
+}

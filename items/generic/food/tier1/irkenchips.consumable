@@ -1,0 +1,29 @@
+{
+  "itemName" : "irkenchips",
+  "rarity" : "Common",
+  "price" : 60,
+  "category" : "preparedFood",
+  "inventoryIcon" : "irkenchips.png",
+  "description" : "Surprisingly sweet.",
+  "shortdescription" : "Irken Chips",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 120
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 120
+    }
+  ] ],
+  "foodValue" : 22,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "irkenchips" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "battery", "count" : 5 },
+    { "item" : "refinedresistium", "count" : 2 },
+    { "item" : "copperbar", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "irkencookingtable",
+    "count" : 1
+  },
+  "duration" : 5,
+  "groups" : [ "irkenassembler1", "tech", "all" ]
+}

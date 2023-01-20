@@ -1,0 +1,14 @@
+{
+  "currencyInputs" : {
+    "essence" : 3000
+  },
+  "input" : [
+    { "item" : "refinedresistium", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "terraformerirken",
+    "count" : 1
+  },
+  "duration" : 0,
+  "groups" : [ "irkenassembler3", "tech", "all"  ]
+}

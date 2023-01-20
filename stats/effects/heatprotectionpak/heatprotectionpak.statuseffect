@@ -1,0 +1,8 @@
+{
+  "name" : "heatprotectionpak",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "heatprotectionpak.lua"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "resistiumore", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "refinedresistium",
+    "count" : 1
+  },
+  "duration" : 0.15,
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}

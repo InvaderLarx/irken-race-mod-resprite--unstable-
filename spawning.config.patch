@@ -1,0 +1,30 @@
+[
+	{	
+		"op" : "add",
+		"path" : "/spawnGroups/sirunit2",
+		"value" : [
+			[1.0, "sirunit2" ]
+		]
+	},
+	{	
+		"op" : "add",
+		"path" : "/spawnGroups/defenseunit",
+		"value" : [
+			[1.0, "defenseunit" ]
+		]
+	},
+	{	
+		"op" : "add",
+		"path" : "/spawnGroups/sirunit2Depth1",
+		"value" : [
+			[1.0, "sirunit2Depth1" ]
+		]
+	},
+	{	
+		"op" : "add",
+		"path" : "/spawnGroups/sirunit2Depth2",
+		"value" : [
+			[1.0, "sirunit2Depth2" ]
+		]
+	}		
+]

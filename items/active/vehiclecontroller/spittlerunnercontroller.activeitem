@@ -1,0 +1,34 @@
+{
+  "itemName" : "spittlerunnercontroller",
+  "level" : 1,
+  "price" : 25000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "shortdescription" : "SpittleRunner Controller",
+  "description" : "A fast Irken ship. It is up to date and moderately armored.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "spittlerunner.png",
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "spittlerunner",
+  "vehicleBoundingBox" : [-8, -4, 8, 4],
+  "vehicleImage" : "/vehicles/spittlerunner/spittlerunner.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "spittlerunnercontroller.png"
+  },
+
+  "inventoryIcon" : "spittlerunnercontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/spittlerunnercontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/spittlerunnercontroller.png:full"
+}

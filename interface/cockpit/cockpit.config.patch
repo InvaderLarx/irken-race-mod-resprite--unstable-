@@ -1,0 +1,35 @@
+[
+  { 
+	"op" : "add", 
+	"path" : "/visitableTypeDescription/irken", 
+	"value" : [ "A ^red;hot^white; and ^red;dangerous^white; planet long abandoned by ^#B200FF;Irkens^white;. ^green;Lifeforms and Erchius fuel detected." ]
+  },
+  
+  { 
+	"op" : "add", 
+	"path" : "/planetTypeNames/irken", 
+	"value" : "Irken"
+  },
+  
+  { 
+	"op" : "add", 
+	"path" : "/planetTypeColors/irken", 
+	"value" : [128, 0, 128]
+  },
+  {
+	"op" : "add",
+	"path" : "/displayWeathers/irkenerchiusrainstorm",
+	"value" : {
+	  "displayName" : "Erchius Rain",
+	  "icon" : "/interface/cockpit/weather/erchiusrain.png"
+	}
+  },
+  {
+	"op" : "add",
+	"path" : "/displayOres/resistium",
+	"value" : {
+	  "displayName" : "Resistium",
+	  "icon" : "/items/generic/crafting/resistiumore.png"
+	}
+  }
+]

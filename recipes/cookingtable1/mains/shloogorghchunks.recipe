@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "inferiorbrain", "count" : 1 },
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "wartweed", "count" : 1 }
+  ],
+  "output" : { "item" : "shloogorghchunks", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

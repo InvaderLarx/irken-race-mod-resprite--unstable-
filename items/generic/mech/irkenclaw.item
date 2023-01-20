@@ -1,0 +1,15 @@
+{
+  "itemName" : "irkenclaw",
+  "price" : 10000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "irkenclaw.png",
+  "description" : "A Irken made mech claw that shoots lasers.",
+  "shortdescription" : "Irken Hunter Mechclaw",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "irkenclaw"]
+}

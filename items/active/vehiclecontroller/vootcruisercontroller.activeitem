@@ -1,0 +1,34 @@
+{
+  "itemName" : "vootcruisercontroller",
+  "level" : 1,
+  "price" : 10000,
+  "rarity" : "Rare",
+  "category" : "vehicleController",
+  "shortdescription" : "Vootcruiser Controller",
+  "description" : "An obsolete voot cruiser model. Careful. A single bee can destroy it.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "vootcruiser.png",
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "vootcruiser",
+  "vehicleBoundingBox" : [-8, -4, 8, 4],
+  "vehicleImage" : "/vehicles/vootcruiser/vootcruiser.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "vootcruisercontroller.png"
+  },
+
+  "inventoryIcon" : "vootcruisercontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/vootcruisercontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/vootcruisercontroller.png:full"
+}

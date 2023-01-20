@@ -1,0 +1,149 @@
+{
+  "name" : "megadoomer",
+  "boundBox" : [-5, -5, 5, 5],
+  "slaveControlTimeout" : 2.0,
+  "slaveControlHeartbeat" : 1.0,
+  "canBeHit" : true,
+
+  "script" : "/vehicles/mech/megadoomer/megadoomer.lua",
+  "animation" : "/vehicles/mech/megadoomer/megadoomer.animation",
+  
+  "animationCustom" : {
+  "particleEmitters" : {
+      "smoke1" : {
+        "emissionRate" : 0.0,
+        "offsetRegion" : [-2, -3, 2, 3],
+        "particles" : [{ "particle" : "burningvehiclesmokefront"}]
+      },
+      
+      "smoke2" : {
+        "emissionRate" : 0.0,
+        "offsetRegion" : [-2, -3, 2, 3],
+        "particles" : [{ "particle" : "shadowsmoke"},{ "particle" : "burningdustfront"}]
+      },
+      
+      "fire1" : {
+        "emissionRate" : 0.0,
+        "offsetRegion" : [-2, -3, 2, 3],
+        "particles" : [ { "particle" : "burningdust"},
+                        { "particle" : "campfireflames"},
+                        { "particle" : "fireshard"},
+                        { "particle" : "burningvehiclesmokeback"}]
+
+      },
+
+      "fire2" : {
+        "emissionRate" : 0.0,
+        "offsetRegion" : [-2, -3, 2, 3],
+        "particles" : [ { "particle" : "burningdust"},
+                        { "particle" : "campfireflames"},
+                        { "particle" : "fireshard"},
+                        { "particle" : "burningvehiclesmokeback"}]
+
+      },
+
+      "damageShards" : {
+        "emissionRate" : 0.0,
+        "burstCount"  : 4,
+        "offsetRegion" : [-2, -3, 2, 3],
+        "particles" : [{ "particle" : "fireshard"}]
+      },
+
+      "wreckage" : {
+        "active" : false,
+        "emissionRate" : 0.0,
+        "burstCount"  : 8,
+        "offsetRegion" : [-2, -3, 2, 3],
+        "particles" : [
+                       { "particle" : "hoverbikekhakiwreck2"},
+                       { "particle" : "hoverbikewreck3"},
+                       { "particle" : "hoverbikekhakiwreck4"},
+                       { "particle" : "hoverbikewreck5"}]
+      }
+    }
+  
+  },
+
+  "animationPartTags" : {
+    "backLeg" : {
+      "partImage" : "/vehicles/mech/megadoomer/megadoomerbleg.png"
+    },
+    "background" : {
+      "partImage" : "/vehicles/mech/megadoomer/megadoomerbackground.png"
+    },
+    "backGun" : {
+      "partImage" : "/vehicles/mech/megadoomer/megadoomergun.png"
+    },
+    "body" : {
+      "partImage" : "/vehicles/mech/megadoomer/megadoomerbody.png"
+    },
+    "frontGun" : {
+      "partImage" : "/vehicles/mech/megadoomer/megadoomergun.png"
+    },
+    "frontLeg" : {
+      "partImage" : "/vehicles/mech/megadoomer/megadoomerfleg.png"
+    }
+  },
+
+  "movementSettings" : {
+    "collisionPoly" : [ [-2.0, -3.0], [-2.0, 1.0], [-1.0, 2.0], [1.0, 2.0], [2.0, 1.0], [2.0, -3.0], [0.5, -5.25], [-0.5, -5.25] ],
+    "mass" : 4,
+    "airFriction" : 0.5,
+    "liquidFriction" : 0,
+    "groundFriction" : 50.0,
+    "ignorePlatformCollision" : false,
+	"enableSurfaceSlopeCorrection" : true,
+    "slopeSlidingFactor" : 0,
+    "gravityEnabled" : true,
+    "collisionEnabled" : true
+
+  },
+  "occupiedMovementSettings" : {
+    "collisionPoly" : [[-2.0, -3.0], [-2.0, 1.0], [-1.0, 2.0], [1.0, 2.0], [2.0, 1.0], [2.0, -3.0], [0.5, -5.25], [-0.5, -5.25]],
+    "mass" : 4,
+    "airFriction" : 0.5,
+    "liquidFriction" : 0,
+    "groundFriction" : 50.0,
+    "ignorePlatformCollision" : false,
+	"enableSurfaceSlopeCorrection" : true,
+    "slopeSlidingFactor" : 0,
+    "gravityEnabled" : true,
+    "collisionEnabled" : true
+  },
+  "noPlatformMovementSettings" : {
+    "collisionPoly" : [[-2.0, -3.0], [-2.0, 1.0], [-1.0, 2.0], [1.0, 2.0], [2.0, 1.0], [2.0, -3.0], [0.5, -5.25], [-0.5, -5.25]],
+    "mass" : 4,
+    "airFriction" : 0.5,
+    "liquidFriction" : 0,
+    "groundFriction" : 50.0,
+    "ignorePlatformCollision" : true,
+	"enableSurfaceSlopeCorrection" : true,
+    "slopeSlidingFactor" : 0,
+    "gravityEnabled" : true,
+    "collisionEnabled" : true
+  },
+  
+  
+  "warpInDelay" : 1.0,
+
+  "loungePositions" : {
+    "seat" : {
+      "part" : "body",
+      "partAnchor" : "sitPosition",
+      "orientation" : "sit",
+	  "statusEffects" : ["maxprotection", "breathprotectionvehicle"]
+    }
+  },
+
+  "mechAimLimit" : 55,
+  "mechHorizontalMovement" : 13,
+  "mechJumpVelocity" : [25, 50],
+  "offGroundFrames" : 8,
+
+  "mechFireCycle" : 0.25,
+  "mechProjectile" : "plasma4pink",
+  "mechProjectileConfig" : {
+    "power" : 35
+  },
+  "mechLevel" : 6
+}

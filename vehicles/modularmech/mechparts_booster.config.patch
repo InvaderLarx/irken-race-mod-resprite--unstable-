@@ -1,0 +1,22 @@
+[
+
+	{
+		"op": "add",
+		"path": "/irken",
+		"value": {
+			"stats" : { "speed" : 6, "control" : 6 },
+         "partParameters" : {},
+         "partImages" : {
+          "backBoosterBack" : "booster/irken_back_back.png",
+          "backBoosterFullbright" : "boosterflame/irkenbf.png",
+          "backBoosterFront" : "booster/irken_back_front.png",
+          "frontBoosterBack" : "booster/irken_front_back.png",
+          "frontBoosterFullbright" : "boosterflame/irkenbf.png",
+          "frontBoosterFront" : "booster/irken_front_front.png"
+         },
+         "defaultPrimaryColors" : ["ffffa7", "e2c344", "a46e06", "642f00"],
+         "defaultSecondaryColors" : ["8da6b0", "657988", "434d5e", "313247"],
+         "animationCustom" : {}
+		}
+	}
+]

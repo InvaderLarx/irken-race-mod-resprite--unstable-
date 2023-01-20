@@ -1,0 +1,62 @@
+{
+  "objectName" : "irkenceilinglight",
+  "colonyTags" : ["irken","light"],
+  "rarity" : "Common",
+  "description" : "A suspended irken light.",
+  "shortdescription" : "Irken Ceiling Light",
+  "race" : "irken",
+  "category" : "light",
+  "price" : 90,
+  "lightColor" : [186, 85, 211],
+  "pointLight" : true,
+  "pointBeam" : 2,
+  "beamAmbience" : 0.3,
+  "apexDescription" : "A strange ceiling light.",
+  "avianDescription" : "This definitely isn't Avian in design.",
+  "floranDescription" : "Strange glowing lightts.",
+  "glitchDescription" : "Suspicious. This fixture is strange.",
+  "humanDescription" : "A odd ceiling light.",
+  "hylotlDescription" : "This light is interesting.",
+  "novakidDescription" : "A lamp made outta who knows what.",
+  "inventoryIcon" : "irkenceilinglighticon.png",
+  "orientations" : [
+    {
+      "image" : "irkenceilinglight.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "animationParts" : {
+        "bg" : "irkenceilinglight.png",
+        "fg" : "irkenceilinglightlit.png"
+      },
+      "animationPosition" : [-12, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, 1],
+      "beamAngle" : 270
+    },
+    {
+      "image" : "irkenceilinglight.png:<color>.<frame>",
+      "imagePosition" : [-12, 0],
+      "animationParts" : {
+        "bg" : "irkenceilinglight.png",
+        "fg" : "irkenceilinglightlit.png"
+      },
+      "animationPosition" : [-12, 0],
+      "direction" : "right",
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "lightPosition" : [0, 1],
+      "beamAngle" : 270
+    }
+  ],
+  "animation" : "/objects/wired/light/lighttogglebgfullbright.animation",
+  "animationParts" : {
+    "bg" : "irkenceilinglight.png",
+    "fg" : "irkenceilinglightlit.png"
+  },
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  "interactive" : false,
+  "inputNodes" : [ [0, 0] ]
+}

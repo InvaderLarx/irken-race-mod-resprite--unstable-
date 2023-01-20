@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechboosterirken",
+  "price" : 5800,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbooster",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechboosterirken.png",
+  "description" : "Irken mech boosters. Most likely made by vortians.",
+  "shortdescription" : "Irken Mech Boosters",
+  "itemTags" : [ ],
+
+  "mechPart" : ["booster", "irken"]
+}

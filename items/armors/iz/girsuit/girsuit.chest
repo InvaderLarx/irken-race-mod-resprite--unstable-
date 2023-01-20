@@ -1,0 +1,28 @@
+{
+  "itemName" : "girsuitchest",
+  "price" : 1400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "A pretty bad dog disguise top.",
+  "shortdescription" : "Gir Suit Top",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "colorOptions" : [
+    // DEFAULT RED
+    { "ab4734" : "ab4734", "ed2725" : "ed2725", "722424" : "722424", "510000" : "510000" },
+    // PURPLE
+    { "ab4734" : "975fab", "ed2725" : "d725ed", "722424" : "72246b", "510000" : "51004e" }
+   
+  ]
+}

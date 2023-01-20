@@ -1,0 +1,14 @@
+{
+  "itemName" : "irkenplate",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "irkenplate.png",
+  "shortdescription" : "Irken Reinforced Block",
+  "description" : "A solid block used by Irkens.",
+  "glitchDescription" : "Observant. These blocks have been constructed strangly.",
+  "floranDescription" : "Shiny blockss.",
+  "novakidDescription" : "Some smooth lookin' blocks",
+
+  "materialId" : 2010
+}

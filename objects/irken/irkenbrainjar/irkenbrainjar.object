@@ -1,0 +1,33 @@
+{
+  "objectName" : "irkenbrainjar",
+  "colonyTags" : ["irken"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+  "description" : "A brain in a jar, most likely for experiments.",
+  "shortdescription" : "Jarred Brain",
+  "race" : "irken",
+
+  "apexDescription" : "This is a human brain...",
+  "avianDescription" : "This brain is so average.",
+  "floranDescription" : "Sssucculent pickled brain.",
+  "glitchDescription" : "Jealous. A real brain..",
+  "humanDescription" : "Is that a... human brain?",
+  "hylotlDescription" : "Foolishness, to believe the mind can be confined to a jar.",
+  "novakidDescription" : "A brain in a jar? I ain't comfortable with that.",
+
+  "inventoryIcon" : "irkenbrainjaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irkenbrainjar.png:<color>",
+
+      "imagePosition" : [-6, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

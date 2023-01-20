@@ -1,0 +1,629 @@
+{
+
+  "animatedParts" : {
+    "stateTypes" : {
+
+
+      "movement" : {
+        "default" : "idle",
+        "states" : {
+
+          "warpInPart1" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "warpInPart2"
+            },
+
+          "warpInPart2" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "idle"
+            },
+
+          "idle" : {},
+
+          "warpOutPart1" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "warpOutPart2"
+            },
+
+          "warpOutPart2" : {
+            "frames" : 4,  
+            "cycle" : 0.33,
+            "mode" : "transition",
+            "transition" : "invisible"
+            },
+
+          "invisible" : {}
+
+        }
+      },
+
+
+      "onfire" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+
+          "on" : {
+            "frames" : 6,
+            "cycle" : 0.5,
+            "mode" : "loop"
+          }
+
+        }
+      },
+
+      "rearThruster" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+
+          "on" : {
+            "frames" : 1,
+            "cycle" : 0.125,
+            "mode" : "loop"
+          }
+
+        }
+      },
+
+      "bottomThruster" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+
+          "on" : {
+            "frames" : 1,
+            "cycle" : 0.125,
+            "mode" : "loop"
+          }
+
+        }
+      },
+
+       "headlights" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+
+          "on" : {}
+        }
+      },
+
+      "frontFiring" : {
+        "default" : "off",
+
+        "states" : {
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "immediateSound" : "/sfx/gun/plasma_pistol3.ogg"
+            }
+          },
+
+          "off" : { }
+        }
+      },
+
+      "backFiring" : {
+        "default" : "off",
+
+        "states" : {
+          "fire" : {
+            "frames" : 3,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off",
+            "properties" : {
+              "immediateSound" : "/sfx/gun/plasma_pistol3.ogg"
+            }
+          },
+
+          "off" : { }
+        }
+      }      
+
+
+    },
+
+    "parts" : {
+
+
+      "background" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -1,
+          "fullbright" : true,
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+          "movement" : {
+
+            "warpInPart1" : {
+              "properties" : {}
+            },
+
+            "warpInPart2" : {
+              "properties" : {
+                "image" : "spittlerunnerbackground.png:move.<damageState>"
+              }
+            },
+
+            "idle" : {
+              "properties" : {
+                "image" : "spittlerunnerbackground.png:move.<damageState>"
+              }
+            },
+
+            "warpOutPart1" : {
+              "properties" : {
+                "image" : "spittlerunnerbackground.png:move.<damageState>"
+              }
+            },
+
+            "warpOutPart2" : {
+              "properties" : {}
+            },
+
+            "invisible" : {
+              "properties" : {}
+            }
+
+          }
+        }
+      },
+
+      "foreground" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1,
+          "transformationGroups" : ["flip", "rotation"],
+          "drivingSeatPosition" : [2.5, 0.5],
+          "passengerSeatPosition" : [-0, 1.5]
+        },
+
+        "partStates" : {
+
+          "movement" : {
+
+            "warpInPart1" : {
+              "properties" : {
+                "image" : ""
+              }
+            },
+            "warpInPart2" : {
+              "properties" : {
+                "image" : "spittlerunnerforeground.png:move.<damageState>"
+              }
+            },
+            "idle" : {
+              "properties" : {
+                "image" : "spittlerunnerforeground.png:move.<damageState>"
+              }
+            },
+
+            "warpOutPart1" : {
+              "properties" : {
+                "image" : "spittlerunnerforeground.png:move.<damageState>"
+              }
+            },
+
+            "warpOutPart2" : {
+              "properties" : {}
+            },
+
+            "invisible" : {
+              "properties" : {}
+            }
+          }
+        }
+      },
+
+      "warp" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 3,
+          "fullbright" : true,
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+
+          "movement" : {
+
+            "warpInPart1" : {
+              "properties" : {
+                "image" : "spittlerunnerwarp.png:warpInPart1.<frame>"
+              }
+            },
+            "warpInPart2" : {
+              "properties" : {
+                "image" : "spittlerunnerwarp.png:warpInPart2.<frame>"
+              }
+            },
+
+
+            "idle" : {
+              "properties" : {}
+            },
+
+
+            "warpOutPart1" : {
+              "properties" : {
+                "image" : "spittlerunnerwarp.png:warpOutPart1.<frame>"
+              }
+            },
+            "warpOutPart2" : {
+              "properties" : {
+                "image" : "spittlerunnerwarp.png:warpOutPart2.<frame>"
+              }
+            },
+
+
+            "invisible" : {
+              "properties" : {}
+            }
+
+          }
+        }
+      },
+
+
+       
+       "lights" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "fullbright" : true,
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+
+          "headlights" : {
+
+            "off" : {
+              "properties" : {
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "spittlerunnerheadlights.png:headlights.<damageState>",
+                "offset" : [3.1875, -0.0625 ]
+              }
+            }
+          }
+        }
+      },
+
+      "fire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "fullbright" : true,
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+          "onfire" : {
+            "on" : {
+              "properties" : {
+                "image" : "spittlerunnerfire.png:burn.<frame>"
+              }
+            }
+          }
+        }
+      },
+
+
+      "rearThrust" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -1,
+          "fullbright" : true,
+          "light" : [150, 87, 150],
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+          "rearThruster" : {
+            "on" : {
+              "properties" : {
+                "image" : "/animations/hoverbikethruster/cruiserbackthruster.png:thrust.<rearThrusterFrame>",
+
+                "offset" : [-3.75, -1.43]
+              }
+            }
+          }
+        }
+      },
+
+
+      "bottomThrust" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -1,
+          "transformationGroups" : ["flip", "rotation"]
+        },
+
+        "partStates" : {
+          "bottomThruster" : {
+            "on" : {
+              "properties" : {
+                "image" : "/animations/hoverbikethruster/cruiserbottomthruster.png:thrust.<bottomThrusterFrame>",
+                "offset" : [3.3, -5.35]
+              }
+            }
+          }
+        }
+      },
+      
+
+      "backGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -1.5,
+          "offset" : [7.9, -0.83],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [7.4, -0.83],
+          "anchorPart" : "foreground"
+        },
+
+        "partStates" : {
+          "backFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "bulletmuzzle1.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "backGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : -1,
+          "offset" : [4.4, -1.7],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [4.4, -1.7],
+          "firePoint" : [1.2, -0.2],
+          "anchorPart" : "foreground"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGunFire" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 2,
+          "fullbright" : true,
+          "offset" : [8.3, 0.785],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [8.4, 0.83],
+          "anchorPart" : "foreground"
+        },
+
+        "partStates" : {
+          "frontFiring" : {
+            "fire" : {
+              "properties" : {
+                "image" : "bulletmuzzle1.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      },
+
+      "frontGun" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 4,
+          "offset" : [3.4, -1.7],
+          "rotationGroup" : "guns",
+          "rotationCenter" : [3.4, -1.7],
+          "firePoint" : [1.2, -0.2],
+          "anchorPart" : "foreground"
+        },
+
+        "partStates" : {
+          "movement" : {
+            "idle" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "jump" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "fall" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "walk" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            },
+            "backWalk" : {
+              "properties" : {
+                "image" : "spittlegun.png:rotation"
+              }
+            }
+          }
+        }
+      }
+
+
+    }
+  },
+
+  "transformationGroups" : {
+    "rotation" : {
+      "interpolated" : true
+    },
+    "flip" : {}
+  },
+  "rotationGroups" : {
+    "guns" : {
+      "angularVelocity" : 10.0
+    }
+  },
+  
+  "particleEmitters" : {
+    "rearThrusterIdle" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 3.0,
+      "offsetRegion" : [-3.75, -1.43,  -3.85, -0.43],
+      "particles" : [{ "particle" : "smoke"}]
+    },
+
+    "rearThrusterDrive" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 55.0,
+      "offsetRegion" : [-3.75, -1.43, -3.85, -0.43],
+      "particles" : [{ "particle" : "smoke"}]
+    },
+
+    "ventralThrusterIdle" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 15.0,
+      "offsetRegion" : [3.25, -5.35, 3.35, -7.55],
+      "particles" : [{ "particle" : "hoverbikedownthrust"}]
+    },
+    "ventralThrusterJump" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 55.0,
+      "burstCount"  : 2,
+      "offsetRegion" : [3.25, -5.35, 3.35, -7.55],
+      "particles" : [{ "particle" : "hoverbikedownthrust"}]
+    },
+
+
+    "smoke" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 0.0,
+      "offsetRegion" : [-1.5, -1.5, 0.5, -1],
+      "particles" : [{ "particle" : "burningvehiclesmokefront"}]
+    },
+    
+    "fire" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 0.0,
+      "offsetRegion" : [2, 0, 3, 0.75],
+      "particles" : [ { "particle" : "burningdust"},
+                      { "particle" : "campfireflames"},
+                      { "particle" : "fireshard"},
+                      { "particle" : "burningvehiclesmokeback"}]
+
+    },
+
+    "damageIntermittent" : {
+      "transformationGroups" : ["flip", "rotation"],
+      "emissionRate" : 0.0,
+      "burstCount"  : 5,
+      "offsetRegion" : [-3.25, -1.5, -3, -1.25],
+      "particles" : [{ "particle" : "burningvehiclesmokefront"},
+                     { "particle" : "fireshard"}]
+    }
+  },
+
+ "lights" : {
+   "dashboardGlow" : {
+      "active" : false,
+      "transformationGroups" : ["flip", "rotation"],
+      "position" : [2.0, 0.5],
+      "color" : [120, 80, 0],
+      "pointLight" : true,
+      "pointAngle" : 140,
+      "pointBeam" : 5
+    },
+    "headlightBeam" : {
+      "active" : false,
+      "transformationGroups" : ["flip", "rotation"],
+      "position" : [4.5, 0.0],
+      "color" : [250, 200, 250],
+      "pointLight" : true,
+      "pointAngle" : -5,
+      "pointBeam" : 5
+    }
+  },
+
+  "sounds" : {
+    "collisionNotification" : [ "/sfx/tech/hoverbike_bump1.ogg",
+                                "/sfx/tech/hoverbike_bump2.ogg",
+                                "/sfx/tech/hoverbike_bump3.ogg"  ],
+
+    "collisionDamage" : ["/sfx/melee/bite_robotic1.ogg"],
+
+
+   "changeDamageState" : [  "/sfx/gun/grenadeblast_small_fire1.ogg",
+                            "/sfx/gun/grenadeblast_small_fire2.ogg",
+                            "/sfx/gun/grenadeblast_small_fire3.ogg" ],
+
+   "explode" : [  "/sfx/gun/grenadeblast_small_fire1.ogg",
+                  "/sfx/gun/grenadeblast_small_fire2.ogg",
+                  "/sfx/gun/grenadeblast_small_fire3.ogg" ],
+
+
+    "engineStart" : ["/sfx/tech/mech_powerdown.ogg"],
+
+    "engineLoop" : ["/sfx/tech/hoverbike_drive_loop.ogg"],
+
+    "engineStartDamaged" : ["/sfx/tech/mech_powerdown.ogg"],
+
+    "engineLoopDamaged" : ["/sfx/tech/hoverbike_drive_loop.ogg"],
+
+    "damageIntermittent" : [ "/sfx/gun/grenadeblast_small_fire1.ogg",
+                             "/sfx/gun/grenadeblast_small_fire2.ogg",
+                             "/sfx/gun/grenadeblast_small_fire3.ogg" ],
+
+    "hornLoop" : ["/sfx/tech/honk.ogg"],
+    "headlightSwitchOn" : ["/sfx/objects/floodlights_on.ogg"],
+    "headlightSwitchOff" : ["/sfx/objects/floodlights_off.ogg"],
+    "returnvehicle" : ["/sfx/tech/vehicle_disappear1.ogg"]
+    
+  }
+}

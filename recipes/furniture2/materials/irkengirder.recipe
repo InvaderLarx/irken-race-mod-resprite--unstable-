@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "refinedresistium", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "irkengirder",
+    "count" : 20
+  },
+  "duration" : 0.5,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

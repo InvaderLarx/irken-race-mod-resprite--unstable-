@@ -1,0 +1,8 @@
+{
+  "name" : "radaug",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "radaug.lua"
+  ]
+}

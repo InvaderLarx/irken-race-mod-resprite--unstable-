@@ -1,0 +1,54 @@
+[
+  {	
+	"name" : "sirunit2",
+		"spawnParameters" : {
+			"area" : "surface",
+			"region" : "all",
+			"time" : "all"
+			},
+		"spawnChance" : 0.05,
+		"monsterType" : "sirunit2",
+		"monsterParameters" : {
+			"aggressive" : true
+			}
+	},
+	{	
+		"name" : "sirunit2Night",
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "night"
+				},
+			"spawnChance" : 0.1,
+			"monsterType" : "sirunit2",
+			"monsterParameters" : {
+				"aggressive" : true
+			}	
+	},
+	{	
+		"name" : "sirunit2Depth1",
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+				},
+			"spawnChance" : 0.25,
+			"monsterType" : "sirunit2",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+	},
+	{	
+		"name" : "sirunit2Depth2",
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+				},
+			"spawnChance" : 0.25,
+			"monsterType" : "sirunit2",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+	}
+]

@@ -1,0 +1,39 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/merchant/categories/irken",
+		"value" : [
+			"irkenfood",
+			"irkenthrowables",
+			"basicmerchant",
+			"randomguns",
+			"randomswords"
+			
+		]
+	},{
+		"op" : "add",
+		"path" : "/items/irken",
+		"value" : [
+			[0, [
+				{
+					"head" : [
+						"",
+						{ "name" : "irkentier1head", "parameters" : { "colorIndex" : [1, 2, 3, 8] } },
+						{ "name" : "irkenheadpiece", "parameters" : { "colorIndex" : [1, 2, 3, 4, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 8] } }
+					],
+					"chest" : [
+						{ "name" : "irkentier1chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5] } },
+						{ "name" : "irkeninvaderchest", "parameters" : { "colorIndex" : [1, 2, 3] } }
+					],
+					"legs" : [
+						{ "name" : "irkentier1pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5] } },
+						{ "name" : "irkeninvaderlegs", "parameters" : { "colorIndex" : [1, 2, 3] } }
+					]
+				}
+			] ]
+		]
+	}
+]

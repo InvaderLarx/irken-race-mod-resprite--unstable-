@@ -1,0 +1,26 @@
+{
+  "itemName" : "izbrainjuice",
+  "rarity" : "Uncommon",
+  "price" : 80,
+  "category" : "drink",
+  "inventoryIcon" : "izbrainjuice.png",
+  "description" : "Brought to you from Shloogorghs.",
+  "shortdescription" : "Brain Juice",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 190
+    }
+  ] ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "xbrainjuice" ]
+}

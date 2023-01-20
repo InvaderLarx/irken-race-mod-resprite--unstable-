@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 6 },
+    { "item" : "syntheticmaterial", "count" : 1 },
+	{ "item" : "livingroot", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "PAKback", "count" : 1 },
+  "groups" : [ "craftinganvil", "hazardgear", "all"  ]
+}

@@ -1,0 +1,34 @@
+{
+  "itemName" : "megadoomercontroller",
+  "level" : 1,
+  "price" : 125000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "description" : "Is a powerful Irken Combat Stealth Mech. It has chicken legs.",
+  "shortdescription" : "Megadoomer X-3",
+  "twoHanded" : false,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "irkenvehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "megadoomerthumb.png",
+
+  "respawnTime" : 1.0,
+
+  "vehicleType" : "megadoomer",
+  "vehicleBoundingBox" : [-3, -6.25, 3, 4],
+  "vehicleImage" : "/vehicles/mech/megadoomer/megadoomer.png",
+
+  "animationParts" : {
+    "casing" : "megadoomer.png"
+  },
+
+  "inventoryIcon" : "megadoomer.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/megadoomer.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/megadoomer.png:full"
+
+}

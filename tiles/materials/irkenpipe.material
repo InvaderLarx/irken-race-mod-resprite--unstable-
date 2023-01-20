@@ -1,0 +1,25 @@
+{
+  "materialId" : 2185,
+  "materialName" : "irkenpipe",
+  "particleColor" : [111, 75, 111, 255],
+  "itemDrop" : "irkenpipe",
+  "shortdescription" : "Irken Pipe",
+  "description" : "A heavy pipe, used by Irkens.",
+  "glitchDescription" : "Curious. Where do these lead?",
+  "floranDescription" : "Ssstrange pipe.",
+  "novakidDescription" : "Some odd ol' pipes.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "drawBackground" : true,
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "irkenpipe.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3380
+  }
+}

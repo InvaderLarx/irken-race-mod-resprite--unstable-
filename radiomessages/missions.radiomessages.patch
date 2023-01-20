@@ -1,0 +1,65 @@
+[
+  {
+    "op": "add",
+    "path": "/pickupirkenextractor",
+    "value": {
+      "type" : "tutorial",
+      "senderName" : "Irken Invader",
+      "portraitImage" : "/interface/chatbubbles/irkeninvadertalk.png:<frame>",
+	  "text": "Oooooo! A brain extractor. No Invader is complete without one of these."
+    }
+  },
+
+  {
+    "op": "add",
+    "path": "/pickuppak",
+    "value": {
+      "type" : "tutorial",
+      "senderName" : "Irken Invader",
+      "portraitImage" : "/interface/chatbubbles/irkeninvadertalk.png:<frame>",
+	  "text": "Welcome Invader! Your PAK is essential to your survival. Without it you will die. Anyone that is not of our superior species will meet a similar fate if they wear it. It provides us with air to breath and an energy boost, pretty neat huh. Good luck soldier and serve our tallest well!"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/irkenoutpost",
+    "value": {
+      "type" : "mission",
+      "senderName" : "Irken Invader",
+      "portraitImage" : "/interface/chatbubbles/irkeninvadertalk1.png:<frame>",
+	  "text": "Who are you? Eh, whatever just don't touch anything. This is our planet!"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/irkenoutpost0",
+    "value": {
+      "type" : "tutorial",
+      "senderName" : "Irken Invader",
+      "portraitImage" : "/interface/chatbubbles/irkeninvadertalk.png:<frame>",
+	  "text": "Hey you! Yeah you. Mind if you check in for me at the outpost. I'm not feeling like traveling across the universe and yadda, yadda. I've sent the coordinates to your SAIL."
+    }
+  },
+  {
+    "op": "add",
+    "path": "/irkenpirate1",
+    "value": {
+      "type" : "mission",
+      "senderName" : "Irken Invader",
+      "portraitImage" : "/interface/chatbubbles/irkeninvadertalk.png:<frame>",
+	  "text": "Ugh, look at them. How dare they defect and challenge the tallest wishes. Destroy them all!"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/irkenpirate2",
+    "value": {
+      "type" : "mission",
+      "senderName" : "Irken Invader",
+      "portraitImage" : "/interface/chatbubbles/irkeninvadertalk.png:<frame>",
+	  "text": "Defectives, they dare challenge us! Show them true pain. Destroy all of them!"
+    }
+  }
+  
+  
+]

@@ -1,0 +1,55 @@
+{
+  "objectName" : "irkenbed2",
+  "colonyTags" : ["irken","light"],
+  "rarity" : "Common",
+  "description" : "Some sort of device made to sleep in?",
+  "shortdescription" : "Irken Sleep Cell",
+  "race" : "irken",
+  "category" : "furniture",
+  "price" : 150,
+  "lightColor" : [128, 0, 128],
+  
+  "apexDescription" : "This doesn't seem too comfortable.",
+  "avianDescription" : "I don't like the look of this.",
+  "floranDescription" : "Itsss a small cell",
+  "glitchDescription" : "Cautious. Wouldn't want to rest here.",
+  "humanDescription" : "I'm not sleeping in that!",
+  "hylotlDescription" : "Who would sleep in that?",
+  "novakidDescription" : "Sure is an odd place to sleep.",
+
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/irken/irkenbed2/irkenbed2cover.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "regeneration1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "irkenbed2icon.png",
+  "orientations" : [
+    {
+      "image" : "irkenbed2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPosition" : [-2, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "irkenbed2.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "sitPosition" : [6, 22],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

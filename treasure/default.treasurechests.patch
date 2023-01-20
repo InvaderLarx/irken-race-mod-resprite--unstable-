@@ -1,0 +1,12 @@
+[
+  { "op" : "add", "path" : "/irkenChest", 
+	"value" : 
+	[
+		{
+		"containers" : [ "irkenchest" ],
+		"treasurePool" : "izTreasure",
+		"minimumLevel" : 1
+		}
+	]
+  }
+]

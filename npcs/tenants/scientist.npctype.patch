@@ -1,0 +1,14 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/converse/irken",
+		"value" : {
+			"default" : [
+				"Watch it, I have important research to attend to.",
+				"I would do anything for the irken empire, even if my research is unjustified.",
+				"One day I <selfname>, will have the last laugh",
+				"I designed a brain extracter, but I think I misplaced it."
+			]
+		}
+	}
+]

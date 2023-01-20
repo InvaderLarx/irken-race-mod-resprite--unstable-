@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "irkenspear2", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 5 },
+	{ "item" : "smallbattery", "count" : 1 },
+	{ "item" : "titaniumbar", "count" : 2 }
+  ],
+  "output" : { "item" : "irkenspear3", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

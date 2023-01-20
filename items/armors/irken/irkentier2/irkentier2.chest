@@ -1,0 +1,71 @@
+{
+  "itemName" : "irkentier2chest",
+  "price" : 2400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "chestarmour",
+  "description" : "A Irken chestpiece worn by Technicians.",
+  "shortdescription" : "Irken Technician chestpiece",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+  "itemTags" : [ "tier2armour" ],
+  "colorOptions" : [
+    // DEFAULT
+    { "6a2284" : "6a2284", "7f4593" : "7f4593", "975fab" : "975fab", "e038dc" : "e038dc", "fa65f2" : "fa65f2", "84225b" : "84225b", "9e4279" : "9e4279", "c45195" : "c45195" },
+    // black
+    { "6a2284" : "000000", "7f4593" : "000000", "975fab" : "2a2a2a" },
+    // gray
+    { "6a2284" : "535353", "7f4593" : "6c6c6c", "975fab" : "858585", "e038dc" : "b0b0b0", "fa65f2" : "ffffff", "84225b" : "535353", "9e4279" : "707070", "c45195" : "8b8b8b" },
+    // white
+    { "6a2284" : "848484", "7f4593" : "939393", "975fab" : "ababab", "e038dc" : "e0e0e0", "fa65f2" : "ffffff", "84225b" : "848484", "9e4279" : "9e9e9e", "c45195" : "c4c4c4" },
+    // red
+    { "6a2284" : "661827", "7f4593" : "822c37", "975fab" : "9a4143", "e038dc" : "e0398b", "fa65f2" : "fa66a9", "84225b" : "000000", "9e4279" : "000000", "c45195" : "2a2a2a" },
+    // orange
+    { "6a2284" : "71461b", "7f4593" : "975725", "975fab" : "cb793a", "e038dc" : "ff9901", "fa65f2" : "ffb82e", "84225b" : "000000", "9e4279" : "000000", "c45195" : "2a2a2a" },
+    // yellow
+    { "6a2284" : "716c1c", "7f4593" : "978f25", "975fab" : "cbc33c", "e038dc" : "f6ff6b", "fa65f2" : "fbffc0", "84225b" : "000000", "9e4279" : "000000", "c45195" : "2a2a2a" },
+    // green
+    { "6a2284" : "10510c", "7f4593" : "1e6b1c", "975fab" : "437940", "e038dc" : "47ff00", "fa65f2" : "9aff4b", "84225b" : "000000", "9e4279" : "000000", "c45195" : "2a2a2a" },
+    // blue
+    { "6a2284" : "0d1350", "7f4593" : "202663", "975fab" : "444178", "e038dc" : "24b1ff", "fa65f2" : "66c1fa", "84225b" : "000000", "9e4279" : "000000", "c45195" : "2a2a2a" },
+    // purple
+    { "6a2284" : "6a2284", "7f4593" : "7f4593", "975fab" : "975fab", "e038dc" : "e038dc", "fa65f2" : "fa65f2", "84225b" : "84225b", "9e4279" : "9e4279", "c45195" : "c45195" },
+    // pink
+    { "6a2284" : "661536", "7f4593" : "9a215e", "975fab" : "b13971", "e038dc" : "ff4efb", "fa65f2" : "ff9afd", "84225b" : "000000", "9e4279" : "000000", "c45195" : "2a2a2a" },
+    // brown
+    { "6a2284" : "4c2f1d", "7f4593" : "5c4130", "975fab" : "6a5447", "e038dc" : "e09339", "fa65f2" : "fabd66", "84225b" : "000000", "9e4279" : "000000", "c45195" : "2a2a2a" }
+  ]
+}

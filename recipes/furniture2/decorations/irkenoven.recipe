@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 10 },
+	{ "item" : "purpledye", "count" : 4},
+	{ "item" : "refinedresistium", "count" : 3},
+	{ "item" : "coalore", "count" : 10 }
+  ],
+  "output" : { "item" : "irkenoven", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

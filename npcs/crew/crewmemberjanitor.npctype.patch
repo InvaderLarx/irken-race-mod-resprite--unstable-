@@ -1,0 +1,26 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/roleDescription/irken",
+		"value" : {
+			"default" : [
+				"If this is the will of the tallest...",
+				"I'm <selfname>, I think I might have been demoted."
+			]
+		}
+	},
+	{ "op": "add",
+    "path": "/items/irken",
+    "value": 
+    [ [0, [
+          {
+            "chest" : [ { "name" : "irkeninvaderchest" } ],
+            "legs" : [ { "name" : "irkeninvaderlegs" } ],
+			"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+            "primary" : [ "broom" ],
+            "sheathedprimary" : [ "irkenpistol", "irkenspear3" ]
+          }
+        ] ]
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+
+{"op" : "add",
+"path" : "/planetTypes/irken",     // your biome "name" (not "friendlyname")
+"value" :
+{
+"threatRange" : [6, 10],  //what tier is your planet? if its only tier 1, use 1,1. Otherwise, use what you want.
+"layers" : {
+"surface" : {
+"primaryRegion" : [ "irken" ],   //its own "name" is used here.
+"secondaryRegion" : [ "scorched", "volcanic"],  //here are your sub-biomes
+"dungeonCountRange" : [0, 3],  //how many dungeons does your biome have ?
+
+//what dungeons does it pull from when it does generate them? This is the new format for Nightly/1.0
+"dungeons" : [
+[1.0, "apextestfacility"],
+[1.0, "irkenbunkerbig"],
+[1.0, "evilfortress"]
+]
+},
+"subsurface" : {
+"primaryRegion" : [ "irkenunderground1" ]  //what is the core underground biome? you can ignore this and all below if desired and it will use the default values set in celestial.config
+},
+"underground1" : { 
+"primaryRegion" : [ "irkenunderground2" ],
+"secondaryRegion" : [ ] 
+},
+"underground2" : { 
+"primaryRegion" : [ "irkenunderground2" ],
+"secondaryRegion" : [ "luminouscaves",  "icecaves" ] 
+},
+"underground3" : { 
+"primaryRegion" : [ "irkenunderground3" ],
+"secondaryRegion" : [ "luminouscaves", "icecaves",  "moonunderground" ] 
+},
+
+"core" : {
+"primaryRegion" : [ "irkencore" ]  //are you using a custom core? if not, just keep this default or exclude altogether
+}
+}
+}
+},
+
+{"op" : "add",
+"path" : "/regionTypes/irken",   //again, your biomes "name" value
+"value" :
+{
+"caveLiquid" : [ "fuel", "lava" ], //what liquids appear on your biome surface?
+"caveLiquidChanceRange" : [20, 100],  //how often does your liquid appear on the surface?
+"blockSelector" : [ "remixedMildSurface", "remixedSurface", "remixedPoolsSurface" ],  //surface terrain generation
+"fgCaveSelector" : [ "surfaceCaves" ], //foreground cave terrain generation
+"bgOreSelector" : [ "richVeins", "normalVeins" ],  // background ore terrain selector
+"biome" : [
+[0, [ "irken" ]]    // and one more case of the "name" value
+]
+}
+},
+{ "op" : "add", 
+	"path" : "/regionTypes/irkenunderground1", 
+	"value" : {
+		"caveLiquid" : [ "fuel" ],
+		"fgCaveSelector" : [ "moonCaves" ],
+		"caveLiquidSeedDensityRange" : [1.5, 1.5],
+		"biome" : [
+			[0, [ "irkenunderground1" ]]
+		]
+	}
+},
+{ "op" : "add", 
+	"path" : "/regionTypes/irkenunderground2", 
+	"value" : {
+		"caveLiquid" : [ "lava" ],
+		"fgCaveSelector" : [ "moonCaves" ],
+		"caveLiquidSeedDensityRange" : [2.0, 2.0],
+		"biome" : [
+			[0, [ "irkenunderground2" ]]
+		]
+	}
+},
+{ "op" : "add", 
+	"path" : "/regionTypes/irkenunderground3", 
+	"value" : {
+		"caveLiquid" : [ "lava" ],
+		"fgCaveSelector" : [ "moonCaves" ],
+		"caveLiquidSeedDensityRange" : [3.0, 3.0],
+		"biome" : [
+			[0, [ "irkenunderground3" ]]
+		]
+	}
+},
+{ "op" : "add", 
+	"path" : "/regionTypes/irkencore", 
+	"value" : {
+		"caveLiquid" : [ "lava" ],
+		"caveLiquidSeedDensityRange" : [4.0, 4.0],
+		"oceanLiquid" : [ "corelava" ],
+		"oceanLevelOffset" : -20,
+		"fgCaveSelector" : [ "coreCaves" ],
+		"bgCaveSelector" : [ "coreBackgroundCaves" ],
+		"biome" : [ 
+		     [0, ["irkencore" ] ]
+		]    
+	}
+}
+
+]

@@ -1,0 +1,36 @@
+{
+  "metadata" : {
+    "name" : "irkenbunker",
+    "species" : "irken",
+    "rules" : [
+    ],
+    "anchor" : [ "irkenbunker1", "irkenbunker2" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+    
+
+  "parts" : [
+    {
+      "name" : "irkenbunker1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotConnectToPart", [ "irkenbunker1" ] ]
+
+      ],
+      "def" : [ "tmx", "irkenbunker1.json" ]
+    },
+
+    {
+      "name" : "irkenbunker2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotConnectToPart", [ "irkenbunker2" ] ]
+      ],
+      "def" : [ "tmx", "irkenbunker2.json" ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "sirunit2",
+  "category" : "sirunit2",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "sirunit2.png"
+  }
+}

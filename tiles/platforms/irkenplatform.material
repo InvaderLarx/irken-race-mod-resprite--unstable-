@@ -1,0 +1,23 @@
+{
+  "materialId" : 2195,
+  "materialName" : "irkenplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "irkenplatform",
+  "shortdescription" : "Irken Platform",
+  "description" : "A simple platform used by Irkens.",
+  "glitchDescription" : "Facinated. These platforms are portable.",
+  "floranDescription" : "Jusst another metal platform.",
+  "novakidDescription" : "Neat lookin' metal platform.",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "irkenplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  }
+}

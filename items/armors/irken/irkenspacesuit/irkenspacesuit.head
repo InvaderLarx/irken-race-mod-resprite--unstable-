@@ -1,0 +1,57 @@
+{
+  "itemName" : "irkenspacesuithead",
+  "price" : 1640,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "An Irken collar.",
+  "shortdescription" : "Irken Spacesuit Collar",
+  "tooltipKind" : "armorirkenaugment",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+  
+  "acceptsAugmentType" : "back",
+  
+   "statusEffects" : [
+	"irkenprotect"
+  ],
+  
+
+  "itemTags" : [ "tier6armour" ],
+
+  "colorOptions" : [
+    // DEFAULT
+    { "4b002d" : "4b002d", "ed2725" : "ed2725", "722424" : "722424", "1b0000" : "1b0000" },
+    // RED
+    { "4b002d" : "ab4734", "ed2725" : "e9000b", "722424" : "c9000a", "1b0000" : "510000" },
+    // PURPLE
+    { "4b002d" : "683f63", "ed2725" : "f35fac", "722424" : "442040", "1b0000" : "31082d" }
+  ]
+}

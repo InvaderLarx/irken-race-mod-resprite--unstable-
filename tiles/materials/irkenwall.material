@@ -1,0 +1,24 @@
+{
+  "materialId" : 2009,
+  "materialName" : "irkenwall",
+  "particleColor" : [148, 148, 148, 255],
+  "itemDrop" : "irkenwall",
+  "description" : "Irken hi-tech plated material.",
+  "shortdescription" : "Irken Wall Block",
+  "glitchDescription" : "Envious. A tough looking block.",
+  "floranDescription" : "Floran no like, ripppp.",
+  "novakidDescription" : "Fancy lookin' panel.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "irkenwall.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2580
+  }
+}

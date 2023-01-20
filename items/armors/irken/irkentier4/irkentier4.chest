@@ -1,0 +1,72 @@
+{
+  "itemName" : "irkentier4chest",
+  "price" : 400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestarmour",
+  "description" : "An Irken Spec Ops chestpiece.",
+  "shortdescription" : "Irken Spec Ops chest",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+"level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+  "itemTags" : [ "tier4armour" ],
+  "colorOptions" : [
+    // base
+    { "510000" : "510000", "722424" : "722424", "ed2725" : "ed2725" },
+    // black
+    { "510000" : "000000", "722424" : "2a2a2a", "ed2725" : "ffffff" },
+    // gray
+    { "510000" : "444444", "722424" : "6f6f6f", "ed2725" : "ffffff" },
+    // white
+    { "510000" : "6f6f6f", "722424" : "b9b9b9", "ed2725" : "ffffff" },
+    // red
+    { "510000" : "510000", "722424" : "722424", "ed2725" : "ed2725" },
+    // orange
+    { "510000" : "502c00", "722424" : "935a0f", "ed2725" : "ff9e00" },
+    // yellow
+    { "510000" : "504c00", "722424" : "706c25", "ed2725" : "edff00" },
+    // green
+    { "510000" : "025000", "722424" : "2b7025", "ed2725" : "64ff00" },
+    // blue
+    { "510000" : "070050", "722424" : "292570", "ed2725" : "00ccff" },
+    // purple
+    { "510000" : "3d0050", "722424" : "622570", "ed2725" : "ff15ed" },
+    // pink
+    { "510000" : "50003a", "722424" : "702558", "ed2725" : "ff3c7b" },
+    // brown
+    { "510000" : "38271c", "722424" : "573c25", "ed2725" : "ea8b3d" }
+    
+  ]
+}

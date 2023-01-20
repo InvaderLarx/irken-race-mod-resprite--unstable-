@@ -1,0 +1,10 @@
+{
+  "itemName" : "refinedresistium",
+  "price" : 120,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "refinedresistium.png",
+  "description" : "Seriously who came up with it's name? The ore is primarily found beneath Irken planets.",
+  "shortdescription" : "Refined Resistium",
+  "itemTags" : [ "reagent" ]
+}

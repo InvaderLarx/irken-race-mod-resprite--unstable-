@@ -1,0 +1,10 @@
+{
+  "input" : [
+   { "item" : "money", "count" :  12500 }
+  ],
+  "output" : {
+    "item" : "irkenbikecontroller",
+    "count" : 1
+  },
+  "groups" : [ "irkenassembler1", "vehicles", "all" ]
+}

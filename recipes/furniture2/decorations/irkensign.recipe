@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 1 },
+    { "item" : "purpledye", "count" : 1 }
+  ],
+  "output" : { "item" : "irkensign", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

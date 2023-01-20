@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "refinedresistium", "count" : 10 },
+	{ "item" : "solariumstar", "count" : 5 },
+	{ "item" : "purpledye", "count" : 2},
+    { "item" : "battery", "count" : 2 }
+  ],
+  "output" : { "item" : "irkenmg", "count" : 1 },
+  "groups" : [ "irkenassembler3", "weapons", "all" ]
+}

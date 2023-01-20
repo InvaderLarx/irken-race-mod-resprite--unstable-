@@ -1,0 +1,9 @@
+[
+  [
+    {
+      "op" : "add",
+      "path" : "/spawnProfile/groups/0/pool/0/-",
+      "value" : [ 0.1111, "sirunit2" ]
+    }
+  ]
+]

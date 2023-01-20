@@ -1,0 +1,10 @@
+{
+  "name" : "irkenrace",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "irkenrace.lua"
+  ]
+
+}

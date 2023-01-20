@@ -1,0 +1,29 @@
+{
+  "itemName" : "irkenpopcorn",
+  "rarity" : "Common",
+  "price" : 65,
+  "category" : "preparedFood",
+  "inventoryIcon" : "irkenpopcorn.png",
+  "description" : "Sweet and salty.",
+  "shortdescription" : "Irken popcorn",
+  "effects" : [ [
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 150
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "irkenpopcorn" ]
+}

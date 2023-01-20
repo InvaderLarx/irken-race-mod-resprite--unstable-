@@ -1,0 +1,27 @@
+[
+	
+	{
+		"op" : "add",
+		"path" : "/mooseRandomEncounter",
+		"value" : {
+			"type" : "random",
+			"blockProbability" : 0.0003
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/izdenseRandomEncounter",
+		"value" : {
+			"type" : "random",
+			"blockProbability" : 1.0
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/irkenvillageRandomEncounter",
+		"value" : {
+			"type" : "random",
+			"blockProbability" : 0.01
+		}
+	}
+]

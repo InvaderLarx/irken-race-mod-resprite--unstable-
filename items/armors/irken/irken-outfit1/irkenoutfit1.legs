@@ -1,0 +1,40 @@
+{
+  "itemName" : "irkenoutfit1legs",
+  "price" : 0,
+  "type" : "Legs",
+  "inventoryIcon" : "icons.png:pants",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "legwear",
+  "description" : "They're longer than your average shorts.",
+  "shortdescription" : "Casual Shorts",
+  "tooltipKind" : "armor",
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+  "colorOptions" : [
+    // BASE
+    { "e0975c" : "c20d5a", "a85636" : "710a31", "6f2919" : "4e081f" },
+    // BLACK
+    { "e0975c" : "343434", "a85636" : "1c1c1c", "6f2919" : "000000" },
+    // GREY
+    { "e0975c" : "666666", "a85636" : "414141", "6f2919" : "343434" },
+    // WHITE
+    { "e0975c" : "f0f0f0", "a85636" : "737373", "6f2919" : "7b6b73" },
+    // RED
+    { "e0975c" : "c20d5a", "a85636" : "710a31", "6f2919" : "4e081f" },
+    // ORANGE
+    { "e0975c" : "a85636", "a85636" : "6f2919", "6f2919" : "641e2d" },
+    // YELLOW
+    { "e0975c" : "dfc547", "a85636" : "b58f1c", "6f2919" : "76530a" },
+    // GREEN
+    { "e0975c" : "60b936", "a85636" : "3a8034", "6f2919" : "1c6b20" },
+    // BLUE
+    { "e0975c" : "4b9daf", "a85636" : "366e8e", "6f2919" : "2c5479" },
+    // PURPLE
+    { "e0975c" : "9662a3", "a85636" : "662c7d", "6f2919" : "4a206b" },
+    // PINK
+    { "e0975c" : "c252a1", "a85636" : "8f2d82", "6f2919" : "521c52" },
+    // BROWN
+    { "e0975c" : "824648", "a85636" : "641e2d", "6f2919" : "4d1929" }
+  ]
+}

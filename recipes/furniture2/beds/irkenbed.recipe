@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedresistium", "count" : 6 },
+	{ "item" : "syntheticmaterial", "count" : 1 },
+    { "item" : "purpledye", "count" : 1 }
+  ],
+  "output" : { "item" : "irkenbed", "count" : 1 },
+  "groups" : [ "craftingfurniture", "beds", "all" ]
+}

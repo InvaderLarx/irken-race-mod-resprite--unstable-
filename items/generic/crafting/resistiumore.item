@@ -1,0 +1,11 @@
+{
+  "itemName" : "resistiumore",
+  "price" : 60,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "resistiumore.png",
+  "description" : "Who came up with it's name?",
+  "shortdescription" : "Resistium Ore",
+  "itemTags" : [ "reagent" ],
+  "learnBlueprintsOnPickup" : [ "refinedresistium", "irkenbed", "irkenbarstool", "irkenfridge", "irkenoven", "irkenmonitor", "irkentrash", "irkenpod2", "irkensign","irkenceilinglight", "irkencrate", "irkenbed2" ]
+}

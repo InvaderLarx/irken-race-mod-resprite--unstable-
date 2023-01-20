@@ -1,0 +1,14 @@
+{
+  "irkenshipupgrades" : [
+    [0, {
+      "fill" : [
+          {"item" : ["shipT3", 1]},
+          {"item" : ["shipT4", 1]},
+          {"item" : ["shipT5", 1]},
+          {"item" : ["shipT6", 1]},
+          {"item" : ["shipT7", 1]},
+          {"item" : ["shipT8", 1]}
+      ]
+    } ]
+  ]
+}

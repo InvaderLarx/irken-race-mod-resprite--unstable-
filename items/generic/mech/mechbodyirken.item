@@ -1,0 +1,14 @@
+{
+	"itemName" : "mechbodyirken",
+	"price" : 9600,
+	"maxStack" : 1,
+	"rarity" : "Rare",
+	"category" : "mechPart",
+	"tooltipKind" : "mechbody",
+	"builder" : "/items/buildscripts/buildmechpart.lua",
+	"inventoryIcon" : "mechbodyirken.png",
+	"description" : "An Irken mech body",
+	"shortdescription" : "Irken Hunter Mechbody",
+	"itemTags" : [],
+	"mechPart" : ["body", "irken"]
+}

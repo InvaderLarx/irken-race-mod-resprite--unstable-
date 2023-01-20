@@ -1,0 +1,54 @@
+[
+  {	
+	"name" : "defenseunit",
+		"spawnParameters" : {
+			"area" : "surface",
+			"region" : "all",
+			"time" : "all"
+			},
+		"spawnChance" : 0.01,
+		"monsterType" : "defenseunit",
+		"monsterParameters" : {
+			"aggressive" : true
+			}
+	},
+	{	
+		"name" : "defenseunitNight",
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "night"
+				},
+			"spawnChance" : 0.1,
+			"monsterType" : "defenseunit",
+			"monsterParameters" : {
+				"aggressive" : true
+			}	
+	},
+	{	
+		"name" : "defenseunitDepth1",
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+				},
+			"spawnChance" : 0.55,
+			"monsterType" : "defenseunit",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+	},
+	{	
+		"name" : "defenseunitDepth2",
+			"spawnParameters" : {
+				"area" : "surface",
+				"region" : "all",
+				"time" : "all"
+				},
+			"spawnChance" : 0.55,
+			"monsterType" : "defenseunit",
+			"monsterParameters" : {
+				"aggressive" : true
+			}
+	}
+]

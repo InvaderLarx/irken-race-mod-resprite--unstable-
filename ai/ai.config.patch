@@ -1,0 +1,11 @@
+[
+{
+		"op" : "add",
+		"path" : "/species/irken",
+		"value" : {
+			"aiFrames" : "irkenAI.png",
+			"portraitFrames" : "portraits/irkenportrait.png",
+			"staticFrames" : "staticirken.png"	
+		}
+	}
+]

@@ -1,0 +1,31 @@
+{
+  "itemName" : "suckmunkey",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "drink",
+  "inventoryIcon" : "suckmunkey.png",
+  "description" : "that horrible monkey!",
+  "shortdescription" : "Suck Munkey",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 200
+		 },
+    {
+        "effect" : "runboostfood",
+        "duration" : 200
+    }
+  ] ],
+  
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "suckmunkey" ]
+}

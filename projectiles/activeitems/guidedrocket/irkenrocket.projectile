@@ -1,0 +1,33 @@
+{
+  "projectileName" : "irkenrocket",
+  "image" : "irkenrocket.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "fallSpeed" : 0,
+  "lightColor" : [110, 32, 110],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/regularexplosion2/electricexplosionknockbackstatus.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue"  ],
+  "flippable" : true,
+  "power" : 15.0,
+  "speed" : 10.0,
+  "acceleration" : 20,
+  "physics" : "rocket",
+  "damageType" : "NoDamage",
+  "damageKind" : "electricplasma",
+
+  "scripts" : [ "guidedrocket.lua" ],
+  "rotationRate" : 5.0,
+  "maxTrackingAngle" : 3.14,
+  "trailProjectile" : "smallelectriccloud",
+  "trailDistance" : 2.0,
+
+  "persistentAudio" : "/sfx/projectiles/guidedrocket_electric_loop.ogg"
+}

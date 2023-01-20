@@ -1,0 +1,45 @@
+{
+  "itemName" : "irkentier2head",
+  "price" : 1440,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "headarmour",
+  "description" : "An Irken headpiece worn by technicians.",
+  "shortdescription" : "Irken Technician headpiece",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 2,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier2armour" ],
+
+  "colorOptions" : [
+    { "975fab" : "975fab", "fa65f2" : "fa65f2", "7f4593" : "7f4593", "6a2284" : "6a2284" }
+  ]
+}

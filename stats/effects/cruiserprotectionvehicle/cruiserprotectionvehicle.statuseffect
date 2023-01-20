@@ -1,0 +1,8 @@
+{
+  "name" : "cruiserprotectionvehicle",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "cruiserprotectionvehicle.lua"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "defenseunit",
+  "category" : "defenseunit",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "defenseunit.png"
+  }
+}

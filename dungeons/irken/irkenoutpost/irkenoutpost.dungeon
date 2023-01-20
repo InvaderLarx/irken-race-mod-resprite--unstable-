@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "irkenoutpost",
+    "species" : "irken",
+    "rules" : [
+    ],
+    "anchor" : [ "irkenoutpost" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "irkenoutpost",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "irkenoutpost.json" ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "objectName" : "irkenbarstool",
+  "colonyTags" : ["irken"],
+  "rarity" : "Common",
+  "category" : "furniture",
+  "price" : 70,
+  "description" : "An Irken bar stool.",
+  "shortdescription" : "Irken Bar Stool",
+  "printable" : true,
+  "apexDescription" : "It's just a bar stool.",
+  "avianDescription" : "A bar stool. I could do with sitting down.",
+  "floranDescription" : "A round bar ssstool Dizzy fun.",
+  "glitchDescription" : "Unimpressed. The metal on that stool needs a polish.",
+  "humanDescription" : "Just strange.",
+  "hylotlDescription" : "A rather strange seat found in urban bars.",
+  "novakidDescription" : "A strange bar stool. I'm familiar with these. Too familiar.",
+  "inventoryIcon" : "irkenbarstoolicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irkenbarstool.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitPosition" : [2, 22]
+  
+ 
+}

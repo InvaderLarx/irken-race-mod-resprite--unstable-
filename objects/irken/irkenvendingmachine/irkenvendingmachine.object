@@ -1,0 +1,101 @@
+{
+  "objectName" : "irkenvendingmachine",
+  "colonyTags" : ["irken"],
+  "rarity" : "Uncommon",
+  "description" : "Ooh, snacks?",
+  "shortdescription" : "Irken Vending Machine",
+  "race" : "irken",
+  "category" : "decorative",
+  "price" : 105,
+  "lightColor" : [153, 30, 153],
+  "printable" : false,
+
+  "apexDescription" : "A vending machine. No banana-flavoured snacks, sadly.",
+  "avianDescription" : "Perfect to stave off hunger.",
+  "floranDescription" : "Clever machine gives Floran treatsss.",
+  "glitchDescription" : "Indecisive. I can't decide what to buy.",
+  "humanDescription" : "Oh boy, it's the kind of vending machine where you win every time!",
+  "hylotlDescription" : "A vending machine for sugary drinks and snacks.",
+  "novakidDescription" : "A vendin' machine for sugary type drinks and snacks.",
+
+  "interactAction" : "OpenMerchantInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/vendingmachine.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Irken Vending Machine",
+        "subtitle" : " Tasty Snacks"
+      }
+    },
+    "buyFactor" : 2.5,
+    "sellFactor" : 0.2,
+    "items" : [
+      { "item" : "irkenchips" },
+      { "item" : "irkensoda" },
+	  { "item" : "irkendonuts" },
+	  { "item" : "irkenpopcorn" },
+	  { "item" : "irkennachos" },
+      { "item" : "suckmunkey" }
+    ]
+  },
+
+  "inventoryIcon" : "irkenvendingmachineicon.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "irkenvendingmachineleft.png", "fullbright" : true }, { "image" : "irkenvendingmachineleftlit.png" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "irkenvendingmachineright.png", "fullbright" : true }, { "image" : "irkenvendingmachinerightlit.png" } ],
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 60,
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_loud.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+
+  "npcToy" : {
+    "influence" : [
+      "vendingmachineActivate",
+      "vendingmachineCollect",
+      "vendingmachineConsume",
+      "vendingmachineComplete"
+    ],
+    "defaultReactions" : {
+      "vendingmachineActivate" : [
+        [1.0, "pressbutton"]
+      ],
+      "vendingmachineCollect" : [
+        [1.0, "crouchcollect"]
+      ],
+      "vendingmachineConsume" : [
+        [1.0, "drink"]
+      ],
+      "vendingmachineComplete" : [
+        [1.0, "smile"],
+        [0.1, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}
+

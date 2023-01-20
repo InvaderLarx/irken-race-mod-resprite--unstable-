@@ -1,0 +1,60 @@
+{
+  "itemName" : "irkenspacearmorchest",
+  "price" : 5600,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestarmour",
+  "description" : "A Irken chestpiece made for space. Provides 25+ resistence against electric, poison, and increase damage.",
+  "shortdescription" : "Irken Spacearmor Chest",
+  "tooltipKind" : "armorirkenaugment",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+  
+   "acceptsAugmentType" : "back",
+  
+  "statusEffects" : [
+	"irkenprotectdamage"
+  ],
+  
+  "itemTags" : [ "tier6armour" ],
+  "colorOptions" : [
+    // DEFAULT
+    { "4b002d" : "4b002d", "ed2725" : "ed2725", "722424" : "722424", "1b0000" : "1b0000" },
+    // RED
+    { "4b002d" : "ab4734", "ed2725" : "e9000b", "722424" : "c9000a", "1b0000" : "510000" },
+    // PURPLE
+    { "4b002d" : "683f63", "ed2725" : "f35fac", "722424" : "442040", "1b0000" : "31082d" } 
+  ]
+}

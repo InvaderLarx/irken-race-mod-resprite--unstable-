@@ -1,0 +1,14 @@
+{
+  "itemName" : "irkenpipe",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "irkenpipe.png",
+  "shortdescription" : "Irken Pipe",
+  "description" : "A heavy pipe, used commonly by Irkens.",
+  "glitchdescription" : "Curious. What does it lead to?",
+  "florandescription" : "Ssstrange pipe.",
+  "novakiddescription" : "Some odd ol' pipes.",
+
+  "materialId" : 2185
+}

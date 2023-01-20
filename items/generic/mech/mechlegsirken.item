@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechlegsirken",
+  "price" : 5480,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechlegs",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechlegsirken.png",
+  "description" : "A pair of Irken mech legs built probably from vortians",
+  "shortdescription" : "Irken Mech Legs",
+  "itemTags" : [ ],
+
+  "mechPart" : ["legs", "irken"]
+}

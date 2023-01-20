@@ -1,0 +1,13 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/converse/irken",
+		"value" : {
+			"default" : [
+				"I'm an irken electrician. I fix stuff.",
+				"Without me, there would be an insane amount of blackouts.",
+				"Heh, sometimes I don't enjoy crawling in small spaces."
+			]
+		}
+	}
+]

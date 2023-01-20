@@ -1,0 +1,197 @@
+{
+  "objectName" : "irkenassembler",
+  "colonyTags" : [ "irken", "science" ],
+  "rarity" : "Uncommon",
+  "race" : "irken",
+  "category" : "crafting",
+
+  "breakDropOptions" : [],
+
+  "price" : 50,
+  "printable" : false,
+
+  "scripts" : [ "/scripts/npcToyObject.lua",
+                "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua"
+              ],
+              
+  "pickupQuestTemplates" : [ "irkenquest_assembler" ],
+  "animation" : "irkenassembler.animation",
+  "animationPosition" : [0, 18],
+
+  "inventoryIcon" : "irkenassembler1icon.png",
+  "placementImage" : "irkenassembler1.png:default.default",
+  "placementImagePosition" : [-16, 0],    
+
+  "description" : "An irken station used to create new equipment.",
+  "shortdescription" : "^orange;Irken Gadget Table^white;",
+
+  "learnBlueprintsOnPickup" : [],
+
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 3,
+
+  "upgradeStages" : [
+    {
+      "animationState" : "tinkertable",
+
+      "itemSpawnParameters" : {
+        "inventoryIcon" : "irkenassembler1icon.png",
+        "placementImage" : "irkenassembler1.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "An irken station used to create new equipment.",
+        "shortdescription" : "^orange;Irken Gadget Table^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/irkenassembler.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Irken Gadget Table",
+            "subtitle" : " ^#b9b5b2;Upgrades and odds/ends",
+            "icon" : {
+              "file" : ""
+            }
+          }
+        },
+
+        "filter" : [ "irkenassembler1" ],
+        "initialRecipeUnlocks" : [],
+        "upgradeMaterials" : [
+          { "item" : "titaniumbar", "count" : 6 },
+          { "item" : "siliconboard", "count" : 2 },
+		  { "item" : "syntheticmaterial", "count" : 1 },
+          { "item" : "silverbar", "count" : 3 }
+        ]
+      },
+      "craftingSound" : "/sfx/interface/crafting_compress.ogg",
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "engineeringbench",
+
+      "itemSpawnParameters" : {
+        "price" : 400,
+        "inventoryIcon" : "irkenassembler2icon.png",
+        "placementImage" : "irkenassembler2.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "Upgrade irken equipment.",
+        "shortdescription" : "^orange;Irken Engineering Station^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/irkenassembler.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : "Irken Engineering Station",
+            "subtitle" : " ^#b9b5b2;Upgrades, odds/ends",
+            "icon" : {
+              "file" : ""
+            }
+          }
+        },
+        "filter" : [ "irkenassembler1", "irkenassembler2" ],
+        "initialRecipeUnlocks" : [  ],
+        "upgradeMaterials" : [
+          { "item" : "durasteelbar", "count" : 6 },
+		  { "item" : "brain", "count" : 1 },
+          { "item" : "battery", "count" : 2 },
+          { "item" : "siliconboard", "count" : 4 },
+          { "item" : "wire", "count" : 20 }
+        ]
+      },
+      "craftingSound" : "/sfx/interface/crafting_compress.ogg",
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare2",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "irkenassembler",
+
+      "itemSpawnParameters" : {
+        "price" : 750,
+        "inventoryIcon" : "irkenassembler3icon.png",
+        "placementImage" : "irkenassembler3.png:default.default",
+        "placementImagePosition" : [-16, 0],    
+
+        "description" : "Create irken upgrades and weapons to destroy your foes.",
+        "shortdescription" : "^orange;Irken Assembler^white;"
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/irkenassembler.config",
+        "paneLayoutOverride" : {
+          "windowtitle" : {
+            "title" : " Irken Assembler",
+            "subtitle" : " ^#b9b5b2;Build Irken Technology and improve them",
+            "icon" : {
+              "file" : ""
+            }
+          }
+        },
+        "filter" : [ "irkenassembler1", "irkenassembler2", "irkenassembler3" ],
+        "craftingSound" : "/sfx/interface/crafting_compress.ogg",
+        "initialRecipeUnlocks" : []
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+
+  "orientations" : [
+    {
+      "image" : "irkenassembler1.png:default.<frame>",
+      "imagePosition" : [-16, 0],    
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [
+        [-2, 4], [-1, 4], [0, 4], [1, 4],
+        [-2, 3], [-1, 3], [0, 3], [1, 3],
+        [-2, 2], [-1, 2], [0, 2], [1, 2],
+        [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "irkenassembler1.png:default.<frame>",
+      "imagePosition" : [-16, 0],    
+      "direction" : "right",
+      "spaces" : [
+        [-1, 4], [0, 4], [1, 4], [2, 4],
+        [-1, 3], [0, 3], [1, 3], [2, 3],
+        [-1, 2], [0, 2], [1, 2], [2, 2],
+        [-1, 1], [0, 1], [1, 1], [2, 1],
+        [-1, 0], [0, 0], [1, 0], [2, 0]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "npcToy" : {
+    "influence" : [
+      "furnace",
+      "furnace",
+      "furnaceComplete"
+    ],
+    "defaultReactions" : {
+      "furnace" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"]
+      ],
+      "furnaceComplete" : [
+        [1.0, "warmhands"],
+        [1.0, "crouchwarm"],
+        [1.0, "pokefire"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-1.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+}

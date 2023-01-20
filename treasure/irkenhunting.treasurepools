@@ -1,0 +1,30 @@
+{
+  "sirunitHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.500, "item" : "processor"},
+        {"weight" : 0.500, "item" : "staticcell"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ],
+  
+  "defenseunitHunting" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.900, "item" : "processor"},
+        {"weight" : 0.100, "item" : "staticcell"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+  ]
+  
+}

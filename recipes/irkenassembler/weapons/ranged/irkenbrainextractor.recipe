@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "titaniumbar", "count" : 2 },
+	{ "item" : "glass", "count" : 2 },
+    { "item" : "battery", "count" : 1 }
+  ],
+  "output" : { "item" : "irkenbrainextractor", "count" : 1 },
+  "groups" : [ "irkenassembler1", "weapons", "all" ]
+}

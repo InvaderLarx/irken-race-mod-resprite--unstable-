@@ -1,0 +1,66 @@
+[
+
+{
+    "op": "add",
+    "path": "/mooseroom",
+    "value": 
+      {
+      "primaryDungeon":"mooseroom",
+    "weatherPool" : [
+    ],      
+      "threatLevel":6,
+      "gravity":120,
+      "worldSize":[2000,2000],
+      "dungeonBaseHeight" : 1175,
+      "dungeonSurfaceHeight" : 1050,
+      "ambientLightLevel":[200,200,200],
+      "biome" : "izhorrors",
+      "musicTrack" : "/sfx/environmental/moon_surface.ogg",
+      "environmentStatusEffects" : ["dontstarve", "slowdeath" ]
+      }
+},
+{
+    "op": "add",
+    "path": "/irkenoutpost",
+    "value": 
+      {
+      "primaryDungeon":"irkenoutpost",
+    "weatherPool" : [
+     
+    ],      
+      "threatLevel":1,
+      "gravity":100,
+      "worldSize":[2000,2000],
+      "dungeonBaseHeight" : 1175,
+      "dungeonSurfaceHeight" : 1050,
+      "ambientLightLevel":[128, 128, 128],
+      "biome" : "irken",
+      "musicTrack" : "/music/bye-season1.ogg",
+      "environmentStatusEffects" : ["dontstarve"]
+      }
+},
+{
+    "op": "add",
+    "path": "/irkenpirateship",
+    "value": 
+      {
+      "primaryDungeon":"irkenpirateship",
+    "weatherPool" : [
+     
+    ],      
+      "threatLevel":6,
+      "gravity":0,
+      "worldSize":[1300, 200],
+      "dungeonBaseHeight" : 150,
+      "dungeonSurfaceHeight" : 150,
+      "ambientLightLevel" : [32, 32, 32],
+      "ambientNoises" : "/sfx/environmental/space_loop4.ogg",
+      "musicTrack" : "/music/sizz-chase.ogg",
+      "environmentStatusEffects" : ["dontstarve"],
+	  "worldEdgeForceRegions" : "TopAndBottom",
+      "biome" : "space"
+      }
+}
+
+
+]

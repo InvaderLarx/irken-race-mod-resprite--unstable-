@@ -1,0 +1,48 @@
+{
+  "objectName" : "irkenfloatingmonitor",
+  "colonyTags" : ["irken", "light"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 300,
+
+  "description" : "It's still functional",
+  "shortdescription" : "Irken Hover Monitor",
+  "race" : "irken",
+
+  "apexDescription" : "What is this symbol",
+  "avianDescription" : "Seems functional still.",
+  "floranDescription" : "It'sss a very large tv.",
+  "glitchDescription" : "Cautious. What is this?",
+  "humanDescription" : "Seems to still be working.",
+  "hylotlDescription" : "I've never seen a monitor like this.",
+  "novakidDescription" : "A big ol' monitor. Displaying a symbol.",
+
+  "lightColor" : [128, 0, 128],
+
+  "inventoryIcon" : "irkenfloatingmonitoricon.png",
+  "orientations" : [
+    {
+      "image" : "irkenfloatingmonitor.png:<color>.<frame>",
+      "imagePosition" : [-40, -24],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "irkenfloatingmonitor.animation",
+  "animationParts" : {
+    "bg" : "irkenfloatingmonitor.png",
+    "fg" : "irkenfloatingmonitorlit.png"
+  },
+  "animationPosition" : [-40, -24],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

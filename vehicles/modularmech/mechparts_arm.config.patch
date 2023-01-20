@@ -1,0 +1,186 @@
+[
+  {
+    "op": "add",
+    "path": "/irkenclaw",
+    "value": {
+      "stats": {
+        "power": 6,
+        "energy": 6
+      },
+      "partParameters": {
+        "script": "/vehicles/modularmech/armscripts/beamarm.lua",
+        "armClass": "BeamArm",
+        "rotationLimits": [
+          -1.75,
+          1.75
+        ],
+        "fireOffset": [
+          3.25,
+          0
+        ],
+        "windupTime": 0.5,
+        "fireTime": 0.1,
+        "winddownTime": 0.5,
+        "repeatFire": true,
+        "beamSourceOffset": [
+          3.26,
+          2.5625
+        ],
+        "beamHeight": 0.5,
+        "beamLength": 30,
+        "beamParticleDensity": 0.75,
+        "beamTileDamage": 8,
+        "beamTileDamageDepth": 2
+      },
+      "damageSources": {
+        "<armName>Beam": {
+          "enabled": false,
+          "attachToPart": "<armName>",
+          "line": [
+            [
+              3.25,
+              2.5
+            ],
+            [
+              33.25,
+              2.5
+            ]
+          ],
+          "damage": 28,
+          "damageKind": "fireplasma",
+          "damageRepeatTimeout": 0.1,
+          "knockback": 0,
+          "rayCheck": true
+        }
+      },
+      "partImages": {
+        "<armName>": "arm/irkenclaw.png",
+        "<armName>Fullbright": "arm/irkenclaw_fullbright.png"
+      },
+      "defaultPrimaryColors": [
+        "e7c474",
+        "c88b28",
+        "98631f",
+        "6d4417"
+      ],
+      "defaultSecondaryColors": [
+        "6d4417",
+        "555555",
+        "383838",
+        "151515"
+      ],
+      "animationCustom": {
+        "animatedParts": {
+          "stateTypes": {
+            "<armName>": {
+              "states": {
+                "active": {
+                  "properties": {
+                    "persistentSound": "/sfx/gun/aegisaltpistol_loop2.ogg"
+                  },
+                  "cycle": 0.1
+                },
+                "windup": {
+                  "cycle": 0.5
+                },
+                "winddown": {
+                  "cycle": 0.5
+                }
+              }
+            },
+            "<armName>Beam": {
+              "default": "off",
+              "states": {
+                "off": {},
+                "fire": {
+                  "frames": 4,
+                  "cycle": 0.25,
+                  "mode": "transition",
+                  "transition": "off"
+                }
+              }
+            }
+          },
+          "parts": {
+            "<armName>Beam": {
+              "properties": {
+                "zLevel": 10,
+                "offset": [
+                  3.25,
+                  2.0625
+                ],
+                "anchorPart": "<armName>",
+                "fullbright": true,
+                "centered": false,
+                "transformationGroups": [
+                  "<armName>Beam"
+                ]
+              },
+              "partStates": {
+                "<armName>Beam": {
+                  "fire": {
+                    "properties": {
+                      "image": "/vehicles/modularmech/beam/drillbeam.png:<frame>"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "particleEmitters": {
+          "<armName>Beam": {
+            "active": false,
+            "anchorPart": "<armName>",
+            "particles": [
+              {
+                "particle": {
+                  "type": "ember",
+                  "fullbright": true,
+                  "color": [
+                    124,
+                    0,
+                    124,
+                    150
+                  ],
+                  "light": [
+                    128,
+                    0,
+                    128
+                  ],
+                  "fade": 0.5,
+                  "destructionAction": "shrink",
+                  "destructionTime": 0.25,
+                  "initialVelocity": [
+                    0,
+                    0
+                  ],
+                  "timeToLive": 0.4,
+                  "layer": "middle",
+                  "variance": {
+                    "initialVelocity": [
+                      1,
+                      1
+                    ],
+                    "timeToLive": 0.2
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "transformationGroups": {
+          "<armName>Beam": {}
+        },
+        "sounds": {
+        "<armName>Windup" : [ "/sfx/gun/mech_beamdrill_windup.ogg" ],
+        "<armName>WinddownNoFire" : [],
+        "<armName>Winddown" : [ "/sfx/gun/mech_beamdrill_winddown.ogg" ],
+        "<armName>Fire" : []
+        }
+      }
+    }
+  }
+  
+  
+]

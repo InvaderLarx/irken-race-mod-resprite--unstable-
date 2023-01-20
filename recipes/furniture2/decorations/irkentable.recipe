@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedresistium", "count" : 2 },
+    { "item" : "purpledye", "count" : 1 }
+  ],
+  "output" : { "item" : "irkentable", "count" : 1 },
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

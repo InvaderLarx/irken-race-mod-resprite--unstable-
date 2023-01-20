@@ -1,0 +1,8 @@
+{
+  "name" : "radiationprotectionpak",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "radiationprotectionpak.lua"
+  ]
+}

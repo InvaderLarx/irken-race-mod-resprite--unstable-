@@ -1,0 +1,7 @@
+[
+    {"op":"add","path":"/0/1/-","value":["irken","irkenchips"]},
+    {"op":"add","path":"/0/1/-","value":["irken","irkendonuts"]},
+    {"op":"add","path":"/0/1/-","value":["irken","irkennachos"]},
+    {"op":"add","path":"/0/1/-","value":["irken","irkenpopcorn"]},
+    {"op":"add","path":"/0/1/-","value":["irken","irkensoda"]}
+]

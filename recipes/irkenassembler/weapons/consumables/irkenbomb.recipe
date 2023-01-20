@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 2 },
+    { "item" : "staticcell", "count" : 1 },
+    { "item" : "refinedresistium", "count" : 1 }
+  ],
+  "output" : { "item" : "irkenbomb", "count" : 3 },
+  "groups" : [ "irkenassembler2", "weapons", "all" ]
+}

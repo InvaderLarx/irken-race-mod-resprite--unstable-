@@ -1,0 +1,26 @@
+{ "columns":0,
+ "margin":0,
+ "name":"iz",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":1,
+ "tileheight":88,
+ "tileproperties":
+    {
+     "0":
+        {
+         "object":"rwmoose"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/iz-custom\/objects\/rwmoose.png"
+        }
+    },
+ "tilewidth":71
+}

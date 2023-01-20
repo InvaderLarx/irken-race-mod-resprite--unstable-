@@ -1,0 +1,20 @@
+{
+  "modId" : 13102,
+  "modName" : "resistium",
+  "itemDrop" : "resistiumore",
+  "description" : "This ore has a rather uninspired name.",
+  "health" : 15,
+  "harvestLevel" : 6,
+  "breaksWithTile" : true,
+  
+  "miningSounds" : [ "/sfx/tools/pickaxe_ore.wav", "/sfx/tools/pickaxe_ore2.wav" ],
+  "miningParticle" : "orespark",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "resistium.png",
+    "variants" : 8,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "irkentier5chest", "count" : 1 },
+    { "item" : "siliconboard", "count" : 5 },
+    { "item" : "processor", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 1 },
+	{ "item" : "refinedresistium", "count" : 16 }
+  ],
+  "output" : { "item" : "irkenspacesuitchest", "count" : 1 },
+  "groups" : [ "irkenassembler1", "armors", "all" ]
+}

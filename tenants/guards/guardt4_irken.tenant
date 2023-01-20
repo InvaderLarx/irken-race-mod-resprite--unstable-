@@ -1,0 +1,26 @@
+{
+	"name": "guardt4_irken",
+	"priority": 11,
+	"colonyTagCriteria": {
+		"light": 1,
+		"door": 1,
+		"irken": 8,
+		"combat": 8,
+		"tier4": 5
+	},
+	"tenants": [
+		{
+			"spawn": "npc",
+			"species": "irken",
+			"level": 4,
+			"type": "friendlyguardtenant",
+			"overrides": {
+				"damageTeamType" : "friendly"
+			 }
+		 }
+	 ],
+	"rent": {
+		"periodRange": [500.0, 1800.0],
+		"pool": "villagerGift"
+	}
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "wire", "count" : 4 },
+	{ "item" : "glass", "count" : 2 } 
+  ],
+  "duration" : 5,
+  "output" : { "item" : "dibglasses", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

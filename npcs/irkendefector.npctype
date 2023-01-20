@@ -1,0 +1,32 @@
+{
+  "type" : "irkendefector",
+  "baseType" : "hostileiz",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : ["irkenTreasure"],
+  
+  "items" : {
+    "override" : [
+      [0, [ {
+        "head": [ { "name": "irkentier4head" } ],
+        "chest": [ { "name": "irkentier4chest" } ],
+        "legs": [ { "name": "irkentier4pants" } ],
+		"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+        "primary" : [
+          { "name": "irkenspear4" },
+          { "name": "irkenspear5" },
+          { "name": "irkenenergysword" },
+          { "name": "irkenmg" },
+          { "name": "irkenrailpistol" },
+          { "name": "irkenplasma" },
+          { "name": "irkenchargegun" },
+          { "name": "irkenpistol" }
+        ],
+        "alt" : [
+          { "name" : "flashlight" }
+        ]
+      } ] ]
+    ]
+  }
+}

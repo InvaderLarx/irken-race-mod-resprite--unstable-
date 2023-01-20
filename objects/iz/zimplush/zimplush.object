@@ -1,0 +1,33 @@
+{
+  "objectName" : "zimplush",
+  "colonyTags" : ["irken","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A zim plushy. Awwwww.",
+  "shortdescription" : "Zim Plushie",
+  "race" : "irken",
+
+  "apexDescription" : "An adorable zim plush.",
+  "avianDescription" : "How cute, a toy zim.",
+  "floranDescription" : "Fluffy toy is ssstaring at Floran.",
+  "glitchDescription" : "Excited. This delightful zim is almost too much!",
+  "humanDescription" : "I just need this zim plush.",
+  "hylotlDescription" : "Shriek! A wonderful zim plushie. I need this one!",
+  "novakidDescription" : "This lil' guy is pretty cute, I guess.",
+
+  "inventoryIcon" : "zimplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "zimplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

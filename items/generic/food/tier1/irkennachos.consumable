@@ -1,0 +1,29 @@
+{
+  "itemName" : "irkennachos",
+  "rarity" : "Uncommon",
+  "price" : 100,
+  "category" : "preparedFood",
+  "inventoryIcon" : "irkennachos.png",
+  "description" : "the almighty tallest would tell you to gorge yourselfs with these.",
+  "shortdescription" : "Irken Nachos",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 225
+    },
+    {
+        "effect" : "burning",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "irkennachos" ]
+}

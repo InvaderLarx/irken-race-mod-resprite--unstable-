@@ -1,0 +1,32 @@
+[
+	{"op" : "add",
+"path" : "/terrestrialHorizonGraphics/irken",
+"value" :
+{
+"baseImages" : "/celestial/system/terrestrial/horizon/textures/irken_<selector>.png",
+"maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+"maskRange" : [1, 25],
+"maskPerPlanetRange" : [3, 3]
+}},
+
+{"op" : "add",
+"path" : "/terrestrialGraphics/irken",
+"value" :
+{
+"baseImages" : "/celestial/system/terrestrial/biomes/irken/maskie<num>.png",
+"dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+"dynamicsRange" : [1, 30]
+}},
+{"op":"add",
+"path":"/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"irken"
+},
+
+{"op":"add",
+"path":"/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+"value":"irken"
+}
+
+
+
+]

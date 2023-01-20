@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "PAKback", "count" : 1 },
+    { "item" : "syntheticmaterial", "count" : 4 },
+	{ "item" : "refinedresistium", "count" : 4 },
+	{ "item" : "money", "count" : 10000 },
+	{ "item" : "battery", "count" : 4 }
+	
+  ],
+  "output" : { "item" : "PAKhover", "count" : 1 },
+  "groups" : [ "irkenassembler2", "tech", "all"  ]
+}

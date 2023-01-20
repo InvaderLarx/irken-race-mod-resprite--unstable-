@@ -1,0 +1,24 @@
+{
+  "itemName" : "irkenlabcoathead",
+  "price" : 50,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headwear",
+  "description" : "The collar of an irken lab coat",
+  "shortdescription" : "Irken lab coat Collar",
+  "tooltipKind" : "armorirkenaugment",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "colorOptions" : [
+    // DEFAULT
+    { "4b002d" : "4b002d", "ed2725" : "ed2725", "722424" : "722424", "1b0000" : "1b0000" },
+    // RED
+    { "4b002d" : "ab4734", "ed2725" : "e9000b", "722424" : "c9000a", "1b0000" : "510000" },
+    // PURPLE
+    { "4b002d" : "683f63", "ed2725" : "f35fac", "722424" : "442040", "1b0000" : "31082d" }
+  ]
+}

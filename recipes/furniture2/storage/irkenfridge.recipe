@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedresistium", "count" : 10 },
+	{ "item" : "purpledye", "count" : 2},
+	{ "item" : "battery", "count" : 1},
+	{ "item" : "cryonicextract", "count" : 1 }
+  ],
+  "output" : { "item" : "irkenfridge", "count" : 1 },
+  "groups" : [ "craftingfurniture", "storage", "all" ]
+}

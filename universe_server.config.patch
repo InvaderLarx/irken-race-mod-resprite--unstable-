@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/irken",
+		"value" : [
+		    "/ships/irken/irkent0.structure",
+			"/ships/irken/irkent1.structure",
+			"/ships/irken/irkent2.structure",
+			"/ships/irken/irkent3.structure",
+			"/ships/irken/irkent4.structure",
+			"/ships/irken/irkent5.structure",
+			"/ships/irken/irkent6.structure",
+			"/ships/irken/irkent7.structure",
+			"/ships/irken/irkent8.structure"
+		]
+	}
+]

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 4 },
+    { "item" : "refinedviolium", "count" : 10 },
+	{ "item" : "solariumstar", "count" : 6 },
+	{ "item" : "irkentier5head", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "irkentier6head", "count" : 1 },
+  "groups" : [ "craftingseparator", "armours", "all" ]
+}

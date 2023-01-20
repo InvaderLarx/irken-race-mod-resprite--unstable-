@@ -1,0 +1,31 @@
+{
+  "objectName" : "irkenweaponeack",
+  "colonyTags" : ["irken","combat"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 80,
+  "description" : "A collection of irken weapons.",
+  "shortdescription" : "Irken Weapons",
+  "race" : "irken",
+
+  "apexDescription" : "They appear to be broken.",
+  "avianDescription" : "A selectition of strange weapons",
+  "floranDescription" : "It holdsss sssharp ssspears.",
+  "glitchDescription" : "Cautious. These may still work.",
+  "humanDescription" : "They appear borken.",
+  "hylotlDescription" : "A brazen display of violent intent.",
+  "novakidDescription" : "A strange selection of some ol weapons.",
+
+  "inventoryIcon" : "irkenweaponeackicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irkenweaponeack.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

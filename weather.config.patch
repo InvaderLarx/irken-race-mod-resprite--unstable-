@@ -1,0 +1,11 @@
+[
+	{
+		"op" : "add",
+		"path" : "/irkenerchiusrainstorm",
+		"value" : [
+			[0.3, "irkenerchiusrainstorm"],
+			[0.2, "sandstorm"],
+			[0.5, "clear"]
+		]
+	}
+]

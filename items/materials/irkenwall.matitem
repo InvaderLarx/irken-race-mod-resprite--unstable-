@@ -1,0 +1,15 @@
+{
+  "itemName" : "irkenwall",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "irkenwall.png",
+   "description" : "Irken hi-tech plated material.",
+  "shortdescription" : "Irken Wall Block",
+  "glitchDescription" : "Envious. A tough looking block.",
+  "floranDescription" : "Floran no like, ripppp.",
+  "novakidDescription" : "Fancy lookin' panel.",
+  "learnBlueprintsOnPickup" : [ "irkenwall" ],
+
+  "materialId" : 2009
+}

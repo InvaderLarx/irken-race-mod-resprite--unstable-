@@ -1,0 +1,65 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/offer/irken",
+		"value" : {
+			"default" : [
+				"I'm sick and tired of wandering around here. You take me with you",
+				"I, <selfname>, demand that you take me with you.",
+				"Operation Impending Doom just isn't for me. Do you need assistance?",
+				"Need any assistance in your travels?"
+			]
+		}
+	},{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/roleDescription/irken",
+		"value" : {
+			"default" : [
+				"Understood. I will remain here until needed.",
+				"Very well. If you need a hand, you know where I am.",
+				"Let me know if we need to destroy any that stands before us."
+			]
+		}
+	},{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/unfollow/irken",
+		"value" : {
+			"default" : [
+				"I shall maintain my post until you return.",
+				"Very well. I will stand guard until you return."
+			]
+		}
+	},{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/follow/irken",
+		"value" : {
+			"default" : [
+				"Reporting for duty, captain",
+				"Are we heading somewhere yet?"
+			]
+		}
+	},{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/cantreach/irken",
+		"value" : {
+			"default" : [
+				"Get back here and fight",
+				"Coward"
+			]
+		}
+	},{ 
+	"op": "add",
+    "path": "/items/irken",
+    "value": 
+    [ [0, [
+          {
+            "chest" : [ { "name" : "irkeninvaderchest" } ],
+            "legs" : [ { "name" : "irkeninvaderlegs" } ],
+			"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+            "primary" : [ "irkenpistol" ],
+            "sheathedprimary" : [ "irkenplasma" ]
+          }
+        ] ]
+    ]
+  }
+]

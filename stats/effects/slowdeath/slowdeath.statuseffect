@@ -1,0 +1,24 @@
+{
+  "name" : "slowdeath",
+
+ "effectConfig" : {
+    "directives" : "fade=AAAAFF=0.3",
+    "movementModifiers" : {
+      "speedModifier" : 0.6,
+      "airJumpModifier" : 0.6
+    },
+    "tickRate" : 20,
+    "energyCost" : 2.5,
+    "healthDamage" : 10
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "slowdeath.lua"
+  ],
+
+  "animationConfig" : "slowdeath.animation",
+
+  "label" : "A Slow Death",
+  "icon" : "/interface/statuses/slowdeath.png"
+}

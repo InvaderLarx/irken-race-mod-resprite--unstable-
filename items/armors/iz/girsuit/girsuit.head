@@ -1,0 +1,22 @@
+{
+  "itemName" : "girsuithead",
+  "price" : 1480,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "A pretty bad dog mask",
+  "shortdescription" : "Gir Suit Mask",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "colorOptions" : [
+    // DEFAULT RED
+    { "ab4734" : "ab4734", "ed2725" : "ed2725", "722424" : "722424", "510000" : "510000" },
+    // PURPLE
+    { "ab4734" : "975fab", "ed2725" : "d725ed", "722424" : "72246b", "510000" : "51004e" }
+  ]
+}

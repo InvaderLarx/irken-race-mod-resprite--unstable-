@@ -1,0 +1,14 @@
+[
+	{ "op" : "add",
+		"path" : "/scriptConfig/dialog/hail/irken",
+		"value" : {
+			"default" : [
+				"Welcome",
+				"Not causing any trouble for the tallest, hmmm?",
+				"Going somewhere?",
+				"Greetings, lifeform",
+				"Watch yourself"
+			]
+		}
+	}
+]

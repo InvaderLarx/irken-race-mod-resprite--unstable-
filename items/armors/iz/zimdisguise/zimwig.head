@@ -1,0 +1,20 @@
+{
+  "itemName" : "zimwig",
+  "price" : 200,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "A wig that seems made for a pretty bad disguise.",
+  "shortdescription" : "Zim's Wig",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  
+  "colorOptions" : [
+    { "975fab" : "975fab", "fa65f2" : "fa65f2", "7f4593" : "7f4593", "6a2284" : "6a2284" }
+  ]
+}

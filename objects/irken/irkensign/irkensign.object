@@ -1,0 +1,30 @@
+{
+  "objectName" : "irkensign",
+  "colonyTags" : ["irken"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 70,
+  "description" : "A picture with the Irken symbol on it.",
+  "shortdescription" : "All hail the Irken Empire",
+  "race" : "irken",
+  "apexDescription" : "What... not..again.",
+  "avianDescription" : "All hail? Gods maybe?",
+  "floranDescription" : "Hsssss Floran not care.",
+  "glitchDescription" : "Interesting...",
+  "humanDescription" : "More propaganda. Whelp time to take out the markers.",
+  "hylotlDescription" : "Ugh more of this.",
+  "novakidDescription" : "I ain't hailing no picture.",
+  "inventoryIcon" : "irkensignicon.png",
+  "orientations" : [
+    {
+      "image" : "irkensign.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "radioMessagesOnPickup" : [ "irkenoutpost0" ],
+  "pickupQuestTemplates" : [ "irkenoutpostquest" ]
+}

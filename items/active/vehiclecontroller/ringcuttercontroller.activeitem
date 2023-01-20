@@ -1,0 +1,34 @@
+{
+  "itemName" : "ringcuttercontroller",
+  "level" : 1,
+  "price" : 45000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "shortdescription" : "RingCutter Controller",
+  "description" : "A faster and tanky Irken ship. It packs a punch.",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "ringcutter.png",
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "ringcutter",
+  "vehicleBoundingBox" : [-8, -4, 8, 4],
+  "vehicleImage" : "/vehicles/ringcutter/ringcutter.png:warp.7",
+
+  "animationParts" : {
+    "casing" : "ringcuttercontroller.png"
+  },
+
+  "inventoryIcon" : "ringcuttercontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/ringcuttercontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/ringcuttercontroller.png:full"
+}

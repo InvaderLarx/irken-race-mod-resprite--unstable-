@@ -1,0 +1,30 @@
+{
+  "objectName" : "irkentube",
+  "colonyTags" : ["irken","wired","electronic"],
+  "rarity" : "Common",
+  "description" : "A suspended irken light.",
+  "shortdescription" : "Irken Ceiling Light",
+  "race" : "irken",
+  "category" : "decorative",
+  "price" : 90,
+  "apexDescription" : "An odd cable.",
+  "avianDescription" : "Just some cables.",
+  "floranDescription" : "Floran climb cabless!",
+  "glitchDescription" : "Curious. Looking cable.",
+  "humanDescription" : "A strange alien cable.",
+  "hylotlDescription" : "Hmmm I wonder what use that cable must have?",
+  "novakidDescription" : "A strong lookin' cable.",
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "irkentube.png:<color>",
+      "imagePosition" : [-12, 0],
+	  
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+      "inputNodes" : [ [0, 0] ]
+    }
+  ]
+}

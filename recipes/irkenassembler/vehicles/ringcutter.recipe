@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "money", "count" :  35000 },
+   { "item" : "refinedresistium", "count" : 25 },
+   { "item" : "teleportercore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ringcuttercontroller",
+    "count" : 1
+  },
+  "groups" : [ "irkenassembler3", "vehicles", "all" ]
+}

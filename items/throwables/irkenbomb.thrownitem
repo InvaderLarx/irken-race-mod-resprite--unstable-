@@ -1,0 +1,30 @@
+{
+  "itemName" : "irkenbomb",
+  "price" : 80,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "irkenbomb.png",
+  "image" : "irkenbomb.png",
+  "shortdescription" : "Irken Grenade",
+  "description" : "A deadly irken grenade!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "irkenbomb1",
+  "projectileConfig" : {
+    "speed" : 35,
+    "power" : 60,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "PAKback2", "count" : 1 },
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "syntheticmaterial", "count" : 4 },
+	{ "item" : "scorchedcore", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "PAKback3", "count" : 1 },
+  "groups" : [ "craftinganvil3", "hazardgear", "all"  ]
+}

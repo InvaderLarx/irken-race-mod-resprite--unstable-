@@ -1,0 +1,14 @@
+{
+  "name" : "irkenhoverpak",
+  "effectConfig" : {
+	"tech" : "irkenhoverjump"
+  },
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "irkenhoverpak.lua"
+  ],
+  
+  "label" : "Hover PAK",
+  "icon" : "/interface/statuses/irkenhoverpak.png"
+}

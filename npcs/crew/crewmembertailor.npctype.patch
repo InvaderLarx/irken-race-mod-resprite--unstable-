@@ -1,0 +1,37 @@
+[
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/crewmember/roleDescription/irken",
+		"value" : {
+			"default" : [
+				"No one can rival me, an irken tailor.",
+				"I can assure you, you'll be satisfied with my uniform selections",
+				"Need any uniform changes? Talk to me."
+			]
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/scriptConfig/dialog/converse/irken",
+		"value" : {
+			"default" : [
+				"A great choice, captain.",
+				"Magnificent, now others shall cower in your presence, sir."
+			]
+		}
+	},
+	{ "op": "add",
+    "path": "/items/irken",
+    "value": 
+    [ [0, [
+          {
+            "chest" : [ { "name" : "irkeninvaderchest" } ],
+            "legs" : [ { "name" : "irkeninvaderlegs" } ],
+			"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+            "primary" : [ "flowerbouquet" ],
+            "sheathedprimary" : [ "irkenpistol", "irkenspear3" ]
+          }
+        ] ]
+    ]
+  }
+]

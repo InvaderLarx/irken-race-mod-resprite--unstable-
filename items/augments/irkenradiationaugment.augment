@@ -1,0 +1,22 @@
+{
+  "itemName" : "irkenradaugment",
+  "price" : 10000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "irkenradiationaugment.png",
+  "description" : "An EPP module that allows you to resist radiation planets. You are slowed by 15 percent and gain 10 power.",
+  "shortdescription" : "Irken Rad Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "irkenrad",
+    "displayName" : "IrkenRad",
+    "displayIcon" : "/items/augments/irkenradiationaugment.png",
+    "effects" : [ "irkenrunslow", "radaug" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

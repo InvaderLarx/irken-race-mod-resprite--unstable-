@@ -1,0 +1,29 @@
+{
+  "itemName" : "irkenburger",
+  "rarity" : "Rare",
+  "price" : 175,
+  "category" : "preparedFood",
+  "inventoryIcon" : "irkenburger.png",
+  "description" : "luckily for you these aren't made out of napkins.",
+  "shortdescription" : "Irkenburger",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 370
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 370
+    }
+  ] ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "irkenburger" ]
+}

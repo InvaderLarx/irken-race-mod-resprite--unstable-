@@ -1,0 +1,33 @@
+{
+  "objectName" : "girplush",
+  "colonyTags" : ["irken","pretty"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A cuddly gir plushy. Awwwww.",
+  "shortdescription" : "Gir Plushie",
+  "race" : "irken",
+
+  "apexDescription" : "An adorable cuddly gir plush.",
+  "avianDescription" : "How cute, a cuddly toy gir.",
+  "floranDescription" : "Fluffy toy is ssstaring at Floran.",
+  "glitchDescription" : "Excited. This delightful gir is almost too much!",
+  "humanDescription" : "I just wanna cuddle this gir plush forever.",
+  "hylotlDescription" : "Shriek! A wonderful gir plushie. I need this one!",
+  "novakidDescription" : "This lil' guy is pretty cute, I guess.",
+
+  "inventoryIcon" : "girplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "girplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "irkenfoodpoison",
+  "blockingStat" : "poisonStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 70,
+
+  "scripts" : [
+    "irkenfoodpoison.lua"
+  ],
+
+  "animationConfig" : "irkenfoodpoison.animation",
+
+  "label" : "Irken Food Poisoning",
+  "icon" : "/interface/statuses/irkenfoodpoison.png"
+}

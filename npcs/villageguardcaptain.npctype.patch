@@ -1,0 +1,266 @@
+[
+	{
+		"op" : "add",
+		"path" : "/items/irken",
+		"value" : [
+			[0, [		//Tier 0 Armourless??
+				{
+					"head" : [
+						{ "name" : "irkentier1head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier1chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier1pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenspear",
+						"irkensword"
+					],
+					"sheathedprimary" : [ 
+						"irkenpistol"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				},{
+					"head" : [
+						"",
+						{ "name" : "irkentier1head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier1chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier1pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenpistol"
+					],
+					"sheathedprimary" : [
+						"irkenspear"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				}
+			] ],
+			[1, [		//Tier 1 Armoured
+				{
+					"head" : [
+						{ "name" : "irkentier1head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier1chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier1pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenspear",
+						"irkensword"
+					],
+					"sheathedprimary" : [ 
+						"irkenpistol"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				},{
+					"head" : [
+						"",
+						{ "name" : "irkentier1head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier1chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier1pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenpistol"
+					],
+					"sheathedprimary" : [
+						"irkenspear"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				}
+			] ],
+			[2, [		//Tier 2 Armoured
+				{
+					"head" : [
+						{ "name" : "irkentier2head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier2chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier2pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenspear2",
+						"irkensword"
+					],
+					"sheathedprimary" : [ 
+						"irkenpistol"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				},{
+					"head" : [
+						"",
+						{ "name" : "irkentier2head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier2chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier2pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenpistol"				
+					],
+					"sheathedprimary" : [
+						"irkenspear2"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				}
+			] ],
+			[3, [		//Tier 3 Armoured
+				{
+					"head" : [
+						{ "name" : "irkentier3head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier3chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier3pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenspear3",
+						"irkensword"
+					],
+					"sheathedprimary" : [ 
+						"irkenpistol"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				},{
+					"head" : [
+						"",
+						{ "name" : "irkentier3head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier3chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier3pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenpistol",
+						"irkenplasma"
+					],
+					"sheathedprimary" : [
+						"irkenspear3"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				}
+			] ],
+			[4, [		//Tier 4 Armoured
+				{
+					"head" : [
+						{ "name" : "irkentier4head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier4chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier4pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenspear4",
+						"irkensword"
+					],
+					"sheathedprimary" : [ 
+						"irkenrailpistol"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				},{
+					"head" : [
+						"",
+						{ "name" : "irkentier5head", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"chest" : [ 
+						{ "name" : "irkentier5chest", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"legs" : [ 
+						{ "name" : "irkentier5pants", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"back" : [
+						{ "name" : "PAKback", "parameters" : { "colorIndex" : [1, 2, 3, 4, 5, 6, 7, 8] } }
+					],
+					"primary" : [
+						"irkenrailpistol",
+						"irkenplasma",
+						"irkenassaultrifle"
+					],
+					"sheathedprimary" : [
+						"irkenspear4"
+					],
+					"alt" : [
+						{ "name" : "commonsmallshield" },
+						{ "name" : "commonlargeshield" }
+					]
+				}
+			] ]
+		]
+	}
+]

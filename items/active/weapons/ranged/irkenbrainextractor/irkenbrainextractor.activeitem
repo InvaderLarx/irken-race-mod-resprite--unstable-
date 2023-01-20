@@ -1,0 +1,85 @@
+{
+  "itemName" : "irkenbrainextractor",
+  "price" : 7000,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Can't be an invader without experimentation. Let's extract some brains.",
+  "shortdescription" : "Irken Brain Extractor",
+  "tooltipKind" : "gun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","pistol"],
+  "level" : 2,
+  
+  "radioMessagesOnPickup" : [ "pickupirkenextractor" ],
+
+  "inventoryIcon" : "irkenbrainextractoricon.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "irkenbrainextractor.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/electricrailgun1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.35, 0.3],
+  "muzzleOffset" : [2.0, 0.15],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1,
+    "baseDps" : 9.25,
+    "energyUsage" : 18.75,
+    "inaccuracy" : 0.025,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "irkenbrainshock",
+    "projectileParameters" : {
+      "knockback" : 6
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

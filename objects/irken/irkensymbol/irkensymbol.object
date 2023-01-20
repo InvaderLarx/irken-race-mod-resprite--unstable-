@@ -1,0 +1,32 @@
+{
+  "objectName" : "irkensymbol",
+  "colonyTags" : ["irken"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 60,
+  "description" : "A strange symbol",
+  "shortdescription" : "Irken Symbol",
+  "race" : "irken",
+
+  "apexDescription" : "The symbol of a strange race.",
+  "avianDescription" : "Is it supposed to be an insect?",
+  "floranDescription" : "Floran doesn't like!",
+  "glitchDescription" : "Critical. It is unown.",
+  "humanDescription" : "The symbol of an odd race.",
+  "hylotlDescription" : "I prefer the Hylotl symbol.",
+  "novakidDescription" : "A strange ol' symbol.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irkensymbol.png",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

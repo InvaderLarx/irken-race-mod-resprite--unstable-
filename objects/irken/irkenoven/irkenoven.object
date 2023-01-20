@@ -1,0 +1,41 @@
+{
+  "objectName" : "irkenoven",
+  "colonyTags" : ["irken","irkenvillage","cooking"],
+  "rarity" : "Common",
+  "category" : "crafting",
+  "price" : 90,
+  "description" : "Cooks food to a reasonable standard.",
+  "shortdescription" : "Irken Standard Oven",
+  "race" : "irken",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingcampfire.config",
+    "filter" : [ "campfire" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " An Irken Oven",
+        "subtitle" : "It's rather standard"
+      }
+    }
+  },
+  "apexDescription" : "A strange oven, just about suitable for heating food.",
+  "avianDescription" : "A device for heating food. I can cook here, maybe.",
+  "floranDescription" : "Fire make food extra tasssty.",
+  "glitchDescription" : "Observant. Cooking device identified.",
+  "humanDescription" : "A strange oven. I wonder how it cooks?",
+  "hylotlDescription" : "We can quickly heat food here.",
+  "novakidDescription" : "It's for cookin' meals I think.",
+  "statusEffects" : [ ],
+  "inventoryIcon" : "irkenovenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "irkenoven.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ]
+}

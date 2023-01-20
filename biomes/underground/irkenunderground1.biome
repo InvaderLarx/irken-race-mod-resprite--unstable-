@@ -1,0 +1,151 @@
+{
+  "name" : "irkenunderground1",
+  "friendlyName" : "Irken underground1",
+
+  "parallax" : "/parallax/underground/underground5c.parallax",
+  
+  "spawnProfile" : {
+    "groups" : [ 
+	  {
+        "select" : 10,
+        "pool" : "sirunit2"
+	  }
+	  ]
+	},
+	
+
+  "mainBlock" : "irkenplate",
+  "subBlocks" : [ "irkenwall" ],
+  "ores" : "depth1irken",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/moon_surface.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/combat-montage.ogg", "/music/try-b4.ogg", "/music/combat-montage.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/combat-montage.ogg", "/music/try-b4.ogg", "/music/combat-montage.ogg" ]
+    }
+  },
+
+  "undergroundPlaceables" : {
+    "grassMod" : [ "sand" ],
+    "grassModDensity" : 0.4,
+
+    "ceilingGrassMod" : [ "roots" ],
+    "ceilingGrassModDensity" : 0.3,
+
+    "items" : [ {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "techChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "irkenChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+   {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChallengeDoors",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "challengedoor" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mooseRandomEncounter",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "mimicdoor" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 99.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:denseSmall",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "underground5cmicrodungeons" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "undergroundencounterdungeons" ]
+      },
+	  {
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundBiomeEncounterDungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "irkenbunker" ]
+      }
+    ]
+  },
+
+  "hueShiftOptions" : [0]
+}

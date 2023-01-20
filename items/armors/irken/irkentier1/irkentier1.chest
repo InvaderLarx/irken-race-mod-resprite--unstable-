@@ -1,0 +1,72 @@
+{
+  "itemName" : "irkentier1chest",
+  "price" : 400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "chestarmour",
+  "description" : "An Irken Elite chestpiece.",
+  "shortdescription" : "Irken Elite chestpiece",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+"level" : 1,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+  "itemTags" : [ "tier1armour" ],
+  "colorOptions" : [
+    // DEFAULT
+    { "4a323f" : "4a323f", "6b5360" : "6b5360", "722424" : "722424", "ed2725" : "ed2725", "510000" : "510000", "ab4734" : "ab4734" },
+    // black
+    { "4a323f" : "000000", "6b5360" : "2a2a2a", "722424" : "444444", "ed2725" : "ededed", "510000" : "000000", "ab4734" : "2a2a2a" },
+    // gray
+    { "4a323f" : "575757", "6b5360" : "6f6f6f", "722424" : "2a2a2a", "ed2725" : "ededed", "510000" : "2a2a2a", "ab4734" : "444444" },
+    // white
+    { "4a323f" : "bcbcbc", "6b5360" : "f9f9f9", "722424" : "6f6f6f", "ed2725" : "ffffff", "510000" : "bcbcbc", "ab4734" : "f9f9f9" },
+    // red
+    { "4a323f" : "510000", "6b5360" : "722424", "722424" : "9f0012", "ed2725" : "ed2725", "510000" : "510000", "ab4734" : "ab4734" },
+    // orange
+    { "4a323f" : "9f5617", "6b5360" : "c37a1a", "722424" : "754200", "ed2725" : "ed8624", "510000" : "9f5617", "ab4734" : "c37a1a" },
+    // yellow
+    { "4a323f" : "7b740f", "6b5360" : "b4ab0d", "722424" : "575500", "ed2725" : "ebed24", "510000" : "7b740f", "ab4734" : "b4ab0d" },
+    // green
+    { "4a323f" : "2a482f", "6b5360" : "466944", "722424" : "073f19", "ed2725" : "40eb26", "510000" : "2a482f", "ab4734" : "466944" },
+    // blue
+    { "4a323f" : "25354b", "6b5360" : "3e5a78", "722424" : "224372", "ed2725" : "24d1ed", "510000" : "25354b", "ab4734" : "3e5a78" },
+    // purple
+    { "4a323f" : "4a354a", "6b5360" : "655668", "722424" : "360545", "ed2725" : "ca29ff", "510000" : "4a354a", "ab4734" : "655668" },
+    // pink
+    { "4a323f" : "5a1234", "6b5360" : "662c4a", "722424" : "3c000c", "ed2725" : "ff0064", "510000" : "5a1234", "ab4734" : "662c4a" },
+    // brown
+    { "4a323f" : "4b3618", "6b5360" : "5d4530", "722424" : "3f301f", "ed2725" : "e17e34", "510000" : "4b3618", "ab4734" : "5d4530" }
+   
+  ]
+}

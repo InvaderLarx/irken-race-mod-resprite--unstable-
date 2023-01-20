@@ -1,0 +1,14 @@
+[
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenfridge" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenbed" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenceilinglight" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenairlock" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkencrate" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenbarstool" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkentrash" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenoven" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenpod2" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkensign" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkentube" ] },
+	{ "op": "add", "path" : "/0/1/-", "value" : [ "irken", "irkenmonitor" ] }
+]

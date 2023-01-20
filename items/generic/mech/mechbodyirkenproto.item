@@ -1,0 +1,14 @@
+{
+	"itemName" : "mechbodyirkenproto",
+	"price" : 6400,
+	"maxStack" : 1,
+	"rarity" : "Rare",
+	"category" : "mechPart",
+	"tooltipKind" : "mechbody",
+	"builder" : "/items/buildscripts/buildmechpart.lua",
+	"inventoryIcon" : "mechbodyirkenproto.png",
+	"description" : "A prototype mech body made by Irkens.",
+	"shortdescription" : "Irken Hunter Protobody",
+	"itemTags" : [],
+	"mechPart" : ["body", "irkenproto"]
+}

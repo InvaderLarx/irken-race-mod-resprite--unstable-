@@ -1,0 +1,32 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/irken",
+		"value": [
+			"protectorate", "protectorateirken", "itemhack"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/initialquests/vortian",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/irken",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/vortian",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]

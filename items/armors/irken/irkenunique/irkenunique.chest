@@ -1,0 +1,47 @@
+{
+  "itemName" : "irkenuniquechest",
+  "price" : 0,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestwear",
+  "description" : "A unique shirt. It has the Irken elite symbol on it.",
+  "shortdescription" : "Irken Unique Shirt",
+  "tooltipKind" : "armor",
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+  "colorOptions" : [
+    // base
+    { "726100" : "726100", "ae9b00" : "ae9b00", "e4cf1e" : "e4cf1e" },
+    // BLACK
+    { "726100" : "000000", "ae9b00" : "2b2b2b", "e4cf1e" : "434343" },
+    // GREY
+    { "726100" : "434343", "ae9b00" : "727272", "e4cf1e" : "aaaaaa" },
+    // WHITE
+    { "726100" : "aaaaaa", "ae9b00" : "dbdbdb", "e4cf1e" : "ffffff" },
+    // RED
+    { "726100" : "6f0100", "ae9b00" : "ab1100", "e4cf1e" : "e12027" },
+    // ORANGE
+    { "726100" : "6f3500", "ae9b00" : "ab5c00", "e4cf1e" : "e16b20" },
+    // YELLOW
+    { "726100" : "726100", "ae9b00" : "ae9b00", "e4cf1e" : "e4cf1e" },
+    // GREEN
+    { "726100" : "026f00", "ae9b00" : "00ab00", "e4cf1e" : "28e120" },
+    // BLUE
+    { "726100" : "000e6f", "ae9b00" : "0017ab", "e4cf1e" : "2025e1" },
+    // PURPLE
+    { "726100" : "51006f", "ae9b00" : "7500ab", "e4cf1e" : "b820e1" },
+    // PINK
+    { "726100" : "6f0054", "ae9b00" : "ab0071", "e4cf1e" : "e120b5" },
+    // BROWN
+    { "726100" : "4d3926", "ae9b00" : "755435", "e4cf1e" : "906035" }
+  ]
+}

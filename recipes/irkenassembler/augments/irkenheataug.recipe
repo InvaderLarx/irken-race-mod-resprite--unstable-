@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "siliconboard", "count" : 2 },
+    { "item" : "refinedresistium", "count" : 2 },
+    { "item" : "cryonicextract", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "irkenheataugment",
+    "count" : 1
+  },
+  "groups" : [ "irkenassembler3", "augments", "all" ]
+}

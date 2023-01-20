@@ -1,0 +1,12 @@
+{
+  "input" : [
+   { "item" : "money", "count" :  100000 },
+   { "item" : "refinedresistium", "count" : 50 },
+   { "item" : "teleportercore", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "megadoomercontroller",
+    "count" : 1
+  },
+  "groups" : [ "irkenassembler3", "vehicles", "all" ]
+}

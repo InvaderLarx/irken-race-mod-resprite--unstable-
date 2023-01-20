@@ -1,0 +1,73 @@
+[
+	{
+		"op": "add",
+		"path": "/items/irken",
+		"value": [
+			[0, [
+					{
+						"head": [ { "name": "irkentier1head" } ],
+						"chest": [ { "name": "irkentier1chest" } ],
+						"legs": [ { "name": "irkentier1pants" } ],
+						"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+						"primary": [
+						  "irkenpistol"
+						],
+						"alt" : [
+						  { "name" : "commonsmallshield" },
+						  { "name" : "commonlargeshield" }
+						]
+					}
+				]
+			],
+			[2, [
+			        {
+				        "head": [ { "name" : "irkentier2head" } ],
+						"chest": [ { "name" : "irkentier2chest" } ],
+						"legs" : [ { "name" : "irkentier2pants" } ],
+						"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+						"primary": [
+						  "irkenpistol"
+						],
+						"alt" : [
+						  { "name" : "commonsmallshield" },
+						  { "name" : "commonlargeshield" }
+						]
+					}
+				]
+			],
+			[3, [
+			        {
+				        "head" : [ { "name" : "irkentier3head" } ],
+				        "chest" : [ { "name" : "irkentier3chest" } ],
+				        "legs" : [ { "name" : "irkentier3pants" } ],
+						"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+				        "primary" : [
+						  "irkenplasma"
+						],
+						"alt" : [
+						  { "name" : "commonsmallshield" },
+						  { "name" : "commonlargeshield" }
+						]
+					}
+			    ]   
+			],
+			
+			[4, [
+			        {
+				        "head" : [ { "name" : "irkentier4head" } ],
+				        "chest" : [ { "name" : "irkentier4chest" } ],
+				        "legs" : [ { "name" : "irkentier4pants" } ],
+						"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
+				        "primary" : [
+				          "irkenassaultrifle"
+						],
+						"alt" : [
+						  { "name" : "commonsmallshield" },
+						  { "name" : "commonlargeshield" }
+						]
+					}
+			    ]   
+			]
+		]
+	}
+]

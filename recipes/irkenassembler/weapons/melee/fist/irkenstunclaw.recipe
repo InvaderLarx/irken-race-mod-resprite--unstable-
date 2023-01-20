@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "gauntlet", "count" : 1 },
+    { "item" : "upgrademodule", "count" : 1 },
+	{ "item" : "refinedresistium", "count" : 10 },
+    { "item" : "staticcell", "count" : 10 }
+  ],
+  "output" : { "item" : "irkenstunclaw", "count" : 1 },
+  "groups" : [ "irkenassembler3", "weapons", "all" ]
+}

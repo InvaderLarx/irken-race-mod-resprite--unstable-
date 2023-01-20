@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "PAKback3", "count" : 1 },
+    { "item" : "refinedaegisalt", "count" : 2 },
+    { "item" : "refinedferozium", "count" : 2 },
+    { "item" : "refinedviolium", "count" : 8 },
+    { "item" : "syntheticmaterial", "count" : 6 },
+	{ "item" : "cryonicextract", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "PAKback4", "count" : 1 },
+  "groups" : [ "craftinganvil3", "hazardgear", "all"  ]
+}

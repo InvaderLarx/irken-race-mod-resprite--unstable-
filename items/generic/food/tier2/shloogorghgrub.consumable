@@ -1,0 +1,24 @@
+{
+  "itemName" : "shloogorghgrub",
+  "rarity" : "Common",
+  "price" : 140,
+  "category" : "preparedFood",
+  "inventoryIcon" : "shloogorghgrub.png",
+  "description" : "Originated from Vort.",
+  "shortdescription" : "Vort Dog",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 315
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "itemName" : "irkentier6head",
+  "price" : 6000,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "An Irken heavy trooper helmet worn by the toughest troops",
+  "shortdescription" : "Irken Trooper Helm",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+  "colorOptions" : [
+    // base
+    { "360545" : "360545", "542e60" : "542e60", "6d4978" : "6d4978", "7d4f94" : "7d4f94", "70445d" : "70445d", "c65d94" : "c65d94", "de97bc" : "de97bc" },
+    // black
+    { "360545" : "000000", "542e60" : "000000", "6d4978" : "2a2a2a", "7d4f94" : "2a2a2a", "70445d" : "70445d", "c65d94" : "d9d9d9", "de97bc" : "ffffff" },
+    // gray
+    { "360545" : "222222", "542e60" : "393939", "6d4978" : "444444", "7d4f94" : "717171", "70445d" : "70445d", "c65d94" : "d9d9d9", "de97bc" : "ffffff" },
+    // white
+    { "360545" : "717171", "542e60" : "a4a4a4", "6d4978" : "c0c0c0", "7d4f94" : "f2f2f2", "70445d" : "5f5f5f", "c65d94" : "d9d9d9", "de97bc" : "ffffff" },
+    // red
+    { "360545" : "44071e", "542e60" : "60303a", "6d4978" : "764a5f", "7d4f94" : "91515a", "70445d" : "5f5f5f", "c65d94" : "ff2f4d", "de97bc" : "ff7c8e" },
+    // orange
+    { "360545" : "633e09", "542e60" : "aa5c07", "6d4978" : "aa7121", "7d4f94" : "c38126", "70445d" : "5f5f5f", "c65d94" : "ffa02f", "de97bc" : "ffc781" },
+    // yellow
+    { "360545" : "62630c", "542e60" : "868113", "6d4978" : "9a923e", "7d4f94" : "c3c129", "70445d" : "5f5f5f", "c65d94" : "fff032", "de97bc" : "fffa85" },
+    // green
+    { "360545" : "07440d", "542e60" : "306030", "6d4978" : "4b764a", "7d4f94" : "329a32", "70445d" : "5f5f5f", "c65d94" : "5bff26", "de97bc" : "caff53" },
+    // blue
+    { "360545" : "160744", "542e60" : "343060", "6d4978" : "4a5176", "7d4f94" : "4c4cc6", "70445d" : "5f5f5f", "c65d94" : "34ffd4", "de97bc" : "88fff1" },
+    // purple
+    { "360545" : "360545", "542e60" : "542e60", "6d4978" : "6d4978", "7d4f94" : "7d4f94", "70445d" : "70445d", "c65d94" : "c65d94", "de97bc" : "de97bc" },
+    // pink
+    { "360545" : "44072b", "542e60" : "603045", "6d4978" : "764a63", "7d4f94" : "91517c", "70445d" : "542e60", "c65d94" : "ff39a1", "de97bc" : "ff8dca" },
+    // brown
+    { "360545" : "2e261a", "542e60" : "4f4330", "6d4978" : "6b5739", "7d4f94" : "795d35", "70445d" : "5f5f5f", "c65d94" : "ff8b00", "de97bc" : "ffbd6e" }
+
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "shutdown",
+  "blockingStat" : "irkenenergyboost",
+
+  "effectConfig" : {},
+  "defaultDuration" : 100,
+
+  "scripts" : [
+    "shutdown.lua"
+  ],
+
+  "animationConfig" : "shutdown.animation",
+
+  "label" : "10 Minutes of Doom",
+  "icon" : "/interface/statuses/shutdown.png"
+}

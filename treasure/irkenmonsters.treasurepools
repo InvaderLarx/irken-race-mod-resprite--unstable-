@@ -1,0 +1,65 @@
+{
+  "sirunitTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.800, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.100, "item" : "processor"},
+        {"weight" : 0.100, "item" : "staticcell"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "irkenTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.600, "pool" : "noMeatMonsterTreasure"},
+		{"weight" : 0.200, "item" : "staticcell"},
+        {"weight" : 0.050, "item" : "irkentier4chest-recipe"},
+		{"weight" : 0.050, "item" : "irkentier4pants-recipe"},
+		{"weight" : 0.050, "item" : "irkentier4head-recipe"},
+		{"weight" : 0.010, "pool" : "mechbodyirken"},
+		{"weight" : 0.010, "pool" : "mechboosterirken"},
+		{"weight" : 0.010, "pool" : "mechlegsirken"},
+        {"weight" : 0.010, "item" : "irkenclaw"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+  "vortianTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.800, "pool" : "noMeatMonsterTreasure"},
+		{"weight" : 0.050, "item" : "vortianenergysword-recipe"},
+        {"weight" : 0.025, "item" : "processor"},
+        {"weight" : 0.125, "item" : "staticcell"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ],
+   "defenseunitTreasure" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.200, "pool" : "noMeatMonsterTreasure"},
+        {"weight" : 0.700, "item" : "processor"},
+        {"weight" : 0.100, "item" : "staticcell"}
+      ],
+      "poolRounds" : [
+        [0.20, 0],
+        [0.80, 1]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

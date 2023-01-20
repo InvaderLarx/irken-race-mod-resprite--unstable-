@@ -1,0 +1,22 @@
+{
+  "itemName" : "irkenheataugment",
+  "price" : 15000,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "irkenheataugment.png",
+  "description" : "An EPP module that allows you to resist hot planets. You are slowed by 15 percent and gain 10 power.",
+  "shortdescription" : "Irken Heat Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "irkenheat",
+    "displayName" : "IrkenHeat",
+    "displayIcon" : "/items/augments/irkenheataugment.png",
+    "effects" : [ "irkenrunslow", "heataug" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

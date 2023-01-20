@@ -1,0 +1,13 @@
+{
+	"id" : "irkendiary",
+	"title" : "Survivors Log",
+	"description" : "The diary of a lost soul.",
+	"icon" : "humancover7.png",
+	"contentPages" : [
+    "Lore here."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

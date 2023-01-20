@@ -1,0 +1,8 @@
+{
+  "name" : "coldaug",
+  "effectConfig" : {"protection" : 1},
+
+  "scripts" : [
+    "coldaug.lua"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "itemName" : "PAKback2",
+  "inventoryIcon" : "backicon.png",
+  "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "tooltipKind" : "baseaugment",
+  "rarity" : "Uncommon",
+  "pickupQuestTemplates" : [ ],
+  "category" : "enviroProtectionPack",
+  "description" : "Contains all of an Irken's personality and statistics. Also provides the wearer radiation immunity.",
+  "shortdescription" : "PAK-V2",
+
+  "maleFrames" : "back.png",
+  "femaleFrames" : "back.png",
+  "maxStack" : 1,
+  
+  "learnBlueprintsOnPickup" : [
+  "irkenbed",
+  "irkenbarstool",
+  "irkenfridge",
+  "irkenoven",
+  "irkenmonitor", 
+  "irkentrash", 
+  "irkenpod2", 
+  "irkensign",
+  "irkenceilinglight", 
+  "irkencrate" 
+  ],
+   
+  "statusEffects" : [
+	"irkenenergyboost",
+	"radiationprotectionpak"
+  ],
+  
+  "acceptsAugmentType" : "back",
+  "radioMessagesOnPickup" : [ "pickupepp" ],
+  
+  "colorOptions" : [
+    // base
+    { "ab556e" : "ab556e", "b47285" : "b47285", "fcc1d5" : "fcc1d5", "36111b" : "36111b", "421a26" : "421a26", "512633" : "512633" },
+    // black
+    { "ab556e" : "000000", "b47285" : "1e1e1e", "fcc1d5" : "3c3c3c", "36111b" : "000000", "421a26" : "000000", "512633" : "1e1e1e" },
+    // gray
+    { "ab556e" : "3c3c3c", "b47285" : "5a5a5a", "fcc1d5" : "797979", "36111b" : "000000", "421a26" : "000000", "512633" : "1e1e1e"  },
+    // white
+    { "ab556e" : "797979", "b47285" : "a5a5a5", "fcc1d5" : "e5e5e5", "36111b" : "000000", "421a26" : "1e1e1e", "512633" : "3c3c3c" },
+    // red
+    { "ab556e" : "94000a", "b47285" : "b20218", "fcc1d5" : "da0212", "36111b" : "351416", "421a26" : "401e20", "512633" : "502b29" },
+    //orange
+    { "ab556e" : "943700", "b47285" : "b24402", "fcc1d5" : "da7d02", "36111b" : "352414", "421a26" : "402e1e", "512633" : "504229" },
+    // yellow
+    { "ab556e" : "8b9400", "b47285" : "b2a802", "fcc1d5" : "dace02", "36111b" : "343514", "421a26" : "403f1e", "512633" : "4e5029" },
+    // green
+    { "ab556e" : "079400", "b47285" : "2eb202", "fcc1d5" : "47da02", "36111b" : "183514", "421a26" : "21401e", "512633" : "2b5029" },
+    // blue
+    { "ab556e" : "024a94", "b47285" : "055fb2", "fcc1d5" : "02aad7", "36111b" : "171b32", "421a26" : "212740", "512633" : "29304d" },
+    // purple
+    { "ab556e" : "510094", "b47285" : "6700a6", "fcc1d5" : "770294", "36111b" : "261732", "421a26" : "342140", "512633" : "44294d" },
+    // pink
+    { "ab556e" : "950049", "b47285" : "b50059", "fcc1d5" : "dc006c", "36111b" : "36111b", "421a26" : "421a26", "512633" : "512633" },
+    // brown
+    { "ab556e" : "5a4131", "b47285" : "83573d", "fcc1d5" : "a16846", "36111b" : "352714", "421a26" : "402e1e", "512633" : "4d3c29" }
+  ]
+   
+}

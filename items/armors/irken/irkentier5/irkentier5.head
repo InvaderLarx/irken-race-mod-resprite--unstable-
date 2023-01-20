@@ -1,0 +1,67 @@
+{
+  "itemName" : "irkentier5head",
+  "price" : 4800,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "headarmour",
+  "description" : "An Irken Guard headpiece worn by the toughest guards",
+  "shortdescription" : "Irken Guard mask",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 5,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier5armour" ],
+  "colorOptions" : [
+    // base purple
+    { "70445d" : "70445d", "4e253c" : "4e253c", "2d0000" : "2d0000", "c65d94" : "c65d94" },
+    // black
+    { "70445d" : "2a2a2a", "4e253c" : "2a2a2a", "2d0000" : "000000", "c65d94" : "ffffff" },
+    // gray
+    { "70445d" : "8f8f8f", "4e253c" : "505050", "2d0000" : "2a2a2a", "c65d94" : "ffffff" },
+    // white
+    { "70445d" : "e7e7e7", "4e253c" : "8f8f8f", "2d0000" : "505050", "c65d94" : "ffffff" },
+    // red
+    { "70445d" : "8c4540", "4e253c" : "832b25", "2d0000" : "42030a", "c65d94" : "ff233a" },
+    // orange
+    { "70445d" : "bd7906", "4e253c" : "9a660e", "2d0000" : "73490f", "c65d94" : "ffb840" },
+    // yellow
+    { "70445d" : "9d9712", "4e253c" : "838225", "2d0000" : "423503", "c65d94" : "fff400" },
+    // green
+    { "70445d" : "1ea123", "4e253c" : "288325", "2d0000" : "034204", "c65d94" : "bfff4c" },
+    // blue
+    { "70445d" : "40598c", "4e253c" : "254983", "2d0000" : "031b42", "c65d94" : "00ffdc" },
+    // purple
+    { "70445d" : "70445d", "4e253c" : "4e253c", "2d0000" : "2d0000", "c65d94" : "c65d94" },
+    // pink
+    { "70445d" : "8c406a", "4e253c" : "83255c", "2d0000" : "420328", "c65d94" : "ff008d" },
+    // brown
+    { "70445d" : "5b4a33", "4e253c" : "4d3e29", "2d0000" : "34291b", "c65d94" : "ff9300" }
+  ]
+}

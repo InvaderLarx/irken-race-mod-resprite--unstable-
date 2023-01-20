@@ -1,0 +1,18 @@
+{
+  "missionName" : "irkenoutpost",
+  "icon" : "irkenoutposticon.png",
+  "missionWorld" : "irkenoutpost",
+  "speciesText" : {
+    "default" : {
+      "buttonText" : "Visit the Irken Outpost",
+      "repeatButtonText" : "Visit the Irken Outpost",
+      "selectSpeech" : {
+        "animation" : "talk",
+        "text" : "It's an Irken outpost. It seems to be active.",
+        "speedModifier" : 1.0
+      }
+    }
+  }
+}
+
+

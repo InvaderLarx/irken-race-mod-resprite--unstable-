@@ -1,0 +1,32 @@
+[
+
+  {
+    "op": "add",
+    "path": "/irkenpirateship",
+    "value": {
+
+		"warpAction" : "InstanceWorld:irkenpirateship",
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+		},
+
+		"moving" : true,
+		"speed" : 15.0,
+		"orbitRange" : [1, 1],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/ships/npcship.png",
+		"displayName" : "Irken Pirate Ship",
+		"description" : "An Irken ship most likely full of defectors or pirates."
+		}
+
+	
+  
+  
+    
+  }
+ }
+ 
+]

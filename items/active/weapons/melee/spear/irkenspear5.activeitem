@@ -1,0 +1,34 @@
+{
+  "itemName" : "irkenspear5",
+  "price" : 3450,
+  "level" : 6,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An extremely advanced Irken Driver.",
+  "shortdescription" : "Irken Violium Driver",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+  "inventoryIcon" : "irkenspear5.png",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "irkenspear5.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fireSounds" : [ "/sfx/melee/swing_spear_electric1.ogg" ]
+    }
+  },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "electric",
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "electricTime" : 0.95,
+    "baseDps" : 13.5
+  },
+  "altAbilityType" : "barrier",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

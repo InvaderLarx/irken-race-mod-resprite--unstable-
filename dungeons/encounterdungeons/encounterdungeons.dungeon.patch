@@ -1,0 +1,17 @@
+[
+	{
+		"op" : "add",
+		"path" : "/metadata/anchor/-",
+		"value" : "merchant_irken"
+	},{
+		"op" : "add",
+		"path" : "/parts/-",
+		"value" : {
+			"name" : "merchant_irken",
+			"rules" : [
+				[ "maxSpawnCount", [1] ]
+			],
+			"def" : [ "tmx", "merchant_irken.json" ]
+		}
+	}
+]

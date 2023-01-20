@@ -1,0 +1,29 @@
+{
+  "id" : "irkenoutpostquest",
+  "title" : "Irken Invaders",
+  "prerequisites" : [ ],
+  "text" : "Hey, I need you to check in for me at the^orange;Irken Outpost^reset;. I've sent the location coordinates to ^green;your SAIL^reset;.",
+  "completionText" : "Excellent work! Go ahead and explore the Irken outpost. I've sent the location coordinates to ^green;your SAIL^reset;.",
+
+  "moneyRange" : [400, 400],
+  "rewards" : [ ],
+  "canBeAbandoned" : false,
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+     "portraits" : {
+      "questStarted" : "questGiver"
+    },
+
+    "descriptions" : {
+      "findIrkenOutpost" : "^green;Visit ^orange;the outpost^white; inhabited by ^orange;Irkens^white;",
+      "turnIn" : "^green;Visit the^reset; ^orange;Irken Outpost^reset;."
+    },
+
+    "compassUpdate" : 0.2,
+	"associatedMission" : "irkenoutpost"
+  }
+}
+
+
+

@@ -1,0 +1,31 @@
+{
+  "itemName" : "irkensoda",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "drink",
+  "inventoryIcon" : "irkensoda.png",
+  "description" : "Whoa that's sugary.",
+  "shortdescription" : "Irken Fizzy Drink",
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 150
+		 },
+    {
+        "effect" : "runboostfood",
+        "duration" : 150
+    }
+  ] ],
+  
+  "foodValue" : 20,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ],
+  "learnBlueprintsOnPickup" : [ "irkensoda" ]
+}

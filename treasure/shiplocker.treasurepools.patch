@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/irkenStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+	     {"item" : [ "flashlight" ]},
+		{"item" : [ "irkenmonitor", 1]}, 
+	    {"item" : [ "irkensign", 1 ]}, 
+	    {"item" : [ "irkencrate", 1 ]},
+	    {"item" : [ "irkenbed", 1 ]},
+	    {"item" : [ "irkenbarstool", 1 ]},
+	    {"item" : [ "irkenpod2", 1 ]},
+        {"item" : [ "irkensword", 1 ]},
+		{"item" : [ "irkeninvaderlegs", 1 ]},
+        {"item" : [ "irkeninvaderchest", 1 ]},
+        {"item" : [ "PAKback", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]}
+      ]
+    }]]
+  }
+  
+]
