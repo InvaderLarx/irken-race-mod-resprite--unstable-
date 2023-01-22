@@ -1,0 +1,21 @@
+{
+  "id" : "irken3",
+  "species" : "irken",
+  "title" : "INVASION!",
+  "description" : "A gaudy advertisement for a large event.",
+  "icon" : "irken3.png",
+  "contentPages" : [
+    "Attention, all irken!  It's time once more for expanding our hold on the universe!  It's time for Operation Impending Doom 2!
+
+Your amazing leaders, the almighty Tallest, will be sending out only the finest of invaders to blend in, gather information on, and dismantle the defenses of lesser beings so that our amazing empire can add their planets to our ever-expanding territory!",
+
+"Join us two weeks from now at Conventia, where the Great Assigning will take place!  All visitors will receive complementary snacks for the duration of the event!
+
+So what are you waiting for?  Get your tickets today!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}
