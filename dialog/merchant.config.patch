@@ -1,0 +1,61 @@
+[
+{
+"op": "add",
+"path": "/merchantStart/irken",
+"value": {
+"default": [
+"Looking for anything particular?",
+"Are you going to buy, or just window shopping?",
+"See anything you like?"
+]
+}
+},
+{
+"op": "add",
+"path": "/merchantEnd/irken",
+"value": {
+"default": [
+"Come again - I'll be waiting!",
+"And remember - <selfname> has the best stuff around!",
+"A pleasure to take your monies!",
+"I'll be here if you decide to buy more.",
+"Come back if you change your mind."
+]
+}
+},
+{
+"op": "add",
+"path": "/follow/irken",
+"value": {
+"default": [
+"Right this way! I've got tons to show you!",
+"We can do business at my store, come with me.",
+"I can't take your monies here - follow me."
+]
+}
+},
+{
+"op": "add",
+"path": "/welcome/irken",
+"value": {
+"default": [
+"We've arrived!",
+"So now that we're here, see anything you like?",
+"What can I get you?"
+]
+}
+},
+{
+"op": "add",
+"path": "/tout/irken",
+"value": {
+"default" : [
+"Come on over!  I've got the finest goods this side of the galaxy!",
+"Nobody has anything better than <selfname>'s got in store.",
+"Hot deals! Cheap buys! Get your monies' worth here!",
+"Looking for something? I'm the irken to go to!"
+]
+
+}
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"op": "add",
+"path": "/tagCriteria/irken",
+"value": {
+"default": [
+"Hey, put things back. I liked it that way!"
+]
+}
+},
+{
+"op": "add",
+"path": "/enclosedArea/irken",
+"value": {
+"default": [
+"Can you fix the damage to the place?"
+]
+}
+},
+{
+"op": "add",
+"path": "/otherDeed/irken",
+"value": {
+"default": [
+"I was pretty sure this was MY place to live."
+]
+}
+},
+{
+"op": "add",
+"path": "/severe/irken",
+"value": {
+"default": [
+"You better fix this mess. I'm not going to repeat myself."
+]
+}
+},
+{
+"op": "add",
+"path": "/final/irken",
+"value": {
+"default": [
+"Alright, that's it. I'm leaving."
+]
+}
+}
+]

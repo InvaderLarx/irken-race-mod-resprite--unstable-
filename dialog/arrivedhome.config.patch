@@ -1,0 +1,30 @@
+[
+{
+"op": "add",
+"path": "/beacon/irken",
+"value": {
+"default": [
+"Alright, alright. I'm back.",
+"What do you want?",
+"Why did you call me?"
+],
+"irken": [
+"What did you need?",
+"You wanted to talk to me?",
+"Hey, I made it."
+]
+}
+},
+{
+"op": "add",
+"path": "/rent/irken",
+"value": {
+"default": [
+"Here, take this.",
+"Rent? Alright, fine. Here it is.",
+"I put this little bundle together. Go ahead and take it.",
+"Fine, fine.  Here's your rent."
+]
+}
+}
+]

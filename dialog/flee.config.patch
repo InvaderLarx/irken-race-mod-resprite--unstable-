@@ -1,0 +1,35 @@
+[
+{
+"op": "add",
+"path": "/helpme/irken",
+"value": {
+"default": [
+"I need a hand here!",
+"Ow, ow!",
+"What the heck?!"
+]
+}
+/* },
+{
+"op": "add",
+"path": "/helpthem/irken",
+"value": {
+"default": [
+"You've got no chance against me!",
+"I'm going to end you!",
+"Get out of my way!"
+]
+}
+},
+{
+"op": "add",
+"path": "/encourage/irken",
+"value": {
+"default": [
+"Get them!",
+"There's no way you're getting out of here alive!",
+"Show them what the Irken Empire has to offe!"
+]
+}
+*/ }
+]

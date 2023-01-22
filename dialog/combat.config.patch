@@ -1,0 +1,41 @@
+[
+{
+"op": "add",
+"path": "/attack/irken",
+"value": {
+"default": [
+"Hahaha! Time to die, filth!",
+"You've got no chance against me!",
+"I'm going to end you!",
+"For the empire!",
+"Get out of my way!",
+"You couldn't possibly beat an irken!"
+]
+}
+},
+{
+"op": "add",
+"path": "/killedTarget/irken",
+"value": {
+"default": [
+"Got'em!",
+"Aw, it's over!",
+"I should get a raise for this.",
+"That's how you clean up filth.",
+"And that's what irken excellence looks like.",
+"Too easy."
+]
+}
+},
+{
+"op": "add",
+"path": "/lostTarget/irken",
+"value": {
+"default": [
+"Where'd they go?",
+"Hey! Come out of hiding!",
+""
+]
+}
+}
+]
