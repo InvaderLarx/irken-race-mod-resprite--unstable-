@@ -1,0 +1,34 @@
+[
+	{
+		"op": "add",
+		"path": "/irkenproto",
+		"value": {
+			"stats": { "energy": 3, "protection": 3 },
+			"partParameters": {},
+			"partImages": {
+				"bodyBack": "body/irkenproto_back.png",
+				"bodyFront": "body/irkenproto_front.png",
+				"bodyFullbright" : "body/irkenproto_fullbright.png"
+			},
+			"defaultPrimaryColors": [ "b5b5b5", "808080", "555555", "303030" ],
+			"defaultSecondaryColors": [ "c0ab5e", "9b7e14", "6b5509", "342804" ],
+			"animationCustom": {}
+		}
+	},
+	{
+		"op": "add",
+		"path": "/irken",
+		"value": {
+			"stats": { "energy": 8, "protection": 6 },
+			"partParameters": {},
+			"partImages": {
+				"bodyBack": "body/irken_back.png",
+				"bodyFront": "body/irken_front.png",
+				"bodyFullbright" : "body/irken_fullbright.png"
+			},
+			"defaultPrimaryColors": [ "b5b5b5", "808080", "555555", "303030" ],
+			"defaultSecondaryColors": [ "c0ab5e", "9b7e14", "6b5509", "342804" ],
+			"animationCustom": {}
+		}
+	}
+]
