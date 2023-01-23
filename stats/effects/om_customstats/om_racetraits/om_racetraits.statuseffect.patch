@@ -19,6 +19,7 @@
               {"stat": "physicalResistance","amount": 0.35}
           ],
           "benefits": [
+          om_rtwaterdebuff
           ],
           "controlModifiers": {
 		   "speedModifier": 1.15,
