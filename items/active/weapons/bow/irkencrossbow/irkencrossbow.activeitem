@@ -3,7 +3,7 @@
   "price" : 6500,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A irken crossbow used for hunting the mighty snarl beast.",
+  "description" : "A Irken crossbow used for hunting the mighty Snarl Beast.",
   "shortdescription" : "Irken Crossbow",
   "tooltipKind" : "gun",
   "category" : "sniperRifle",
