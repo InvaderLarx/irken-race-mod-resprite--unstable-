@@ -19,11 +19,11 @@
               {"stat": "physicalResistance","amount": 0.35}
           ],
           "benefits": [
-          "om_rtwaterdebuff"
+		  "om_rtwaterdebuff"
           ],
           "controlModifiers": {
 		   "speedModifier": 1.15,
-		   "airJumpModifier": 1.10
+		   "airJumpModifier": 1.5
           }
       }
   }
