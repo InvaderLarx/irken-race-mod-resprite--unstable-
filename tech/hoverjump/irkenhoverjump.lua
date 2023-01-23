@@ -28,6 +28,13 @@ function update(args)
 		animator.setAnimationState("jetpack", "on")
 		mcontroller.controlApproachYVelocity(self.jetpackSpeed, self.jetpackForce)
 		
+		local rightwardsFacing = mcontroller.facingDirection() == 1
+		if rightwardsFacing then
+			animator.setFlipped(true)
+		else
+			animator.setFlipped(false)
+		end
+		
 		if not self.active then
 			animator.playSound("activate")
 		end
