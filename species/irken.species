@@ -3,7 +3,16 @@
 	"charCreationTooltip" : {
 	"title" : "irken",
 	"subTitle" : "O2",
-	"description" : "The Irken are a proud race of insectiod Lifeforms. Beware, despite their size. They are known to invade multiple planets in an event known as operation Impending Doom in order to please their Leaders. The Almighty Tallests."
+	"description" : "The Irken are a proud race of insectiod lifeforms. Beware that, despite their size, they are known to invade multiple planets in an event known as operation Impending Doom in order to please their leaders, The Almighty Tallest.
+	     ^yellow;Attributes^reset;
+	 ^cyan;Max Health^reset;: ^red;70^reset;
+     ^cyan;Max Energy^reset;: ^green;150^reset;
+     ^cyan;Energy Regen^reset;: ^green;20% Faster^reset;
+	     ^yellow;Resistances^reset;
+     ^blue;Electricity^reset;: ^green;35%^reset;
+	 ^white;Physical^reset;: ^green;35%^reset;
+	 ^green;Poison^reset;: ^red;-20%^reset;"
+
   },
   "nameGen" : [ "/species/irkennamegen.config:names", "/species/irkennamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/irkenhurt_male1.ogg", "/sfx/humanoid/irkenhurt_female1.ogg" ],
@@ -165,6 +174,11 @@
 	  { "item" : "irkenuniquechest" },
       { "item" : "irkenuniquelegs" },
 	  { "item" : "aviandisguisehead" },
+	  { "item" : "florandisguisehead" },
+	  { "item" : "apexwighead" },
+	  { "item" : "glitchdisguisehead" },
+	  { "item" : "hylotldisguisehead" },
+	  { "item" : "novakiddisguisehead" },
 	  { "item" : "zimwig" }
 	  ]
   },
@@ -177,7 +191,7 @@
        "name" : "male",
       "image" : "/interface/title/irkmale.png",
       "characterImage" : "/interface/title/irkenmale.png",
-      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18" ],
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18" ],
       "shirt" : [ "irkenoutfit1chest", "irkenoutfit2chest", "irkenoutfit3chest", "irkenoutfit4chest" ],
       "pants" : [ "irkenoutfit1legs", "irkenoutfit2legs", "irkenoutfit3legs", "irkenoutfit4legs" ],
       "facialHairGroup" : "",
@@ -189,7 +203,7 @@
       "name" : "female",
       "image" : "/interface/title/irkfemale.png",
       "characterImage" : "/interface/title/irkenfemale.png",
-      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18" ],
+      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18" ],
       "shirt" : [ "irkenoutfit1chest", "irkenoutfit2chest", "irkenoutfit3chest", "irkenoutfit4chest" ],
       "pants" : [ "irkenoutfit1legs", "irkenoutfit2legs", "irkenoutfit3legs", "irkenoutfit4legs" ],
       "facialHairGroup" : "",
@@ -231,7 +245,8 @@
     { "ffc181" : "5c9d83", "d39c6c" : "3c8d6c", "c7815b" : "2e805f" },
     { "ffc181" : "7a945b", "d39c6c" : "6c874b", "c7815b" : "61803c" },
     { "ffc181" : "558746", "d39c6c" : "4e7d3e", "c7815b" : "3d6f1f" },
-    { "ffc181" : "a3c982", "d39c6c" : "7a9f59", "c7815b" : "5f8c37" }
+    { "ffc181" : "a3c982", "d39c6c" : "7a9f59", "c7815b" : "5f8c37" },
+	{ "ffc181" : "D9EFB6", "d39c6c" : "B0D68F", "c7815b" : "A0D181" }
   ],
   "undyColor" : [
     { "e08d7b" : "e08d7b", "9b383a" : "9b383a", "692031" : "692031" },

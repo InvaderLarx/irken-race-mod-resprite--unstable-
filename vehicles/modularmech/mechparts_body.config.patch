@@ -19,7 +19,7 @@
 		"op": "add",
 		"path": "/irken",
 		"value": {
-			"stats": { "energy": 5, "protection": 5 },
+			"stats": { "energy": 8, "protection": 6 },
 			"partParameters": {},
 			"partImages": {
 				"bodyBack": "body/irken_back.png",
