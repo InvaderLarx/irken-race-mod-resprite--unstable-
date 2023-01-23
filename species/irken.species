@@ -4,14 +4,15 @@
 	"title" : "irken",
 	"subTitle" : "O2",
 	"description" : "The Irken are a proud race of insectiod lifeforms. Beware that, despite their size, they are known to invade multiple planets in an event known as operation Impending Doom in order to please their leaders, The Almighty Tallest.
-	     ^yellow;Attributes^reset;
-	 ^cyan;Max Health^reset;: ^red;70^reset;
-     ^cyan;Max Energy^reset;: ^green;150^reset;
-     ^cyan;Energy Regen^reset;: ^green;20% Faster^reset;
-	     ^yellow;Resistances^reset;
-     ^blue;Electricity^reset;: ^green;35%^reset;
-	 ^white;Physical^reset;: ^green;35%^reset;
-	 ^green;Poison^reset;: ^red;-20%^reset;"
+ ^yellow;Attributes^reset;
+ ^cyan;Max Health^reset;: ^red;70^reset;
+ ^cyan;Max Energy^reset;: ^green;150^reset;
+ ^cyan;Energy Regen^reset;: ^green;20% Faster^reset;
+ ^yellow;Resistances^reset;
+ ^blue;Electricity^reset;: ^green;35%^reset;
+ ^white;Physical^reset;: ^green;35%^reset;
+ ^green;Poison^reset;: ^red;-20%^reset;
+ ^red;Allergic to^reset;^cyan;Water^reset;"
 
   },
   "nameGen" : [ "/species/irkennamegen.config:names", "/species/irkennamegen.config:names" ],
@@ -179,7 +180,8 @@
 	  { "item" : "glitchdisguisehead" },
 	  { "item" : "hylotldisguisehead" },
 	  { "item" : "novakiddisguisehead" },
-	  { "item" : "zimwig" }
+	  { "item" : "zimwig" },
+	  { "item" : "shloogorghhat" }
 	  ]
   },
   
