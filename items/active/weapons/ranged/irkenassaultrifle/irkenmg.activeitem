@@ -3,7 +3,7 @@
   "price" : 4900,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "Medium range Irken machine gun. It has a flashlight",
+  "description" : "Medium range Irken machine gun with a built-in flashlight.",
   "shortdescription" : "Irken Machine Gun",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",

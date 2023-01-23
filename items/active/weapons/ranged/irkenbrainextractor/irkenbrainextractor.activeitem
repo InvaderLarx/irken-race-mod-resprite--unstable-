@@ -3,7 +3,7 @@
   "price" : 7000,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "Can't be an invader without experimentation. Let's extract some brains.",
+  "description" : "Can't be an invader without experimentation. Let's extract some brains!",
   "shortdescription" : "Irken Brain Extractor",
   "tooltipKind" : "gun",
   "category" : "pistol",

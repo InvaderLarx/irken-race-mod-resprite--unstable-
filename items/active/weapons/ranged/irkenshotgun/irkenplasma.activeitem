@@ -3,7 +3,7 @@
   "price" : 1700,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "medium range shotgun.",
+  "description" : "A shotgun with plasma ammunition.",
   "shortdescription" : "Irken Shotgun",
   "tooltipKind" : "gun",
   "category" : "shotgun",

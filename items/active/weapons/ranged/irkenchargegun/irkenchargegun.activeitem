@@ -3,11 +3,11 @@
   "price" : 6500,
   "maxStack" : 1,
   "rarity" : "Legendary",
-  "description" : "A irken gun that requires charging.",
+  "description" : "A irken rifle that requires charging to reach full power.",
   "shortdescription" : "Irken Charge Gun",
   "tooltipKind" : "gun",
   "category" : "sniperRifle",
-  "twoHanded" : false,
+  "twoHanded" : true,
   "itemTags" : ["weapon","ranged","sniperrifle"],
   "level" : 6,
 

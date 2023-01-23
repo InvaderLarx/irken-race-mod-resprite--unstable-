@@ -3,7 +3,7 @@
   "price" : 3900,
   "maxStack" : 1,
   "rarity" : "Rare",
-  "description" : "medium range Irken Rifle.",
+  "description" : "A medium range Irken rifle.",
   "shortdescription" : "Irken Rifle",
   "tooltipKind" : "gun",
   "category" : "assaultRifle",
