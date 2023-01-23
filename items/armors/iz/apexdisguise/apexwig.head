@@ -1,0 +1,29 @@
+{
+  "itemName" : "apexwighead",
+  "price" : 200,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "headarmour",
+  "description" : "It itches.",
+  "shortdescription" : "Apex Disguise",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  
+  "colorOptions" : [
+    { "ffca8a" : "f0608b", "e0975c" : "cd5061", "a85636" : "95484c", "6f2919" : "6a3836", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "eacf60", "a38d59" : "c1a24e", "735e3a" : "977841" },
+    { "ffca8a" : "7fdadd", "e0975c" : "61aebf", "a85636" : "4e7a90", "6f2919" : "3f566e", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "eacf60", "a38d59" : "c1a24e", "735e3a" : "977841" },
+    { "ffca8a" : "add068", "e0975c" : "85ac1b", "a85636" : "6e8210", "6f2919" : "596809", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "eacf60", "a38d59" : "c1a24e", "735e3a" : "977841" },
+    { "ffca8a" : "f3efa3", "e0975c" : "e3d965", "a85636" : "baa94a", "6f2919" : "98832d", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "efad56", "a38d59" : "c5813e", "735e3a" : "9b6638" },
+    { "ffca8a" : "998779", "e0975c" : "836752", "a85636" : "625244", "6f2919" : "4e3b2e", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "efad56", "a38d59" : "c5813e", "735e3a" : "9b6638" },
+    { "ffca8a" : "737275", "e0975c" : "595760", "a85636" : "3f3e43", "6f2919" : "212123", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "eacf60", "a38d59" : "c1a24e", "735e3a" : "977841" },
+    { "ffca8a" : "eebfea", "e0975c" : "de8ddd", "a85636" : "c060bb", "6f2919" : "9a4b9c", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "eae660", "a38d59" : "c1b54e", "735e3a" : "978841" },
+    { "ffca8a" : "d18bd5", "e0975c" : "a766bc", "a85636" : "814797", "6f2919" : "693367", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "efad56", "a38d59" : "c5813e", "735e3a" : "9b6638" },
+    { "ffca8a" : "f3c873", "e0975c" : "db9c38", "a85636" : "b17628", "6f2919" : "89561f", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "eae660", "a38d59" : "c1b54e", "735e3a" : "978841" },
+    { "ffca8a" : "deeded", "e0975c" : "c5d8d8", "a85636" : "96aba9", "6f2919" : "6f807e", "f32200" : "f6fbfb", "dc1f00" : "d7e8e8", "be1b00" : "8fa7a3", "951500" : "5d6d69", "d9c189" : "eacf60", "a38d59" : "c1a24e", "735e3a" : "977841" }
+  ]
+}
