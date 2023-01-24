@@ -17,7 +17,7 @@
   },
   "nameGen" : [ "/species/irkennamegen.config:names", "/species/irkennamegen.config:names" ],
   "ouchNoises" : [ "/sfx/humanoid/irkenhurt_male1.ogg", "/sfx/humanoid/irkenhurt_female1.ogg" ],
-  "charGenTextLabels" : [ "Skin colour", "Antennae style", "Shirt", "Legwear", "Eyecolor", "Additional colour", "Shirt colour", "Legwear colour", "irken", "Personality" ],
+  "charGenTextLabels" : [ "Skin colour", "Antennae style", "Shirt", "Legwear", "Eyecolor", "Accessories", "Shirt colour", "Legwear colour", "Irken", "Personality" ],
   "skull" : "/humanoid/irken/dead.png",
   "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=fed0ef?replace=31a6ffFF=de02da",
   "defaultBlueprints" : {
@@ -184,20 +184,19 @@
 	  { "item" : "shloogorghhat" }
 	  ]
   },
-  
+  "headOptionAsFacialhair" : true,
   "altOptionAsUndyColor" : true,
-  "headOptionAsHairColor" : true,
-  "altOptionAsHairColor" : true,
   "genders" : [
     {
-       "name" : "male",
+      "name" : "male",
       "image" : "/interface/title/irkmale.png",
       "characterImage" : "/interface/title/irkenmale.png",
-      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18" ],
+      "hairGroup" : "hair",
+	  "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "13", "14", "15", "16", "17", "18", "19" ],
       "shirt" : [ "irkenoutfit1chest", "irkenoutfit2chest", "irkenoutfit3chest", "irkenoutfit4chest" ],
       "pants" : [ "irkenoutfit1legs", "irkenoutfit2legs", "irkenoutfit3legs", "irkenoutfit4legs" ],
-      "facialHairGroup" : "",
-      "facialHair" : [ ],
+      "facialHairGroup" : "access",
+      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     },
@@ -205,11 +204,12 @@
       "name" : "female",
       "image" : "/interface/title/irkfemale.png",
       "characterImage" : "/interface/title/irkenfemale.png",
-      "hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13", "male14", "male15", "male16", "male17", "male18" ],
+	  "hairGroup" : "hair",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "13", "14", "15", "16", "17", "18", "19" ],
       "shirt" : [ "irkenoutfit1chest", "irkenoutfit2chest", "irkenoutfit3chest", "irkenoutfit4chest" ],
       "pants" : [ "irkenoutfit1legs", "irkenoutfit2legs", "irkenoutfit3legs", "irkenoutfit4legs" ],
-      "facialHairGroup" : "",
-      "facialHair" : [ ],
+      "facialHairGroup" : "access",
+      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     }
