@@ -12,7 +12,7 @@
  ^blue;Electricity^reset;: ^green;35%^reset;
  ^white;Physical^reset;: ^green;35%^reset;
  ^green;Poison^reset;: ^red;-20%^reset;
- ^red;Allergic to^reset;^cyan;Water^reset;"
+ ^red;Allergic to^reset; ^cyan;Water^reset;"
 
   },
   "nameGen" : [ "/species/irkennamegen.config:names", "/species/irkennamegen.config:names" ],
