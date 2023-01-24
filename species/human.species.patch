@@ -1,5 +1,10 @@
 [
 	{"op":"add", "path" : "/genders/0/hair/-", "value":"dibhair"},
+	{"op":"add", "path" : "/genders/0/hair/-", "value":"professorhair"},
+	{"op":"add", "path" : "/genders/0/hair/-", "value":"Carlhair"},
+	{"op":"add", "path" : "/genders/0/hair/-", "value":"IZhair1"},
+	{"op":"add", "path" : "/genders/1/hair/-", "value":"IZhair2"},
+	{"op":"add", "path" : "/genders/1/hair/-", "value":"IZhair3"},
 	{"op":"add", "path" : "/genders/1/hair/-", "value":"gazhair"},
 	{"op":"add", "path" : "/genders/1/hair/-", "value":"takhair"}
 ]
