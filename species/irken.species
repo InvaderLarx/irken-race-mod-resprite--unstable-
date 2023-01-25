@@ -197,7 +197,7 @@
       "shirt" : [ "irkenoutfit1chest", "irkenoutfit2chest", "irkenoutfit3chest", "irkenoutfit4chest" ],
       "pants" : [ "irkenoutfit1legs", "irkenoutfit2legs", "irkenoutfit3legs", "irkenoutfit4legs" ],
       "facialHairGroup" : "access",
-      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11" ],
+      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     },
@@ -210,7 +210,7 @@
       "shirt" : [ "irkenoutfit1chest", "irkenoutfit2chest", "irkenoutfit3chest", "irkenoutfit4chest" ],
       "pants" : [ "irkenoutfit1legs", "irkenoutfit2legs", "irkenoutfit3legs", "irkenoutfit4legs" ],
       "facialHairGroup" : "access",
-      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11" ],
+      "facialHair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15" ],
       "facialMaskGroup" : "",
       "facialMask" : [ ]
     }
