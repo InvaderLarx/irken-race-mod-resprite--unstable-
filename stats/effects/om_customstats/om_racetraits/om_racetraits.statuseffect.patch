@@ -22,8 +22,7 @@
 		  "om_rtwaterdebuff"
           ],
           "controlModifiers": {
-		   "speedModifier": 1.15,
-		   "airJumpModifier": 1.5
+		   "speedModifier": 1.15
           }
       }
   }
