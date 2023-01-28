@@ -11,10 +11,11 @@
   "apexDescription" : "The symbol of a strange race.",
   "avianDescription" : "Is it supposed to be an insect?",
   "floranDescription" : "Floran doesn't like!",
-  "glitchDescription" : "Critical. It is unown.",
+  "glitchDescription" : "Critical. It is unknown.",
   "humanDescription" : "The symbol of an odd race.",
   "hylotlDescription" : "I prefer the Hylotl symbol.",
   "novakidDescription" : "A strange ol' symbol.",
+  "irkenDescription" : "The symbol of our Empire.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
