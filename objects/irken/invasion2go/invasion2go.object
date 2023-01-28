@@ -14,6 +14,7 @@
   "humanDescription" : "A shop full of weapons. A set up for the perfect raid...",
   "hylotlDescription" : "A shop selling weapons. Maybe I should browse it.",
   "novakidDescription" : "A shop sellin' weapons... For a price.",
+  "irkenDescription" : "Weapons! If you have enough monies to afford them.",
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {
