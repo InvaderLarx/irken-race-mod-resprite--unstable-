@@ -6,7 +6,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "legwear",
-  "description" : "Possibly custom Irken elite pants.",
+  "description" : "Possibly custom Irken Elite pants.",
   "shortdescription" : "Irken Unique Pants",
   "tooltipKind" : "armor",
   "maleFrames" : "pants.png",
