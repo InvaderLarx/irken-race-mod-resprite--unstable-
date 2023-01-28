@@ -21,6 +21,7 @@
   "humanDescription" : "This doesn't look good. I can't help but expect something to jump out at me.",
   "hylotlDescription" : "This machine attempts to alter DNA in a way that's not remotely sustainable.",
   "novakidDescription" : "I ain't going near that.",
+  "irkenDescription" : "Hey, this pod is sorely lacking a test subject!",
   "inventoryIcon" : "irkenpod2icon.png",
   "orientations" : [
     {
