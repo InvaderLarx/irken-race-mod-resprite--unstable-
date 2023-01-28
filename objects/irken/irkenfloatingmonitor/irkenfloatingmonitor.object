@@ -9,13 +9,14 @@
   "shortdescription" : "Irken Hover Monitor",
   "race" : "irken",
 
-  "apexDescription" : "What is this symbol",
+  "apexDescription" : "What is this symbol?",
   "avianDescription" : "Seems functional still.",
   "floranDescription" : "It'sss a very large tv.",
   "glitchDescription" : "Cautious. What is this?",
   "humanDescription" : "Seems to still be working.",
   "hylotlDescription" : "I've never seen a monitor like this.",
-  "novakidDescription" : "A big ol' monitor. Displaying a symbol.",
+  "novakidDescription" : "A big ol' monitor, displaying a symbol.",
+  "irkenDescription" : "Hey, isn't this supposed to be showing Foodcourtia advertisements? Must be faulty.",
 
   "lightColor" : [128, 0, 128],
 
