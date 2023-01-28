@@ -18,6 +18,7 @@
   "humanDescription" : "Time to take out the trash",
   "hylotlDescription" : "Vile garbage.",
   "novakidDescription" : "Ain't nothin' but trash.",
+  "irkenDescription" : "Filth needs somewhere to go when the incinerator is broken.",
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
