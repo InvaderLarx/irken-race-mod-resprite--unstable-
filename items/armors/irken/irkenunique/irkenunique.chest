@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Rare",
   "category" : "chestwear",
-  "description" : "A unique shirt. It has the Irken elite symbol on it.",
+  "description" : "A unique shirt. It has the Irken Elite symbol on it.",
   "shortdescription" : "Irken Unique Shirt",
   "tooltipKind" : "armor",
   "maleFrames" : {
