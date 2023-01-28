@@ -17,6 +17,7 @@
   "humanDescription" : "Oh boy, it's the kind of vending machine where you win every time!",
   "hylotlDescription" : "A vending machine for sugary drinks and snacks.",
   "novakidDescription" : "A vendin' machine for sugary type drinks and snacks.",
+  "irkenDescription" : "Sweet, delicious snacks! The doughnuts are my favourite.",
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {
