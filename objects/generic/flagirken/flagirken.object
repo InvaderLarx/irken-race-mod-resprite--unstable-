@@ -8,7 +8,7 @@
   "price" : 70,
   "radioMessagesOnPickup" : [ "pickupflag" ],
   
-  "description" : "The flag of the Protectorate. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "description" : "The flag of the Irken Empire. Use ^green;[E]^white; to bookmark a teleportation location.",
   "shortdescription" : "Irken Flag",
   "race" : "irken",
   "apexDescription" : "A Irken flag. I can use this as a waypoint for teleportation.",
