@@ -4,7 +4,7 @@
   "price" : 125000,
   "rarity" : "Legendary",
   "category" : "vehicleController",
-  "description" : "Is a powerful Irken Combat Stealth Mech. It has chicken legs.",
+  "description" : "A powerful Irken Combat Stealth Mech. It has chicken legs.",
   "shortdescription" : "Megadoomer X-3",
   "twoHanded" : false,
   "maxStack" : 1,
