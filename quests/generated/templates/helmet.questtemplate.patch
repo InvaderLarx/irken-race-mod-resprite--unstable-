@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I want to stand out from the others. Find me something that makes me look <adjective!>",
+      "^cyan;Guards as good as me should look <adjective> - help me achive my goal!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Next run over and have ^orange;<friend>^white; put together some ^orange;custom headgear.^white; Just ^green;mention my name, and give <friend.pronoun.object> our ^orange;<clothingIngredients>^white;.",
+      "Finally, ^green;deliver my ^orange;<clothingIngredients>^green; to ^orange;<friend>^white; and ^green;get <friend.pronoun.object> to make me some custom headgear. I'm sure <friend.pronoun.subject> will be more than willing!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Now I look very <adjective>, and nobody will be able to say otherwise!",
+      "Nobody will think to mess with me now that I look <adjective>!"
+    ]
+  }
+]

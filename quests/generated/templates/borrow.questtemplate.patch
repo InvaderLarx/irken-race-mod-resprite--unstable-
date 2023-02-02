@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "Let's start with the ^orange;<item>^white; that we need.. I know for a fact that ^orange;<target>^white; will lend me their <target.pronoun.possessive>. ^green;Go get it for me, will you?",
+      "Floran knowss that ^orange;<target>^white; hass ^orange;<item>^white; that we need. ^green;If you ask to borrow it, that'll save usss time."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Now go to ^orange;<target>^white; next. ^green;Go get <target.pronoun.possessiveDet> ^orange;<item>^white;, <target.pronoun.subject> will let me have it for a while.",
+      "Next, I'm going to need a ^orange;<item>^white;. I saw that ^orange;<target>^white; has one. Go see if they'll give it to me for a bit."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "Good job getting the <item> from <target>! Now I can move forward with my little 'project'.",
+      "So you managed to get <target> to part with that <item>, huh? Nice work. I'll only need it for a little while."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Nice to see you got the <item>. <target> might not enjoy it, but I'm going to need this thing for a good while.",
+      "Was it really that easy? Maybe <target> wasn't as attached to this <item> as I thought."
+    ]
+  }
+]

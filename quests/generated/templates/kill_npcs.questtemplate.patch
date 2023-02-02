@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/1",
+    "value": [
+      "activityirken",
+      [
+        "checking the perimeter",
+        "getting some fresh air for once",
+        "pondering the next step in my plans for conquest",
+        "thinking about what new snack to try next",
+        "looking for inspiration for a new invention"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I spotted some <enemy> <earlier> that need to be dealt with.",
+      "^cyan;I overheard some <enemy> <earlier>."
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/scriptConfig/generatedText/text/default/default/0",
+    "value": "So I was off <activityirken> <earlier<, when I spotted some ^orange;<enemy>^white; <discussing> <discussion>. They should be near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I need you to ^green;go <investigate>^white;."
+  },
+  {
+    "op": "replace",
+    "path": "/scriptConfig/generatedText/text/default/default/1",
+    "value": "I went off to <activityirken> <earlier>, right?  Well, I noticed some ^orange.<enemy>^white; near the <^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green; I want you to go <investigate>^white; that suspicious lot!"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "You dealt with the <enemy>? Not bad, not bad.",
+      "Looks like I don't have to worry about the <enemy> anymore. Maybe you're better than I thought."
+    ]
+  }
+]

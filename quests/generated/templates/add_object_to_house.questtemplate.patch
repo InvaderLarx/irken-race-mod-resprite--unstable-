@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;Something's missing from this place. Help me find that something to improve it.",
+      "^cyan;I want to make this place suit my tastes better. Help me with that."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "This ^orange;<object>^white; is exactly what I was looking for!! ^green;Now find a place to put it!",
+      "A ^orange;<object>^white; will do perfectly! ^green;Put it in a good place for me!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Now THAT's what I call interior decorating! That <object> is looking great!",
+      "This new <object> is already making my place look better than everyone else's!"
+    ]
+  }
+]

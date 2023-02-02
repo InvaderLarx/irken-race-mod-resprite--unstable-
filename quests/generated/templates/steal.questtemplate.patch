@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "To start, I need a certain something. ^orange;<victim>^white; is known to keep ^orange;<objectItem>^white; in their home. ^green;I want you to go in and take <victim.pronoun.possessiveDet> ^orange;<objectItem>^white;. It should be easy for you.",
+      "I'm going to need something, and I know exactly who has one. ^orange;<victim>^white; has one in <victim.pronoun.possessiveDet> house. ^green;Go to <victim.pronoun.possessiveDet> place and grab that ^orange;<objectItem>^white;! And try not to get caught!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "I need you to get me a little something. I've heard that ^orange;<victim>^white; happens to have what I want. ^green;Go into <victim.pronoun.possessiveDet> home and take the ^orange;<objectItem>^green; inside^white;. Think you can do that?",
+      "There's this thing I want, but I can't really go get it myself right now. ^orange;<target>^white; happens to have one, so I want you to ^green;go into <target.pronoun.possessiveDet> place and take the ^orange;<objectItem>^white;. Just don't let <target.pronoun.object> see you."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "Hey, you didn't do half-bad. Hold onto that <objectItem> for a bit. It'll come in handy later.",
+      "Well, well. I didn't think you could do it! I need you to hold onto that <objectItem> for just a little bit longer."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "You did well. Now, hang onto that <objectItem> just a bit longer. It's important.",
+      "Keep that <objectItem> safe for me - we need to keep it hidden so <victim> doesn't find it."
+    ]
+  }
+]

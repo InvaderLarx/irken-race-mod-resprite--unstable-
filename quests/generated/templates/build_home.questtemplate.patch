@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;It feels too empty around here. Let's change that!",
+      "^cyan;This place isn't lively enough. I've got a plan."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Now I need you to ^green;make a shelter and put in ^orange;<furnitureSet>.^white;! Don't forget to ^green;place a ^orange;Colony deed,^white; as well! Now it won't feel so dead around here.",
+      "Now ^green;build some shelter and put ^orange;<furnitureSet>^white; in it, ^green;as well as a ^orange;Colony Deed.^white; Now this place will have more life to it."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "We've got someone! Now I can host REAL parties!",
+      "Good work. They just better not be taller than me."
+    ]
+  }
+]

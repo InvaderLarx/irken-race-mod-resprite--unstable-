@@ -1,1 +1,7 @@
-[{"op":"add","path":"/0/1/-","value":"irken"}]
+[
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": "irken"
+  }
+]

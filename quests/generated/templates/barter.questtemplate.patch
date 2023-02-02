@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Alright, ^orange;<target>^white; arrived at the ^orange;<spawnPoint>^white;<spawnPoint.direction> not that long ago. <target.pronoun.capitalSubject> will give us the ^orange;<receivedItems>^white; we need if we give them ^orange;<givenItems>^white;. ^green;I need you to guard me while we go pay a visit to <target>^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Wonderful This <receivedItems> is necessary for the next part of my ingenious plan!"
+    ]
+  }
+]

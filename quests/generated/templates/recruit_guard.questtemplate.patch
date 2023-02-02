@@ -1,0 +1,28 @@
+[
+  {
+    "op": "replace",
+    "path": "/scriptConfig/generatedText/goalText/default/0",
+    "value": "^cyan;We could use a little more security here. How about a guard?"
+  },
+  {
+    "op": "replace",
+    "path": "/scriptConfig/generatedText/goalText/default/1",
+    "value": "^cyan;I have a plan to make this place a lot safer."
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Now we're on to the last step. ^green;Build a new home using that ^orange;<guardObject>^white; in it. You'll need to also ^green;add 3 pieces of ^orange;<tag>^green; furniture^white;, as well. Finally, ^green;add a ^orange;Colony Deed^white; in there!",
+      "We're almost done, there's just one last thing to do. You'll need to ^green;build a new shelter with that ^orange;<guardObject>^white; inside. You'll also want ^green;3 pieces of furniture that you know ^orange;<tag>s will like^white;. Once you've got all that taken care of, all that's left is to ^green; add a ^orange;Colony Deed^white; to finish the job."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Would you look at that - now we have a little extra muscle around here!",
+      "Now that we have this new guard around, we shouldn't have to worry about danger nearly as much."
+    ]
+  }
+]

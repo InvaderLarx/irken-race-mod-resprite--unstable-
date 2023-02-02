@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "/quests/kill_npc/managerPlugins/1/pluginConfig/species/-",
+    "value": "irken"
+  },
+  {
+    "op": "add",
+    "path": "/quests/kill_npcs/managerPlugins/1/pluginConfig/species/-",
+    "value": "irken"
+  }
+]

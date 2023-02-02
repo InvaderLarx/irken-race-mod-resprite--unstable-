@@ -1,0 +1,18 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Now that you've got the stuff, ^green;I want yuo to make a ^orange;<craftedItems>.",
+      "I really need a ^orange;<craftedItems> right now. Don't ask why.^green; They can be crafted from ^orange;<ingredients>. ^white;Get to it!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "That <crafteditems> will be very useful for my plan!",
+      "Very good. Let's move on to the next thing on the agenda."
+    ]
+  }
+]

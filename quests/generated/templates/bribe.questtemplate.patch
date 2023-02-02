@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I want <target> to owe me a favor. Let's go give <target.pronoun.subject> a little 'gift'.",
+      "^cyan;I have a wonderful idea, but first we need <target> to feel indebted to me."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/irken",
+    "value": [
+      "Rumor has it that ^orange;<target>^white; has really been wanting a <gift> for quite some time. Lucky for <target.pronoun.object> I happen to have one! Let's give <target.pronoun.object> this ^orange;<gift>^white; - they'll surely <target.pronoun.subject> be willing to help after that.",
+      "I managed to get a hold of ^orange;<target>'s^white; wishlist. I saw they have a <gift> on it. Let's use this to our advantage. ^green;Give them my ^orange;<gift>^white; and <target.pronoun.subject> will no doubt feel indebted to me."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "We're on to the final step! ^orange;<target>^white; has been looking all over for a ^orange;<gift>^white; for a long time. ^green;If you bribe <target.pronoun.object> with mine,^white; <target.pronoun.subject>'ll owe me big-time.",
+      "I found out that ^orange;<target>^white; reaaally needs one <gift>. If I ^green;give <target.pronoun.object> my ^orange;<gift>^white;, <target.pronoun.subject>'ll return the favor down the line."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/irken",
+    "value": [
+      "Great work - now <target> will have to help me the next time I need their services, no questions asked!",
+      "Mwahahaha... now that <target> owes me, I can move forward with the next phase of my amazing plan!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Now <target> will have to do my bidding! Nice work out there.",
+      "Success! I can now call in a favor from <target> so I can complete my next mission without a hitch!"
+    ]
+  }
+]

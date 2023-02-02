@@ -1,0 +1,78 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/13",
+    "value": [
+      "revengeirken",
+      [
+        "hunt them down",
+        "kill them all",
+        "eliminate every last one of them"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/17",
+    "value": [
+      "loiteringirken",
+      [
+        "attacking people",
+        "causing a big problem for everyone",
+        "getting in the way",
+        "trying to eat literally everything"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/19",
+    "value": [
+      "excuseirken",
+      [
+        "lost track of my gun",
+        "just want to see you do it",
+        "have something else to do"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/-",
+    "value": [
+      "appreciationirken",
+      [
+        "Nice work. Here's your reward.",
+        "You did a lot better than expected. Might as well pay you.",
+        "Not bad, not bad. Take this.",
+        "Do you have some sort of military training or something? Take this for your efforts.",
+        "Here, take this. A little something for that show.",
+        "Looks like you can really fight. Here's your payment for your work."
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I've got a beast of an issue I need assistance with."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "So, there's this group of <wild> ^orange;<monster>^white; that are <loiteringirken>. I'd go take care of it, but I <excuseirken>. You'll find them at the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go <revengeirken>!",
+      "I heard about a band of <wild> ^orange;<monster>^white <loiteringirken>. I can't go deal with them myself, I <excuseirken>. If you go to ^orange;<spawnPoint>^white;<spawnPoint.direction>, you should find them. ^green;Head on over and <revengeirken>!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "You did better than I thought you would.",
+      "Not bad. Maybe you're more capable than I thought.",
+      "Looks like you've got some real fight in you!"
+    ]
+  }
+]

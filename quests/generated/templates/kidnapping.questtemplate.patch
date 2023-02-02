@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/1",
+    "value": [
+      "friendirken",
+      [
+        "fellow soldier",
+        "colleague",
+        "co-worker",
+        "fellow elite",
+        "old acquaintance",
+        "ally"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/11",
+    "value": [
+      "activityirken",
+      [
+        "discuss the latest spaceship model",
+        "share rumors from Foodcourtia",
+        "laugh at some inferior species",
+        "talk about popular invaders",
+        "gush about the almighty Tallests",
+        "share in the glory of the Irken Empire"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/14",
+    "value": [
+      "kidnappedirken",
+      [
+        "kidnapped",
+        "accosted",
+        "captured",
+        "taken hostage",
+        "snatched"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/-",
+    "value": [
+      "appreciationirken",
+      [
+        "Good work. Take this as a reward for your efforts.",
+        "<targetNpcType.pronoun.capitalSubject> has made it back safely. Nice work."
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/title/irken",
+    "value": [
+      "Rescue mission",
+      "Hostage situation",
+      "Saving <questGiver>'s <friendirken>"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;The disappearance of my <friend> <victimNpcType> concerns me.",
+      "^cyan;My <friend> has gone missing."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "So, my <friendirken> ^orange;<victimNpcType>^white; was supposed to come by <earlier> so we could <activityirken>. However, they haven't <turned> up. <suspicion> the ^orange;<enemy>^white; I saw near the ^orange;<spawnPoint>^white;<spawnPoint.direction> <involved>. ^green;I need you to go rescue <victimNpcType>^white;.",
+      "I was off <activityirken> with my <friendirken> ^orange;<victimNpcType>^white; <earlier>, but <separated>. I happened to spot some ^orange;<enemy>^white; skulking about and I have a hunch that <victimNpcType> was <kidnappedirken>. I last saw <victimNpcType.pronoun.object> near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go and get <victimNpcType.pronoun.object> back!^white;!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Good job bringing <targetNpcType> here. <appreciationirken>",
+      "You did some good work in making sure <targetNpcType> made it back safely. <appreciationirken>"
+    ]
+  }
+]

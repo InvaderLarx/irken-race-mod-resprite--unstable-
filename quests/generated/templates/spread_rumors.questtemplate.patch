@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I'd like to have <target> as my ally, but <other> is in my way.",
+      "^cyan;Having <target> by my side would be great, but <other> makes this difficult."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "You know, I think <target> would be great to have by my side. Unfortunately, <target.pronoun.subject>'s close with ^orange;<other>^white;. I can't have that at all. ^green;Bring this ^orange;note^green; to ^orange;<target>^white;. That should make <target.pronoun.object> think twice about hanging around <other>.",
+      "The first thing I need is a new ally. <target> seems like a good choice, but <target.pronoun.subject> likes to hang around ^orange;<other>^white;! I can't have that meddler around <target.pronoun.object>, so here's where you come in!  ^green;Bring this ^orange;note^green; to ^orange;<target>^green; so they can see what <other> is really like^white;!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/irken",
+    "value": [
+      "THe next step of my plan requires me to be in ^orange;<target>^white;'s good book. Normally that would be a cinch, but <other> is in the way. ^green;I want you to deliver this ^orange;note^green; to ^orange;<target>^white;. Once <target.pronoun.subject> sees this, <target.pronoun.subject> won't ever want to be around <other> ever again!",
+      "I'm going to need you to do another thing for me. See, I want to get ^orange;<target>^white; on my side. But I can't do that as long as that horrible <other> is around <target.pronoun.object>! ^green;Take this ^orange;note^green; and deliver it to ^orange;<target>^white;! It's sure to make <target.pronoun.object> ditch <other>!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/last/irken",
+    "value": [
+      "Now for the final part of my plan. We need to make ^orange;<target>^white; realize that <other> is pure garbage to be around, and that I'm WAY better. ^green;Go take this ^orange;note^green; to ^orange;<target^white;, will you? It's the last thing that needs to be done.",
+      "I've got one more thing for you to do. <other> is the worst. Really. Nobody else gets in the way of me having ^orange;<target>^white; as an ally but <other>. I need you to ^green;deliver this ^orange;note^green; to ^orange;<target>^white; so that <target.pronoun.subject>'ll see the light."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Ugh, that wretched <other> is getting in the way of making ^orange;<target>^white; see me as the amazing individual I am. I need you to help me change that. ^green;Take this ^orange;note^green; to ^orange;<target>^white; for me!",
+      "^orange;<target>^white; really seems like they'd be great to have on my side. It's just a shame that <target.pronoun.subject>'s been hanging around <other>. Time to fix that. ^green;Deliver this ^orange;note^green; to ^orange;<target>^white; for me. Once <target.pronoun.subject> reads it, things are bound to work in my favor."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "Good work. Now that <other> is out of the way, I can move forward with my plans.",
+      "Seems like <target> gets it now. With <other> gone, it's smooth sailing from here on out."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/irken",
+    "value": [
+      "I heard that <target> ditched <other>. Nice work.",
+      "<target> has officially realized just how great I am compared to <other> - good job!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/last/irken",
+    "value": [
+      "Having <target> as my new ally is just what I needed - good job getting <other> out of the picture.",
+      "I'm glad you got <target> to stop hanging out with <other>. Now they can really see just how amazing I am!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "<target> finally knows just how great I am - all thanks to you getting them to drop <other>!",
+      "With <other> gone, I now have <target> as an ally! Nice work!"
+    ]
+  }
+]

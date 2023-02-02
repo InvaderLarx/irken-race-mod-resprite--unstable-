@@ -1,0 +1,64 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/1",
+    "value": [
+      "friendirken",
+      [
+        "fellow soldier",
+        "colleague",
+        "co-worker",
+"fellow elite",
+"old acquaintance",
+"ally"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/5",
+    "value": [
+      "activityirken",
+      [
+        "discuss the latest spaceship model",
+        "share rumors from Foodcourtia",
+        "laugh at some inferior species",
+        "talk about popular invaders",
+        "gush about the almighty Tallests",
+        "share in the glory of the Irken Empire"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/-",
+    "value": [
+      "appreciationirken",
+      [
+        "Good work. Take this as a reward for your efforts.",
+        "<targetNpcType.pronoun.capitalSubject> has made it back safely. Nice work."
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I've been waiting for <targetNpcType> and they haven't shown up!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "My <friendirken> ^orange;<targetNpcType>^white; was supposed to meet up with me so we could <activityirken> <earlier>. <targetNpcType.pronoun.capitalSubject> probably got lost or something along the way - the last place I saw <targetNpcType.pronoun.object> was the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;I need you to go there and bring <targetNpcType.pronoun.object> back here to me^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Good job bringing <targetNpcType> here. <appreciationirken>"
+    ]
+  }
+]

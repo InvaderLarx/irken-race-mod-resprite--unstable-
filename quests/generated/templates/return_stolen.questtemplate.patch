@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I heard that <victim> had <victim.pronoun.possessiveDet> <item> stolen. I think I might know where it is.",
+      "^cyan;<victim> seems to have had <victim.pronoun.possessiveDet> <item> taken, but I know a way to get it back."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "I happen to have heard that ^orange;<thief>^white; took ^orange;<victim>'s <item>^white; some time back. Getting it back benefits my own plan, so I need you to ^green;go get it back^white;. Once you've gotten it, ^green;place it in ^orange;<victim>'s^green; home^white;.",
+      "The first thing I'll need you to do is head over to ^orange;<thief>^white;'s place. ^orange;<victim>'s <item>^white; is over there. Your job is to ^green;take the item back^white;. Once you've done that, ^green;go put it in <victim>'s home^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/irken",
+    "value": [
+      "The next step in my plan is to ^green;get a stolen ^orange;<item>^green; back^white;. Once it's in your possession, ^green;put it in ^orange;<victin>^green;'s house^white;. <victim.pronoun.capitalSubject> will owe me big-time for getting it back.",
+      "Now I need you to do a little favor. ^green;Go to ^orange;<thief>^green;'s place and take back the stolen ^orange;<item>^white;. Since I know for a fact it's ^orange;<victim>^white;'s, just ^green;take it and put it in <victim.pronoun.possessiveDet> home^white; once you have it."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/last/irken",
+    "value": [
+      "I need one last thing from you. ^green;Go take back a stolen ^orange;<item>^white; from ^orange;<thief>^green;'s place^white;. Once you've gotten it, the final step is to return it back to its owner by ^green;putting it in ^orange;<victim>^green;'s house^white;.",
+      "And now, for the final step!  ^orange;<thief>^green; has a stolen ^orange;<item>^green; and I need you to get it^white;. After you get the goods, just ^green;place it in ^orange;<victim^green;'s place where it belongs^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "So, you know ^orange;<victim>^white;? Something was stolen from <victim.pronoun.object> and I know who has it. ^green;Go to ^orange;<thief>^green;'s house and grab the ^orange;<item>^white;. All you have to do after that is ^green;put the thing in ^orange;<victim>^green;'s home^white;.",
+      "I've located some stolen goods, and I need you to go give them to their rightful owner. ^green;Go to ^orange;<thief>^white;'s home and retrieve the ^orange;<item>^white;. After you get it, you'll need to ^green;bring it to ^orange;<victim>^green;'s place and put it in there^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "You're a lot more capable than you look. I can't wait to see the look on <thief>'s face!",
+      "That was a lot easier than I thought it'd be. Nice work getting the <item> from <thief>."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/irken",
+    "value": [
+      "Good work. <thief> probably won't even realize that the <item> is even gone!",
+      "<thief> doesn't seem to know what happened! This has gone better than I thought it would!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/last/irken",
+    "value": [
+      "Ah, I can here <victim> now - <questGiver>, you're so amazing! Oh, and I guess you did well, too.",
+      "You're not half-bad at this. Maybe next time, <victim> will ask you to get the goods instead of me."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Well, would you look at that. You got <victim>'s <item> back! Have you done this kind of thing before?",
+      "<thief> must have horrible security - you got that <item> back so easily!"
+    ]
+  }
+]

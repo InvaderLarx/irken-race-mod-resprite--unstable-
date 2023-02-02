@@ -1,0 +1,58 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;<target> seems to be in a pinch - if I help <target.pronoun.object>, <target.pronoun.subject> will surely return the favor!",
+      "^cyan;I've learned <target> is in danger. <target.pronoun.subject> might be willing to help me if I have <target.pronoun.object> saved!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "The first thing we need to do is take out the ^orange;<threat>^white; coming from the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I've heard they're looking for ^orange;<target>, too. ^green;Do whatever it takes to put an end to the threat.^white; <target.pronoun.capitalSubject>'s safety is of the utmost importance.",
+      "To start, I'll need you to go to the ^orange;<spawnPoint>^white;<spawnPoint.direction> and deal with those ^orange;<threat>^white;. They're after ^orange;<target>^white;, and I can't have that! ^green;Defend <target.pronoun.object> from the coming threat with everything you have^white;!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/irken",
+    "value": [
+      "THe next thing we need to do is ^green;defend ^orange;<target>^green; from the incoming threat^white;. From what I've gathered, the ^orange;<threat>^white; will be coming from the ^orange;<spawnPoint>^white;<spawnPoint.direction>.",
+      "On to the next step. I need you to protect ^orange;<target>^white;. See, there's some ^orange;<threat>^white; on the way from the ^orange;<spawnPoint>^white;<spawnPoint.location> to attack <target.pronoun.object>. ^green;No matter what, do whatever you can to keep <target.pronoun.object> safe^white;!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Rumor has it that there's some ^orange;<threat>^white; on their way here to take out ^orange;<target>^white;. They're coming from the ^orange;<spawnPoint>^white;<spawnPoint.direction>. It'd ruin my future plans if anything happened, so ^green;go protect <target.pronoun.object>^white; by any means necessary.",
+      "It looks like ^orange;<target>^white; is in danger - some ^orange;<threat>^white; are on their way to do... something. They're on their way from ^orange;<spawnPoint>^white;<spawnPoint.direction>. If I let that happen, my newest scheme won't work out. ^green;Go and take out this threat as soon as possible^white;!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "Good work. Now <target> is certain to remain safe. At least, for the time being.",
+      "You kept <target> safe, huh? Good, good. Now my plans can go on without a hitch!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/irken",
+    "value": [
+      "Those <threat> didn't stand a chance, apparently! I'm certain <target> will want to return the favor.",
+      "Hehehehe... Now that you dealt with the <threat>, I'm sure I can get what I need from <target>!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "<target> is in my debt now! Good work dealing with the <threat>, by the way.",
+      "Maybe you're not so bad after all, taking out the <threat> like you did. I think <target> is sure to be grateful for this."
+    ]
+  }
+]

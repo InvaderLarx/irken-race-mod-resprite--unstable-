@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "First thing's first, I need you to get a ^orange;<item>. ^white;  ^orange;<target> ^green; should have one.",
+      "Let's begin with this: a ^orange;<item> ^green;from ^orange;<target>. ^green;Go ask for one - <target.pronoun.object> should have plenty."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Next, I heard ^orange;<target> ^white;has a ^orange;<item>. ^white;Could you ^green;collect it and bring it here?",
+      "For the next part, I'm going to need a ^orange;<item>. ^white;Everyone says that ^orange;<target> ^white;has one. ^green;Go get it from <target.pronoun.object>."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/last/irken",
+    "value": [
+      "Looks like <target> was willing to part with the <item>!",
+      "I knew that <target> had this!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Good thing <target> was willing to give this <item> up - I've got big plans for it.",
+      "Get ready for the next phase of my plan - featuring this <item>!"
+    ]
+  }
+]

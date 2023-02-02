@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/-",
+    "value": [
+      "appreciationirken",
+      [
+        "Looks like you're more capable than I thought.",
+        "Hey, not bad. I didn't think you could fight that well.",
+        "Good work. They won't be causing any problems for anyone anymore."
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;A criminal is on the loose!",
+      "^cyan;I've discovered that a troublemaker has been hiding out nearby."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "There's a rumor going around that ^orange;<adjective> <enemy.name> the <enemy>^white; has been hanging around the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I heard <enemy.pronoun.copulative> been laying low ever since <crime>. ^green;I need you to go out there and <request>^white;.",
+      "So, I've heard some troubling news - ^orange;<adjective> <enemy.name> the <enemy>^white; is lurking near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. After <crime>, <enemy.pronoun.copulative> has been trying to hide out just about anywhere. ^green;Go and <request>^white;!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "<appreciationirken>"
+    ]
+  }
+]

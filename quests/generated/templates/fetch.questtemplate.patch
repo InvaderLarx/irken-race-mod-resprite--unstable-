@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "To start with, ^green;I'll need ^orange;<fetchedItems>^white;. Go get me some.",
+      "Let's start with this. ^green;I need ^orange;<fetchedItems>^white;. You can handle that, right?"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Next, ^green;I need you to get ^orange;<fetchedItems>^white;. It should be super easy for you.",
+      "^green;The next thing I'll need is ^orange;<fetchedItems>^white;. My plan won't work without it!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "Good work. Just what I needed.",
+      "Now that we've got that done, let's move on to phase two."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Now I can move on to the next phase of my brilliant plan!",
+      "Not bad, not bad. Now we can move on to the next step."
+    ]
+  }
+]

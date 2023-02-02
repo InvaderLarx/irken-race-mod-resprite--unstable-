@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "First thing's first, I need you to get something for me. I've heard ^orange;<target>^white; is the best crafter of ^orange;<item>^white; around. ^green;Go on over and get them to make one for me^white;. It'll come in handy later.",
+      "Okay, so, I need one ^orange;<item>^white;. You know ^orange;<target>^white? I learned that <target.pronoun.subject> is an expert at making those things. Here's where you come in - ^green;go and get <target.pronoun.object> to make one for me^white;!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Time for the next step. I need one ^orange;<item>^white;, and it just so happens that ^orange;<target>^white; is well-known for making the best ones in the entire star system. ^green;Go talk to <target> and get <target.pronoun.object> to put one together for me^white;!",
+      "Now, I need one ^orange;<item>^white;. I heard that ^orange;<target>^white; can make it, and well. ^green;Go over there and see about getting what I need^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/last/irken",
+    "value": [
+      "Looks like what they say about <target> really is true, huh? I can make great use of this <item>!",
+      "Oooh, this <item> is better than I thought it'd be! It'll be perfect for what I've got in mind!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "<target> is way better at this than I thought. This <item> is just what I needed.",
+      "That <item> is going to be perfect for what I have in mind. Seems like <target> really knows their stuff."
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/10",
+    "value": [
+      "requesteirken",
+      [
+        "hunt them down",
+        "kill them all",
+        "eliminate every last one of them"
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/14",
+    "value": [
+      "appreciationirken",
+      [
+        "Nice work. Here's your reward.",
+        "You did a lot better than expected. Might as well pay you.",
+        "Not bad, not bad. Take this.",
+        "Do you have some sort of military training or something? Take this for your efforts.",
+        "Here, take this. A little something for that show.",
+        "Looks like you can really fight. Here's your payment for your work."
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;THere's a beast that needs beaten!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "There's been <talk> about a <giant> ^orange;<monster>^white; over near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. It's too much of a hassle for me to take care of it, so why don't you do the job for me?",
+      "While I was out <earlier>, I saw a <giant> ^orange;<monster>^white; near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I need you to take it out for me. Think you can do that?"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "<appreciationirken>"
+    ]
+  }
+]

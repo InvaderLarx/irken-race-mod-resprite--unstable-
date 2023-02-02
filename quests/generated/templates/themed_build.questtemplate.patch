@@ -1,0 +1,26 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;It's a bit too quiet around here. An extra neighbor would be great.",
+      "^cyan;There's so few people here! It's boring! Let's get some new faces to drop by!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "It's pretty empty around here, so let's change that. ^green;Build a good shelter^white;, and inside of it ^green;place ^orange;3^green; <tag>^white;. Oh, and don't forget to ^green;include a light and a ^orange;Colony Deed^white;.",
+      "^green;Build a new home^white;, and make sure to ^green;place ^orange;3^green; <tag> inside^white;. Oh, and don't forget to add ^green; a light and a ^orange;Colony Deed^white;. This should help liven this place up a bit."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Finally! Now it'll feel less like I'm drifting around in space and more like I'm actually living somewhere!",
+      "Oh hey, you actually did it! Things should be much more fun around here now."
+    ]
+  }
+]

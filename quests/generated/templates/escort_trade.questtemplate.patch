@@ -1,0 +1,35 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/fluff/-",
+    "value": [
+      "appreciationirken",
+      [
+        "Good work out there.",
+        "Hey, you did pretty well.",
+        "You're stronger than I expected."
+      ]
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "First off, we'll need ^orange;<items>^white;. ^orange;<target>^white; was supposed to bring them here, but I bet that <target.pronoun.subject> got lost around the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I need you to ^green;take me there^white; so I cant alk to <target> and ^green;retrieve the goods^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "Next thing we'll need is ^orange;<items>^white;. ^orange;<target>^white; was supposed to bring it, but I have a hunch that <target.pronoun.subject> got turned around at the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Take me there^white; so I can talk to <target> and ^green;get what we need^white;."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "<appreciationirken> Now hold onto those <items> - we're going to need them for the next step."
+    ]
+  }
+]

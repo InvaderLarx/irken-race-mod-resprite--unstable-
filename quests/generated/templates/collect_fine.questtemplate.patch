@@ -1,0 +1,74 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;<target> has been a real pain. Help me deal with them!",
+      "^cyan;Make <target> pay for being a nuissance!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "I'm pretty busy right now, but I have a problem. ^orange;<target> ^white;has wronged me and needs to be punished appropriately. ^green;Deliver this ^orange;crime notice^green; to <target.pronoun.object> and take one ^orange;<item>^green; as payment.",
+      "So I've found out that ^orange;<target>^white; has been making themselves an issue for everyone around them. Let's put a stop to this here and now - ^green;take this ^orange;crime notice^green; to <target.pronoun.object> and collect one ^orange;<item> ^green;from <target.pronoun.object> ^white;as payment."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/irken",
+    "value": [
+      "I've got a job for you. ^orange;<target> ^white;has been causing trouble, and I'm tired of it! ^green;Go and give thiss ^orange;crime notice^green; to <target.pronoun.object> and take one ^orange;<item>^green; as a pament.",
+      "^orange;<target> ^white; has been an issue for a while now. It sickens me. So I've written a ^orange;crime notice^white; for <target.pronoun.object>. ^green;Deliver it, and take one ^orange;<item>^green; as payment."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/last/irken",
+    "value": [
+      "I need you to do one more thing for me. ^orange;<target> ^white; has been causing me no shortage of problems. ^green; Go take this ^orange;crime notice^green; to <target.pronoun.object> and get one ^orange;<item>^green; as compensation.",
+      "It's time to make ^orange;<target> pay! ^green;Deliver this ^orange;crime notice ^white;that I wrote up, and ^green;take one ^orange;<item>^green; as payment."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "<target> won't stop getting in everyone's way. I've decided it's your job to fix this! ^green;Go and give this ^orange;crime notice^green; to ^orange;<target>^green; and take <target.pronoun.possessiveDet> ^orange;<item> ^white;as payment.",
+      "So, ^orange;<target>^white; is a huge issue right now. I need you to take this ^orange;crime notice. ^green;Show it to <target.pronoun.object> and take one ^orange;<item> ^green;as payment^white; for <target.pronoun.possessiveDet> naughtiness."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "Great work, now I can finally get back to my work without worrying so much. Say, I've got something else I need you to do...",
+      "Looks like they won't be a problem anymore! I even got a new <item> out of it!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/irken",
+    "value": [
+      "Hey, not bad. Now that you did that, maybe you cuold do one more thing for me.",
+      "Well, that's over with. Maybe this <item> will come in handy somewhere down the line."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/last/irken",
+    "value": [
+      "They shouldn't be causing any more trouble for me now. Oh, that <item>? Go ahead and keep it. I don't need it.",
+      "Finally, no more of that nonsense! You're better at this than I expected - don't let that get to your head, though."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "We all learned a valuable lesson today - don't cross me. Keep that <item> as a little something for your part in this.",
+      "They better not try anything in the future - if they do, I'll just have to send you over again."
+    ]
+  }
+]

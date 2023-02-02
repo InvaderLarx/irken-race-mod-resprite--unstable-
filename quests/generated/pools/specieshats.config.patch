@@ -1,0 +1,66 @@
+[
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "irkenheadpiece"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "shloogorghhat"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "apexwighead"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "aviandisguisehead"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "florandisguisehead"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "glitchdisguisehead"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "hylotldisguisehead"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/0/1/-",
+    "value": [
+      "irken",
+      "novakiddisguisehead"
+    ]
+  }
+]

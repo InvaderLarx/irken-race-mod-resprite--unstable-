@@ -1,0 +1,42 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": [
+      "^cyan;I want to show off just how amazing I am. Help me get that done.",
+      "^cyan;I have a plan to make it obvious that I'm the best there is. I need you to be my right hand."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/next/irken",
+    "value": [
+      "This cool ^orange;<gift>^white; is amazing. ^green;Go and give it to ^orange;<target>^white; so <target.pronoun.subject> knows just how great I really am!",
+      "Nobody could even hope to resist this ^orange;<gift>^white;! ^green;Deliver it to ^orange;<target>^white;! Then <target.pronoun.subject> will be sure to think I'm the best!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "All that's left is to ^green;deliver the ^orange;<gift>^white;. Go and bring it to <target>!",
+      "<target> is sure to think I'm great for this ^orange:<gift>^white;! Why don't you go ^green;deliver it on my behalf^white;?"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/next/irken",
+    "value": [
+      "I knew <target> was going to enjoy it. Good work on the delivery.",
+      "Aren't I amazing? Now, I wonder what my next move should be..."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Looks like that was just what <target> was looking for. Now they have no choice but to think I'm the greatest!",
+      "My plan was a success! <target> is sure to adore me from now on!"
+    ]
+  }
+]
