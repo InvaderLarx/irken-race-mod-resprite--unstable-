@@ -5,8 +5,8 @@
   "maxStack" : 1,
   "rarity" : "Legendary",
   "category" : "headarmour",
-  "description" : "Perfect for shilling cheap useless stuff and announcing Operation Impending Doom 2.",
-  "shortdescription" : "Announcer Hat",
+  "description" : "perfect for shilling cheap useless stuff and announcing operation impending doom 2.",
+  "shortdescription" : "announcer hat",
   "tooltipKind" : "armor",
 
   "maleFrames" : "head.png",
