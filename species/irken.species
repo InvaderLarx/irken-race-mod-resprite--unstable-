@@ -182,6 +182,17 @@
 	  { "item" : "novakiddisguisehead" },
 	  { "item" : "zimwig" },
 	  { "item" : "shloogorghhat" },
+	  { "item" : "bandanna" },
+	  { "item" : "bandanna2" },
+	  { "item" : "engineergoggles" },
+	  { "item" : "engineergoggles2" },
+	  { "item" : "facemonitor" },
+	  { "item" : "germgoggles" },
+	  { "item" : "goggledmask" },
+	  { "item" : "irkenmask" },
+	  { "item" : "irkenmonicle" },
+	  { "item" : "larxface" },
+	  { "item" : "shlooghorggoggles" },
 	  { "item" : "announcerhat"}
 	  ]
   },
