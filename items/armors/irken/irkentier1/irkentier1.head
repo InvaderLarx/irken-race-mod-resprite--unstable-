@@ -9,8 +9,8 @@
   "shortdescription" : "Irken Elite mask",
   "tooltipKind" : "armor",
 
-  "maleFrames" : "headm.png",
-  "femaleFrames" : "headf.png",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
   "level" : 1,
