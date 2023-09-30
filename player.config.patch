@@ -5,5 +5,6 @@
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "zimplush" } },
 { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "dibglasses" } },
 { "op" : "add", "path" : "/statusControllerSettings/primaryScriptSources/-", "value" : "/scripts/racestatus.lua" },
-{ "op" : "add",	"path" : "/deploymentConfig/speciesStarterMechBody/irken",	"value" : "mechbodyirkenproto" }
+{ "op" : "add",	"path" : "/deploymentConfig/speciesStarterMechBody/irken",	"value" : "mechbodyirkenproto" },
+{ "op" : "add", "path" : "/genericScriptContexts/irk_ItemDrop","value" : "/scripts/player/irk_ItemDrop.lua" }
 ]
