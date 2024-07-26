@@ -1,4 +1,12 @@
 [
+{"op": "add",
+"path": "pleaseTakeReply/irken
+"value": {
+"default":[
+"Take my reply back to <questGiver>."
+]
+}
+}
 {
 "op": "add",
 "path": "/intimidate/intimidated/irken",
