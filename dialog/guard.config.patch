@@ -1,20 +1,14 @@
 [
-{
-"op": "add",
-"path": "/hail/irken",
-"value": {
-"default": [
-"I've got my eye on you, filth.",
-"I won't hesitate to shoot if you try anything.",
-"Don't even think about starting any trouble.",
-"Don't test me, scum."
-],
-"irken": [
-"Be on your best behavior.",
-"You may pass.",
-"Good to see another irken around here.",
-"Just because you're irken doesn't mean you're safe from consequencs."
-]
-}
-}
+  {
+    "op": "add",
+    "path": "/hail/irken",
+    "value": {
+      "default": [
+        "I've got my eye on you.",
+        "I won't hesitate to shoot if you try anything.",
+        "Don't even think about starting any trouble.",
+        "Don't test me."
+      ]
+    }
+  }
 ]

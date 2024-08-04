@@ -1,47 +1,56 @@
 [
-{
-"op": "add",
-"path": "/tagCriteria/irken",
-"value": {
-"default": [
-"Hey, put things back. I liked it that way!"
-]
-}
-},
-{
-"op": "add",
-"path": "/enclosedArea/irken",
-"value": {
-"default": [
-"Can you fix the damage to the place?"
-]
-}
-},
-{
-"op": "add",
-"path": "/otherDeed/irken",
-"value": {
-"default": [
-"I was pretty sure this was MY place to live."
-]
-}
-},
-{
-"op": "add",
-"path": "/severe/irken",
-"value": {
-"default": [
-"You better fix this mess. I'm not going to repeat myself."
-]
-}
-},
-{
-"op": "add",
-"path": "/final/irken",
-"value": {
-"default": [
-"Alright, that's it. I'm leaving."
-]
-}
-}
+  {
+    "op": "add",
+    "path": "/tagCriteria/irken",
+    "value": {
+      "default": [
+        "Things feel... off.  Did you do something?",
+        "Hey, put that back!  I liked it where it was!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/enclosedArea/irken",
+    "value": {
+      "default": [
+        "What the..?  Hey!  There's a hole over there!",
+        "This place is a wreck!  Are you going to fix it or what?",
+        "I haven't seen this many holes in... ever."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/otherDeed/irken",
+    "value": {
+      "default": [
+        "Hey, wasn't this supposed to be MY place?",
+        "Not once did I say something about wanting a roommate.  Take that thing down.",
+        "This place is occupied, you know - by me!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/severe/irken",
+    "value": {
+      "default": [
+        "Aren't you going to fix this mess?  Or are you trying to run me off?",
+        "This place is a dump.  Either you make it better or I'm out of here.",
+        "It used to be so much better here.  Maybe you'd like to fix that sometime soon?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/final/irken",
+    "value": {
+      "default": [
+        "Alright, that's it.  I'm leaving.",
+        "There's better places to be than this - I'm out.",
+        "I'd rather be the Tallest's personal footstool than put up with more of this!"
+      ]
+    }
+  }
 ]

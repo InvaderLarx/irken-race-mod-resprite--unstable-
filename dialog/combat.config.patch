@@ -1,41 +1,77 @@
 [
-{
-"op": "add",
-"path": "/attack/irken",
-"value": {
-"default": [
-"Hahaha! Time to die, filth!",
-"You've got no chance against me!",
-"I'm going to end you!",
-"For the empire!",
-"Get out of my way!",
-"You couldn't possibly beat an irken!"
-]
-}
-},
-{
-"op": "add",
-"path": "/killedTarget/irken",
-"value": {
-"default": [
-"Got'em!",
-"Aw, it's over!",
-"I should get a raise for this.",
-"That's how you clean up filth.",
-"And that's what irken excellence looks like.",
-"Too easy."
-]
-}
-},
-{
-"op": "add",
-"path": "/lostTarget/irken",
-"value": {
-"default": [
-"Where'd they go?",
-"Hey! Come out of hiding!",
-""
-]
-}
-}
+  {
+    "op": "add",
+    "path": "/reattack/irken",
+    "value": {
+      "default": [
+        "You're going to regret coming back here!",
+        "So you want more of this, huh? Come get it!",
+        "I've been waiting for this moment!",
+        "Man, you're stupid!",
+        "Get over here and take your beating!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/attack/irken",
+    "value": {
+      "default": [
+        "Hahaha! Time to die, filth!",
+        "You've got no chance against me!",
+        "I'm going to end you!",
+        "For the empire!",
+        "Get out of my way!",
+        "You couldn't possibly beat an irken!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/killedTarget/irken",
+    "value": {
+      "default": [
+        "Got'em!",
+        "Aw, it's over!",
+        "I should get a raise for this.",
+        "That's how you clean up filth.",
+        "And that's what irken excellence looks like.",
+        "Too easy."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/lostTarget/irken",
+    "value": {
+      "default": [
+        "Where'd they go?",
+        "Hey! Come out of hiding!",
+        "Get back here!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/cantReach/irken",
+    "value": {
+      "default": [
+        "I can't see them!",
+        "They're out of reach!",
+        "I can't believe my target's getting away!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/cheerOn/irken",
+    "value": {
+      "default": [
+        "Go get'em!",
+        "No way you're getting away from me!",
+        "I can't believe you're not dead yet!",
+        "Come on, I want to deal the final blow!"
+      ]
+    }
+  }
 ]

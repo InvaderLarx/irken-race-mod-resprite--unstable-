@@ -1,282 +1,294 @@
 [
-{"op": "add",
-"path": "pleaseTakeReply/irken
-"value": {
-"default":[
-"Take my reply back to <questGiver>."
-]
-}
-}
-{
-"op": "add",
-"path": "/intimidate/intimidated/irken",
-"value": {
-"default": [
-"Alright, alright! Put that <item> away! Go tell <questGiver> I'll listen!"
-]
-}
-},
-{
-"op": "add",
-"path": "/intimidate/notIntimidated/irken",
-"value": {
-"default": [
-"Hah, you thought that would work? Tell <questGiver> I'm not scared.",
-"Go tell <questGiver> that they need to try harder than that."
-]
-}
-},
-{
-"op": "add",
-"path": "/bribe/giftAccepted/irken",
-"value": {
-"default": [
-"What's this? Ooh, I like it. Tell <questGiver> they've got good taste.",
-"Looks like <questGiver> knows how to make a good impression."
-]
-}
-},
-{
-"op": "add",
-"path": "/bribe/giftAccepted2/irken",
-"value": {
-"default": [
-"Alright, what does <questGiver> want from me?",
-"So <questGiver> is giving me this for my services? Alright."
-]
-}
-},
-{
-"op": "add",
-"path": "/bribe/requestAdditionToHouse/irken",
-"value": {
-"default": [
-"Hey, find a place to put this thing, will you?",
-"You know, this'd look great in my home. Help me find a good place for it."
-]
-}
-},
-{
-"op": "add",
-"path": "/gift/giftAccepted/irken",
-"value": {
-"default": [
-"A gift from <questGiver>? Not bad. I like it.",
-"Only someone like me deserves to be given such an amazing gift!"
-]
-}
-},
-{
-"op": "add",
-"path": "/gift/giftAccepted2/irken",
-"value": {
-"default": [
-"<questGiver> has gotten really good at figuring out what I like.",
-"I knew getting on <questGiver>'s good side was worth it.>
-]
-}
-},
-{
-"op": "add",
-"path": "/gift/requestAdditionToHouse/irken",
-"value": {
-"default": [
-"This looks like it'd really spice up my room. Put it somewhere good.",
-"Just what I was looking for! Find a good spot for it in here, will you?"
-]
-}
-},
-{
-"op": "add",
-"path": "/return_stolen/objectTaken/irken",
-"value": {
-"default": [
-"I found this <item>, so it's mine. You're not getting it."
-]
-}
-},
-{
-"op": "add",
-"path": "/collect_fine/fineCollected/irken",
-"value": {
-"default": [
-"Ugh, fiiiiine. Just take the money."
-]
-}
-},
-{
-"op": "add",
-"path": "/collect_gift/giftProvided/irken",
-"value": {
-"default": [
-"Here's the <item> that <questGiver> was looking for."
-]
-}
-},
-{
-"op": "add",
-"path": "/request_craft/giftProvided/irken",
-"value": {
-"default": [
-"One of my finest works yet! Tell <questGiver> to take good care of this <item>.",
-"Only I could make an <item> this great. <questGiver> should treasure it!>
-]
-}
-},
-{
-"op": "add",
-"path": "/borrow/giftProvided/irken",
-"value": {
-"default": [
-"Here's my <item>. Make sure <questGiver> takes good care of it."
-]
-}
-},
-{
-"op": "add",
-"path": "/extort/giftProvided/irken",
-"value": {
-"default": [
-"Alright, alright - just take it!"
-]
-}
-},
-{
-"op": "add",
-"path": "/hat/crafting/irken",
-"value": {
-"default": [
-"Oh, that? Yeah, sure, I can make it. Give me a minute."
-]
-}
-},
-{
-"op": "add",
-"path": "/hat/crafted/irken",
-"value": {
-"default": [
-"<questGiver> better appreciate this - only an irken could make something this good!"
-]
-}
-},
-{
-"op": "add",
-"path": "/helmet/crafting/irken",
-"value": {
-"default": [
-"You've got the goods? Alright, I'll get to work."
-]
-}
-},
-{
-"op": "add",
-"path": "/helmet/crafted/irken",
-"value": {
-"default": [
-"Take this to <questGiver>. They made the right choice to have me make this."
-]
-}
-},
-{
-"op": "add",
-"path": "/new_stock/trade/irken",
-"value": {
-"default": [
-"I've got the goods for <questGiver>. Here's their package."
-]
-}
-},
-{
-"op": "add",
-"path": "/kidnapping/kidnappersDead/irken",
-"value": {
-"default": [
-"I totally could've handled that!",
-"I didn't need that help, I swear!"
-]
-}
-},
-{
-"op": "add",
-"path": "/kidnapping/followHome/irken",
-"value": {
-"default": [
-"I'm a bit lost, though. Mind leading me to <questGiver>?"
-]
-}
-},
-{
-"op": "add",
-"path": "/escort/found/irken",
-"value": {
-"default": [
-"I've been looking for <questGiver>. Can you take me to them?"
-]
-}
-},
-{
-"op": "add",
-"path": "/barter/trade/irken",
-"value": {
-"default": [
-"Now that you've given me my stuff, here's <questGiver>'s <receivedItems>."
-]
-}
-},
-{
-"op": "add",
-"path": "/escort_trade/collectDelivery/irken",
-"value": {
-"default": [
-"Do you have my order?",
-"You received my package, right?",
-"Did you get my stuff?"
-]
-}
-},
-{
-"op": "add",
-"path": "/escort_trade/provideDelivery/irken",
-"value": {
-"default": [
-"Yeah, I have it.  Here you go.",
-"I got it just a few minutes ago. Go ahead and take it."
-]
-}
-},
-{
-"op": "add",
-"path": "/kill_npcs/assistantIntro/irken",
-"value": {
-"default": [
-"<questGiver> has paid me to make sure you can get the job done.",
-"<questGiver> was smart to hire me. Nobody fights like an irken does.",
-"Let's begin the mission.",
-"My skills know no match. <questGiver> chose well to send me with you.",
-"I owed <questGiver> a favor. Let's get this over with."
-]
-}
-},
-{
-"op": "add",
-"path": "/kill_npc/surrender/irken",
-"value": {
-"default": [
-"I know when to call it quits. Put your weapon away and we can talk.",
-"Alright, so I underestimated you! Just drop the weapon!",
-"Stop, stop! I'm done here!"
-]
-}
-},
-{
-"op": "add",
-"path": "/kill_npc/betray/irken",
-"value": {
-"default": [
-"Hah! I can't believe you fell for that!",
-"You really thought I was telling the truth? You're so stupid!",
-"Surprise! I was lying!"
-]
-}
-}
+  {
+    "op": "add",
+    "path": "/share_secret/pleaseTakeReply/irken",
+    "value": {
+      "default": [
+        "Take my reply back to <questGiver>."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/intimidate/intimidated/irken",
+    "value": {
+      "default": [
+        "Alright, alright! Put that <item> away! Go tell <questGiver> I'll listen!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/intimidate/notIntimidated/irken",
+    "value": {
+      "default": [
+        "Hah, you thought that would work? Tell <questGiver> I'm not scared.",
+        "Go tell <questGiver> that they need to try harder than that."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bribe/giftAccepted/irken",
+    "value": {
+      "default": [
+        "What's this? Ooh, I like it. Tell <questGiver> they've got good taste.",
+        "Looks like <questGiver> knows how to make a good impression."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bribe/giftAccepted2/irken",
+    "value": {
+      "default": [
+        "Alright, what does <questGiver> want from me?",
+        "So <questGiver> is giving me this for my services? Alright."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bribe/requestAdditionToHouse/irken",
+    "value": {
+      "default": [
+        "Hey, find a place to put this thing, will you?",
+        "You know, this'd look great in my home. Help me find a good place for it."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gift/giftAccepted/irken",
+    "value": {
+      "default": [
+        "A gift from <questGiver>? Not bad. I like it.",
+        "Only someone like me deserves to be given such an amazing gift!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gift/giftAccepted2/irken",
+    "value": {
+      "default": [
+        "<questGiver> has gotten really good at figuring out what I like.",
+        "I knew getting on <questGiver>'s good side was worth it."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/gift/requestAdditionToHouse/irken",
+    "value": {
+      "default": [
+        "This looks like it'd really spice up my room. Put it somewhere good.",
+        "Just what I was looking for! Find a good spot for it in here, will you?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/return_stolen/objectTaken/irken",
+    "value": {
+      "default": [
+        "I found this <item>, so it's mine. You're not getting it.",
+        "Hey, I got this <item> legitimately!  I swear it!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collect_fine/fineCollected/irken",
+    "value": {
+      "default": [
+        "Ugh, fiiiiine. Just take the money.",
+        "Money?  Fine, fine, take it."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collect_gift/giftProvided/irken",
+    "value": {
+      "default": [
+        "Here's the <item> that <questGiver> was looking for.",
+        "<questGiver> wanted this <item>, right?  Go bring it to'em."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/request_craft/giftProvided/irken",
+    "value": {
+      "default": [
+        "One of my finest works yet! Tell <questGiver> to take good care of this <item>.",
+        "Only I could make an <item> this great. <questGiver> should treasure it!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/borrow/giftProvided/irken",
+    "value": {
+      "default": [
+        "Here's my <item>. Make sure <questGiver> takes good care of it.",
+        "This <itme>?  Fine, as long as <questGiver> gives it back when they're done."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/extort/giftProvided/irken",
+    "value": {
+      "default": [
+        "Alright, alright - just take it!",
+        "Fine, jsut take the <item> already and leave me alone!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/hat/crafting/irken",
+    "value": {
+      "default": [
+        "Oh, that? Yeah, sure, I can make it. Give me a minute.",
+        "You brought the stuff?  Alright, now I can get to work."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/hat/crafted/irken",
+    "value": {
+      "default": [
+        "<questGiver> better appreciate this - only an irken could make something this good!",
+        "It's a masterpiece, don't you think?  <questGiver> should really treasure this!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/helmet/crafting/irken",
+    "value": {
+      "default": [
+        "Oh, that? Yeah, sure, I can make it. Give me a minute.",
+        "You brought the stuff?  Alright, now I can get to work."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/helmet/crafted/irken",
+    "value": {
+      "default": [
+        "<questGiver> better appreciate this - only an irken could make something this good!",
+        "It's a masterpiece, don't you think?  <questGiver> should really treasure this!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/new_stock/trade/irken",
+    "value": {
+      "default": [
+        "I've got the goods for <questGiver>. Here's their package."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/kidnapping/kidnappersDead/irken",
+    "value": {
+      "default": [
+        "I totally could've handled that!",
+        "I didn't need that help, I swear!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/kidnapping/followHome/irken",
+    "value": {
+      "default": [
+        "I'm a bit lost, though. Mind leading me to <questGiver>?'s place?",
+        "All of that aside, maybe you could take me to <questGiver>?  I was headed there already, so why not?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/escort/found/irken",
+    "value": {
+      "default": [
+        "I've been looking for <questGiver>. Can you take me to them?",
+        "My sense of direction is just terrible! mind showing me the way to <questGiver>?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/barter/trade/irken",
+    "value": {
+      "default": [
+        "Now that you've given me my stuff, here's <questGiver>'s <receivedItems>."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/escort_trade/collectDelivery/irken",
+    "value": {
+      "default": [
+        "Do you have my order?",
+        "You received my package, right?",
+        "Did you get my stuff?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/escort_trade/provideDelivery/irken",
+    "value": {
+      "default": [
+        "Yeah, I have it.  Here you go.",
+        "I got it just a few minutes ago. Go ahead and take it."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/kill_npcs/assistantIntro/irken",
+    "value": {
+      "default": [
+        "<questGiver> has paid me to make sure you can get the job done.",
+        "<questGiver> was smart to hire me. Nobody fights like an irken does.",
+        "Let's begin the mission.",
+        "My skills know no match. <questGiver> chose well to send me with you.",
+        "I owed <questGiver> a favor. Let's get this over with."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/kill_npc/surrender/irken",
+    "value": {
+      "default": [
+        "I know when to call it quits. Put your weapon away and we can talk.",
+        "Alright, so I underestimated you! Just drop the weapon!",
+        "Stop, stop! I'm done here!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/kill_npc/betray/irken",
+    "value": {
+      "default": [
+        "Hah! I can't believe you fell for that!",
+        "You really thought I was telling the truth? You're so stupid!",
+        "Surprise! I was lying!"
+      ]
+    }
+  }
 ]

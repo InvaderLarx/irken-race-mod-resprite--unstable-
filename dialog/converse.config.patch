@@ -1,0 +1,205 @@
+[
+  {
+    "op": "add",
+    "path": "/greeting/irken",
+    "value": {
+      "default": [
+        "Well, I wasn't expecting a visitor today.",
+        "What are you doing here?",
+        "Don't stay too long.",
+        "Just where did you come from, anyway?  Haven't seen you before.",
+        "You're a new face around here.",
+        "I'm <selfname>. You play your cards right, and maybe we might jsut get along.",
+        "I'd say it's nice to meet you, but I don't know if I like you enough to say it and mean it.",
+        "This is a quick visit, right?  ...Right?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/irken",
+    "value": {
+      "generic": [
+        "As long as you don't start anything, I guess you could stay for a bit.",
+        "You know, this place usually doesn't take visitors... but I guess I could let it slide this time.",
+        "I'll be keeping my eye on you - don't try anything funny.",
+        "I'm not really that keen on strangers.  Leave me be.",
+        "I'm a bit busy right now, maybe we can chat another time.",
+        "Don't you have other things to be doing?"
+      ],
+      "default": [
+        "Just what in the universe are you, anyway?  Maybe I need to get a scientist on this..."
+      ],
+      "human": [
+        "I can't believe a species as inferior as yours made it this far.",
+        "What, are you expecting sympathy for your dead planet? Nah.",
+        "You stink. Go take a bath or something.",
+        "I don't know why you came here. We're not here to help you, you know.",
+        "Keep it brief. I don't have a lot of time to be talking to you.",
+        "Who let you in here? I thought we agreed this was an irken space!",
+        "The only thing about your planet being gone that disappoints me is that we didn't do it ourselves."
+      ],
+      "avian": [
+        "Give me some of your feathers. I have a bet to win.",
+        "You aren't bad at fighting, but you're nothing compared to our soldiers.",
+        "I'm surprised you birdbrains even know how to hold a spear.",
+        "I've heard avian down makes good pillows. Maybe you're good for something after all.",
+        "Your weapon could be way better, like mine. I've got a cool gun.",
+        "Ritual sacrifice is kind of cool, I guess.  Makes for a real spectacle, I'll give you that.",
+        "One of these days, I'm going to raid an Avian temple for the sheer thrill of it."
+      ],
+      "apex": [
+        "Are you shedding? You better not be shedding.",
+        "No, we don't have any bananas here. Don't ask.",
+        "I'm not sure which is uglier - you or the humans.",
+        "Your odor is so... overpowering.",
+        "Could you be any hairier? Seriously, there's so much!",
+        "So what made your miknog guys think this was worthwhile, anyway? I can't see any value in being hairy.",
+        "Big Ape is such a stupid name.  There, I said it.",
+        "Pathetic.  You can't even keep your own in line.  Get on our level!"
+      ],
+      "floran": [
+        "Don't touch the weapons. Yeah, it's tempting, but don't.",
+        "How did something so primitive end up with a ship? I just don't get it.",
+        "You stink of so. Much. Meat! I think I'm gonna be sick!",
+        "You're tracking mud into the place, weed.",
+        "I wonder how well you guys burn.",
+        "I appreciate your thirst for violence, but not in here.",
+        "If you guys were actually more advanced, maybe you'd be an actual threat."
+      ],
+      "glitch": [
+        "Out of all the weirdos that come here, you robot guys aren't the worst. You're not the best, either.",
+        "Finally, an outsider that doesn't smell of some organic filth!",
+        "My engineer buddy is fascinated with you guys. If you see him, watch out. He gets really excited.",
+        "You're one of the last kinds of people I'd thought I'd see here.  Seriously, who'd have thought?",
+        "You kind of remind me of a SIR unit I once saw... but less aggressive.",
+        "If you don't mind being studied in the process, I know a guy who could always patch you up if you need it."
+      ],
+      "hylotl": [
+        "You better not have tracked in any water. I don't want to mop that up.",
+        "What's even the point of having a third eye? Why not an even number?",
+        "You reek of the ocean. I can't stand it. Leave me alone.",
+        "You can stay for a bit, I guess. Not like you fishies are a threat to us.",
+        "Your species is pathetic. Who would let the weeds get the best of them like that?",
+        "Don't let the others no, but I actually enjoy the music at your clubs. A lot.",
+        "Your pacifism is going to be the death of your species."
+      ],
+      "novakid": [
+        "How do your people keep getting in? That nonstop glow should give you away!",
+        "You can stay only if you're going to be the party light for tonight.",
+        "The only challenge you provide is finding out where you even came from.",
+        "Your glow is giving me a headache. Go somewhere else.",
+        "There's nothing for you here, so I don't know why you came.",
+        "What are you hoping to achieve by walking into this place?  You're weird.",
+        "A scientist I know has been dying to know how you guys came to exist."
+      ],
+      "irken": [
+        "So, any news on how things are going? I've been out of the loop.",
+        "I heard a rumor that the almighty Tallests both grew an inch!",
+        "Schloogorg's got a new menu item last week. I can't wait to try it.",
+        "I wish I could have a ship even remotely as awesome as the Massive.",
+        "I ran out of donuts earlier. Now I'm sad.",
+        "Find any new snacks lately? I've been wanting to try something new.",
+        "I think I misplaced my pistol. Have you seen it anywhere?",
+        "I was working on a tool for invaders, but it exploded this morning.",
+        "I'm going to participate in my first ship race next week - and I'm going to win!",
+        "Things have been boring around here lately. I could use a little extra fun."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/apex/irken",
+    "value": [
+      "Please keep your visit quick.",
+      "I'm watching you. Don't try anything funny.",
+      "We are aware of what your people do. We will know if you act out.",
+      "I have always wondered what having antennae is like. Please tell me about it.",
+      "Your reputation precedes you.  That is unfortunately a bad thing in this case.",
+      "The Miniknog is everywhere.",
+      "Big Ape is watching.",
+      "I'm not so sure we should be talking to each other.",
+      "It would be appreciated if you kept the hostilities to a minimum."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/hylotl/irken",
+    "value": [
+      "I'm afraid your presence isn't an entirely welcome one here.",
+      "You would find more in common with the floran than me.",
+      "An irken? What an unexpected sight.",
+      "I do wish your peple would give up their warmongering ways.",
+      "Perhaps if you were into the arts, we might be able to get along.",
+      "It would be in your best interest to keep things brief.",
+      "Please be on your best behavior. I don't want to call the guards today.",
+      "I'd rather not talk to you. Please leave me be."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/avian/irken",
+    "value": [
+      "The weather has been lovely lately, wouldn't you say?",
+      "Your eyes are like gemstones. They're very pretty.",
+      "You look like you might make a fine sparring partner. Maybe we should train together.",
+      "What's it like to travel the stars? Is it fun?",
+      "I'm making dinner right now. Would you like to join me?",
+      "I once heard a story of a bug warrior that claimed many stars. Do you know anything about that?",
+      "You look like you could use more seeds in your diet."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/human/irken",
+    "value": [
+      "Though Earth may be gone, I take satisfaction in knowing you won't have it.",
+      "How can you people eat all that junk? It makes me sick thinking about it.",
+      "I bet the Tallest aren't actually that tall.",
+      "Haha, look at you! You're so short!",
+      "You better not underestimate a human - we're much more capable than you think.",
+      "I've got 49 problems, but I'm not letting an irken be number 50!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/floran/irken",
+    "value": [
+      "Weird floran'sss leaves don't look well. You okay?",
+      "Floran going on big hunt today! Floran isss excited!",
+      "Has weird floran seen ssstars? Floran wants to see, too!",
+      "Floran wants to ssstab something. Want to ssstab, too?",
+      "Weird floran has very healthy color!  Floran jealousss!",
+      "Floran's friend got lotss of meat yesterday! Want sssome?",
+      "Everyone thinkss you are weird floran. Floran not convinced.",
+      "Floran likesss your weapon! Looksss ssstrong!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/glitch/irken",
+    "value": [
+      "Cautious. I have heard rumors of people like you.",
+      "Belligerent. I will not accept it if you cause us any problems!",
+      "Suspicious. I haven't seen anyone like you before.",
+      "Fearful. The tales of warmongering insects aren't true, are they?",
+      "Anxious. I hope you are not here to bring us trouble.",
+      "Nervous. You aren't here for conquest, are you?",
+      "Thoughtful. There are stories of invading forces that bring fire rain. Do you know anything?",
+      "Curious. Where did you get such an unusual weapon?",
+      "Intrigued. The carryall on your back is unique."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/novakid/irken",
+    "value": [
+      "Ain't seen your ilk around here before.",
+      "Better not be here to start somethin', y'hear?",
+      "What's them things stickin' out from your head supposed to be for?",
+      "You're lookin' at everyone mighty funny there, partner.",
+      "Watch how you act 'round here. We don't take kindly to troublemakers.",
+      "You got a suspicious look about you. Can't say I like it much."
+    ]
+  }
+]

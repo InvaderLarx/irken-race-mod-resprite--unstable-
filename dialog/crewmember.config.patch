@@ -1,16 +1,15 @@
 [
-{
-"op": "add",
-"path": "/converse/irken",
-"value": {
-"default": [
-"What's the next mission? I'm getting antsy.",
-"You know, I missed being out in space.",
-"Time to put all my years of training to use.",
-"I've been waiting for this day!",
-"Do we have any plans for what we're doing today?"
-
-]
-}
-}
+  {
+    "op": "add",
+    "path": "/converse/irken",
+    "value": {
+      "default": [
+        "What's the next mission? I'm getting antsy.",
+        "You know, I missed being out in space.",
+        "Time to put all my years of training to use.",
+        "I've been waiting for this day!",
+        "Do we have any plans for what we're doing today?"
+      ]
+    }
+  }
 ]

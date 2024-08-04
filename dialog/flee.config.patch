@@ -1,35 +1,28 @@
 [
-{
-"op": "add",
-"path": "/helpme/irken",
-"value": {
-"default": [
-"I need a hand here!",
-"Ow, ow!",
-"What the heck?!"
-]
-}
-/* },
-{
-"op": "add",
-"path": "/helpthem/irken",
-"value": {
-"default": [
-"You've got no chance against me!",
-"I'm going to end you!",
-"Get out of my way!"
-]
-}
-},
-{
-"op": "add",
-"path": "/encourage/irken",
-"value": {
-"default": [
-"Get them!",
-"There's no way you're getting out of here alive!",
-"Show them what the Irken Empire has to offe!"
-]
-}
-*/ }
+  {
+    "op": "add",
+    "path": "/helpme/irken",
+    "value": {
+      "default": [
+        "I need a hand here!",
+        "Ow, ow!",
+        "What the heck?!",
+        "Where's my gun when I need it?!",
+        "Where's a soldier when you need them?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/safe/irken",
+    "value": {
+      "default": [
+        "Finally!  It was taking forever!",
+        "Ha ha!  Can't keep this irken down!",
+        "I'm getting my gun just in case this happens again.",
+        "Safety at last!",
+        "That was rougher than I thought it'd be."
+      ]
+    }
+  }
 ]
