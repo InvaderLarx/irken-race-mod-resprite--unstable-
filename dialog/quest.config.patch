@@ -143,7 +143,7 @@
     "value": {
       "default": [
         "Alright, alright - just take it!",
-        "Fine, jsut take the <item> already and leave me alone!"
+        "Fine, just take the <item> already and leave me alone!"
       ]
     }
   },
@@ -192,7 +192,8 @@
     "path": "/new_stock/trade/irken",
     "value": {
       "default": [
-        "I've got the goods for <questGiver>. Here's their package."
+        "I've got the goods for <questGiver>. Here's their package.",
+	"I recieved <questGiver>'s goods not too long ago. Here they are."
       ]
     }
   },
