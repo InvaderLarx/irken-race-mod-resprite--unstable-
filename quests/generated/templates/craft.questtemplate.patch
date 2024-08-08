@@ -3,7 +3,7 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/text/default/irken",
     "value": [
-      "Now that you've got the stuff, ^green;I want yuo to make a ^orange;<craftedItems>.",
+      "Now that you've got the stuff, ^green;I want yuo to make ^orange;<craftedItems>.",
       "I really need a ^orange;<craftedItems> right now. Don't ask why.^green; They can be crafted from ^orange;<ingredients>. ^white;Get to it!"
     ]
   },

@@ -3,8 +3,8 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/text/default/irken",
     "value": [
-      "Here's the thing: I can't cook. At all. This is where you come in. ^green;I need you to make a ^orange;<cookedItems> ^white;for me using the ^orange;<ingredients>.",
-      "I'm useless in a kitchen. I need you to make a ^orange;<cookedItems> ^green;from the ^orange;<ingredients>."
+      "Here's the thing: I can't cook. At all. This is where you come in. ^green;I need you to make ^orange;<cookedItems> ^white;for me using the ^orange;<ingredients>.",
+      "I'm useless in a kitchen. I need you to make ^orange;<cookedItems> ^green;from the ^orange;<ingredients>."
     ]
   },
   {
@@ -12,7 +12,7 @@
     "path": "/scriptConfig/generatedText/completionText/default/irken",
     "value": [
       "Maybe they should hire you in food service - this came out way better than I expected!",
-      "Finally! I've been craving this for forever!"
+      "Finally! I've been craving this forever!"
     ]
   }
 ]

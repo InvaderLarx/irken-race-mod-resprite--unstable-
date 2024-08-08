@@ -24,12 +24,12 @@
   {
     "op": "replace",
     "path": "/scriptConfig/generatedText/text/default/default/0",
-    "value": "So I was off <activityirken> <earlier<, when I spotted some ^orange;<enemy>^white; <discussing> <discussion>. They should be near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I need you to ^green;go <investigate>^white;."
+    "value": "So I was off <activityirken> <earlier>, when I spotted some ^orange;<enemy>^white; <discussing> <discussion>. They should be near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I need you to ^green;go <investigate>^white;."
   },
   {
     "op": "replace",
     "path": "/scriptConfig/generatedText/text/default/default/1",
-    "value": "I went off to <activityirken> <earlier>, right?  Well, I noticed some ^orange.<enemy>^white; near the <^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green; I want you to go <investigate>^white; that suspicious lot!"
+    "value": "I went off to <activityirken> <earlier>, right?  Well, I noticed some ^orange;<enemy>^white; near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green; I want you to go <investigate>^white; that suspicious lot!"
   },
   {
     "op": "add",

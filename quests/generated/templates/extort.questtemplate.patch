@@ -11,7 +11,7 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/text/default/irken",
     "value": [
-      "So, the next step. ^orange;<target>^white; is hiding out somewhere. ^green;Go tell <target.pronoun.object> that I think <target.pronoun.subject> should \"donate\" their ^orange;<item>.",
+      "So, the next step. ^orange;<target>^white; is hiding out somewhere. ^green;Go tell <target.pronoun.object> that I think <target.pronoun.subject> should 'donate' their ^orange;<item>.",
       "We need one ^orange;<item>^white; next. ^green;Take one from ^orange;<target>^white; - <target.pronoun.subject>'s so pathetic, <target.pronoun.subject>'d never refuse what I ask."
     ]
   },

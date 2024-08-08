@@ -19,7 +19,7 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/text/next/irken",
     "value": [
-      "THe next thing we need to do is ^green;defend ^orange;<target>^green; from the incoming threat^white;. From what I've gathered, the ^orange;<threat>^white; will be coming from the ^orange;<spawnPoint>^white;<spawnPoint.direction>.",
+      "The next thing we need to do is ^green;defend ^orange;<target>^green; from the incoming threat^white;. From what I've gathered, the ^orange;<threat>^white; will be coming from the ^orange;<spawnPoint>^white;<spawnPoint.direction>.",
       "On to the next step. I need you to protect ^orange;<target>^white;. See, there's some ^orange;<threat>^white; on the way from the ^orange;<spawnPoint>^white;<spawnPoint.location> to attack <target.pronoun.object>. ^green;No matter what, do whatever you can to keep <target.pronoun.object> safe^white;!"
     ]
   },

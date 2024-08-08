@@ -11,24 +11,24 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/text/first/irken",
     "value": [
-      "I'm pretty busy right now, but I have a problem. ^orange;<target> ^white;has wronged me and needs to be punished appropriately. ^green;Deliver this ^orange;crime notice^green; to <target.pronoun.object> and take one ^orange;<item>^green; as payment.",
-      "So I've found out that ^orange;<target>^white; has been making themselves an issue for everyone around them. Let's put a stop to this here and now - ^green;take this ^orange;crime notice^green; to <target.pronoun.object> and collect one ^orange;<item> ^green;from <target.pronoun.object> ^white;as payment."
+      "I'm pretty busy right now, but I have a problem. ^orange;<target> ^white;has wronged me and needs to be punished appropriately. ^green;Deliver this ^orange;crime notice^green; to <target.pronoun.object> and take ^orange;<item>^green; as payment.",
+      "So I've found out that ^orange;<target>^white; has been making themselves an issue for everyone around them. Let's put a stop to this here and now - ^green;take this ^orange;crime notice^green; to <target.pronoun.object> and collect ^orange;<item> ^green;from <target.pronoun.object> ^white;as payment."
     ]
   },
   {
     "op": "add",
     "path": "/scriptConfig/generatedText/text/next/irken",
     "value": [
-      "I've got a job for you. ^orange;<target> ^white;has been causing trouble, and I'm tired of it! ^green;Go and give thiss ^orange;crime notice^green; to <target.pronoun.object> and take one ^orange;<item>^green; as a pament.",
-      "^orange;<target> ^white; has been an issue for a while now. It sickens me. So I've written a ^orange;crime notice^white; for <target.pronoun.object>. ^green;Deliver it, and take one ^orange;<item>^green; as payment."
+      "I've got a job for you. ^orange;<target> ^white;has been causing trouble, and I'm tired of it! ^green;Go and give this ^orange;crime notice^green; to <target.pronoun.object> and take ^orange;<item>^green; as a payment.",
+      "^orange;<target> ^white; has been an issue for a while now. It sickens me. So I've written a ^orange;crime notice^white; for <target.pronoun.object>. ^green;Deliver it, and take ^orange;<item>^green; as payment."
     ]
   },
   {
     "op": "add",
     "path": "/scriptConfig/generatedText/text/last/irken",
     "value": [
-      "I need you to do one more thing for me. ^orange;<target> ^white; has been causing me no shortage of problems. ^green; Go take this ^orange;crime notice^green; to <target.pronoun.object> and get one ^orange;<item>^green; as compensation.",
-      "It's time to make ^orange;<target> pay! ^green;Deliver this ^orange;crime notice ^white;that I wrote up, and ^green;take one ^orange;<item>^green; as payment."
+      "I need you to do one more thing for me. ^orange;<target> ^white; has been causing me no shortage of problems. ^green; Go take this ^orange;crime notice^green; to <target.pronoun.object> and get ^orange;<item>^green; as compensation.",
+      "It's time to make ^orange;<target> pay! ^green;Deliver this ^orange;crime notice ^white;that I wrote up, and ^green;take ^orange;<item>^green; as payment."
     ]
   },
   {
@@ -36,7 +36,7 @@
     "path": "/scriptConfig/generatedText/text/default/irken",
     "value": [
       "<target> won't stop getting in everyone's way. I've decided it's your job to fix this! ^green;Go and give this ^orange;crime notice^green; to ^orange;<target>^green; and take <target.pronoun.possessiveDet> ^orange;<item> ^white;as payment.",
-      "So, ^orange;<target>^white; is a huge issue right now. I need you to take this ^orange;crime notice. ^green;Show it to <target.pronoun.object> and take one ^orange;<item> ^green;as payment^white; for <target.pronoun.possessiveDet> naughtiness."
+      "So, ^orange;<target>^white; is a huge issue right now. I need you to take this ^orange;crime notice. ^green;Show it to <target.pronoun.object> and take ^orange;<item> ^green;as payment^white; for <target.pronoun.possessiveDet> naughtiness."
     ]
   },
   {
@@ -51,7 +51,7 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/completionText/next/irken",
     "value": [
-      "Hey, not bad. Now that you did that, maybe you cuold do one more thing for me.",
+      "Hey, not bad. Now that you did that, maybe you could do one more thing for me.",
       "Well, that's over with. Maybe this <item> will come in handy somewhere down the line."
     ]
   },

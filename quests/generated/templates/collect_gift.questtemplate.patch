@@ -3,16 +3,16 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/text/first/irken",
     "value": [
-      "First thing's first, I need you to get a ^orange;<item>. ^white;  ^orange;<target> ^green; should have one.",
-      "Let's begin with this: a ^orange;<item> ^green;from ^orange;<target>. ^green;Go ask for one - <target.pronoun.object> should have plenty."
+      "First thing's first, I need you to get a ^orange;<item>^white;. ^orange;<target> ^green; should have one.",
+      "Let's begin with this: ^orange;<item> ^green;from ^orange;<target>. ^green;Go ask for one - <target.pronoun.object> should have plenty."
     ]
   },
   {
     "op": "add",
     "path": "/scriptConfig/generatedText/text/default/irken",
     "value": [
-      "Next, I heard ^orange;<target> ^white;has a ^orange;<item>. ^white;Could you ^green;collect it and bring it here?",
-      "For the next part, I'm going to need a ^orange;<item>. ^white;Everyone says that ^orange;<target> ^white;has one. ^green;Go get it from <target.pronoun.object>."
+      "Next, I heard ^orange;<target> ^white;has ^orange;<item>. ^white;Could you ^green;collect it and bring it here?",
+      "For the next part, I'm going to need ^orange;<item>. ^white;Everyone says that ^orange;<target> ^white;has one. ^green;Go get it from <target.pronoun.object>."
     ]
   },
   {
