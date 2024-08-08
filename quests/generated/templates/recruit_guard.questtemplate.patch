@@ -1,13 +1,9 @@
 [
   {
-    "op": "replace",
-    "path": "/scriptConfig/generatedText/goalText/default/0",
-    "value": "^cyan;We could use a little more security here. How about a guard?"
-  },
-  {
-    "op": "replace",
-    "path": "/scriptConfig/generatedText/goalText/default/1",
-    "value": "^cyan;I have a plan to make this place a lot safer."
+    "op": "add",
+    "path": "/scriptConfig/generatedText/goalText/irken",
+    "value": "^cyan;We could use a little more security here. How about a guard?",
+"^cyan;I have a plan to make this place a lot safer."
   },
   {
     "op": "add",
