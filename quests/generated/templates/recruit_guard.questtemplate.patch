@@ -2,8 +2,10 @@
   {
     "op": "add",
     "path": "/scriptConfig/generatedText/goalText/irken",
-    "value": "^cyan;We could use a little more security here. How about a guard?",
-"^cyan;I have a plan to make this place a lot safer."
+    "value": [
+      "^cyan;We could use a little more security here. How about a guard?",
+      "^cyan;I have a plan to make this place a lot safer."
+    ]
   },
   {
     "op": "add",

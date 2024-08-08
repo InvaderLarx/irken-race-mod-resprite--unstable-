@@ -1,7 +1,7 @@
 [
   {
     "op": "add",
-    "path": "/scriptConfig/generatedText/fluff/1",
+    "path": "/scriptConfig/generatedText/fluff/-",
     "value": [
       "activityirken",
       [
@@ -24,8 +24,10 @@
   {
     "op": "add",
     "path": "/scriptConfig/generatedText/text/default/irken",
-    "value": "So I was off <activityirken> <earlier>, when I spotted some ^orange;<enemy>^white; <discussing> <discussion>. They should be near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I need you to ^green;go <investigate>^white;.",
-"I went off to <activityirken> <earlier>, right?  Well, I noticed some ^orange;<enemy>^white; near the ^orange;<spawnPoint>^white; <spawnPoint.direction>. ^green; I want you to go <investigate>^white; that suspicious lot!"
+    "value": [
+      "So I was off <activityirken> <earlier>, when I spotted some ^orange;<enemy>^white; <discussing> <discussion>. They should be near the ^orange;<spawnPoint>^white;<spawnPoint.direction>. I need you to ^green;go <investigate>^white;.",
+      "I went off to <activityirken> <earlier>, right?  Well, I noticed some ^orange;<enemy>^white; near the ^orange;<spawnPoint>^white; <spawnPoint.direction>. ^green; I want you to go <investigate>^white; that suspicious lot!"
+    ]
   },
   {
     "op": "add",
