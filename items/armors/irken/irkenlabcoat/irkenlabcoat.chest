@@ -6,7 +6,7 @@
   "rarity" : "common",
   "category" : "chestwear",
   "description" : "Irken-made lab coat, commonly used by both Irken and Vortian scientists",
-  "shortdescription" : "Irken lab coat chest",
+  "shortdescription" : "Irken Labcoat Top",
   "tooltipKind" : "armor",
 
   "maleFrames" : {
@@ -22,11 +22,29 @@
   },
 
   "colorOptions" : [
-    // DEFAULT
-    { "4b002d" : "4b002d", "ed2725" : "ed2725", "722424" : "722424", "1b0000" : "1b0000" },
+// DEFAULT
+    { "d44272" : "d44272", "c62e6b" : "c62e6b", "a6154f" : "a6154f" },
+    // BLACK
+    { "d44272" : "5c5c5c", "c62e6b" : "424242", "a6154f" : "272727" },
+    // GREY
+    { "d44272" : "9a9a9a", "c62e6b" : "7b7b7b", "a6154f" : "5c5c5c" },
+    // WHITE
+    { "d44272" : "eaeaea", "c62e6b" : "d4d4d4", "a6154f" : "b3b3b3" },
     // RED
-    { "4b002d" : "ab4734", "ed2725" : "e9000b", "722424" : "c9000a", "1b0000" : "510000" },
+    { "d44272" : "ec4545", "c62e6b" : "c93535", "a6154f" : "ab2d2d" },
+    // ORANGE
+    { "d44272" : "ec8845", "c62e6b" : "d56f38", "a6154f" : "c85a2a" },
+    // YELLOW
+    { "d44272" : "f1c93f", "c62e6b" : "deb041", "a6154f" : "c89c32" },
+    // GREEN
+    { "d44272" : "a0d43b", "c62e6b" : "7cc133", "a6154f" : "5aae23" },
+    // BLUE
+    { "d44272" : "54c0d4", "c62e6b" : "4ca4d7", "a6154f" : "3e8cc8" },
     // PURPLE
-    { "4b002d" : "683f63", "ed2725" : "f35fac", "722424" : "442040", "1b0000" : "31082d" } 
+    { "d44272" : "b671de", "c62e6b" : "995bc9", "a6154f" : "8649b5" },
+    // PINK
+    { "d44272" : "e36fc9", "c62e6b" : "d05bb3", "a6154f" : "bc4aa0" },
+    // BROWN
+    { "d44272" : "b18161", "c62e6b" : "a26b47", "a6154f" : "88532f" }
   ]
 }
