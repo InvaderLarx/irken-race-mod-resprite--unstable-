@@ -3,8 +3,8 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/text/first/irken",
     "value": [
-      "First off, I need you to ^green;find the ^orange;<monster>^white; that's been a real pain lately. It snatched my ^orange;<item>^white; and ran off with it towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go and hunt that thing down for me!",
-      "So first thing's first, ^green;find the ^orange;<monster>^white; that's causing me some trouble. It ran off with my ^orange;<item>^white; towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go find that thing and hunt it!"
+      "First off, I need you to ^green;find the ^orange;<monster>^white; that's been a real pain lately. It snatched my ^orange;<items>^white; and ran off with it towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go and hunt that thing down for me!",
+      "So first thing's first, ^green;find the ^orange;<monster>^white; that's causing me some trouble. It ran off with my ^orange;<items>^white; towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go find that thing and hunt it!"
     ]
   },
   {
