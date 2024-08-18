@@ -196,7 +196,7 @@
 	  { "item" : "announcerhat"},
 { "item" : "irkennavhead" },
 { "item" : "irkennavchest" },
-( "item" : "irkennavpants" },
+{ "item" : "irkennavpants" },
 { "item" : "irkenengihead" },
 { "item" : "irkenengichest" },
 { "item" : "irkenengipants" }
