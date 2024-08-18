@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "common",
   "category" : "chestwear",
-  "description" : "Irken-made lab coat, commonly used by both Irken and Vortian scientists",
+  "description" : "Irken-made lab coat, commonly used by both Irken and Vortian scientists.",
   "shortdescription" : "Irken Labcoat Top",
   "tooltipKind" : "armor",
 
@@ -22,29 +22,29 @@
   },
 
   "colorOptions" : [
-// DEFAULT
-    { "d44272" : "d44272", "c62e6b" : "c62e6b", "a6154f" : "a6154f" },
+// DEFAULT, LIGHT TO DARK
+    { "d44272" : "d44272", "c62e6b" : "c62e6b", "a6154f" : "a6154f", "881149" : "881149", "6f0c3a" : "6f0c3a", "55042a" : "55042a" },
     // BLACK
-    { "d44272" : "5c5c5c", "c62e6b" : "424242", "a6154f" : "272727" },
+    { "d44272" : "777777", "c62e6b" : "585858", "a6154f" : "444444", "881149" : "313131", "6f0c3a" : "1b1b1b", "55042a" : "0d0d0d" },
     // GREY
-    { "d44272" : "9a9a9a", "c62e6b" : "7b7b7b", "a6154f" : "5c5c5c" },
+    { "d44272" : "9a9a9a", "c62e6b" : "7b7b7b", "a6154f" : "6f6f6f", "881149" : "585858", "6f0c3a" : "444444", "55042a" : "313131" },
     // WHITE
-    { "d44272" : "eaeaea", "c62e6b" : "d4d4d4", "a6154f" : "b3b3b3" },
+    { "d44272" : "eaeaea", "c62e6b" : "d4d4d4", "a6154f" : "b3b3b3", "881149" : "9a9a9a", "6f0c3a" : "7b7b7b", "55042a" : "6f6f6f" },
     // RED
-    { "d44272" : "ec4545", "c62e6b" : "c93535", "a6154f" : "ab2d2d" },
+    { "d44272" : "ec4545", "c62e6b" : "c93535", "a6154f" : "ab2d2d", "881149" : "8e1e2d", "6f0c3a" : "740f1d", "55042a" : "5e0a16" },
     // ORANGE
-    { "d44272" : "ec8845", "c62e6b" : "d56f38", "a6154f" : "c85a2a" },
+    { "d44272" : "ec8845", "c62e6b" : "d56f38", "a6154f" : "c85a2a", "881149" : "ba391f", "6f0c3a" : "ac2719", "55042a" : "94180c" },
     // YELLOW
-    { "d44272" : "f1c93f", "c62e6b" : "deb041", "a6154f" : "c89c32" },
+    { "d44272" : "f1c93f", "c62e6b" : "deb041", "a6154f" : "c89c32", "881149" : "bd7928", "6f0c3a" : "ae6722", "55042a" : "a45018" },
     // GREEN
-    { "d44272" : "a0d43b", "c62e6b" : "7cc133", "a6154f" : "5aae23" },
+    { "d44272" : "b2d43b", "c62e6b" : "99c431", "a6154f" : "7bae2a", "881149" : "52a027", "6f0c3a" : "36911a", "55042a" : "1d8213" },
     // BLUE
-    { "d44272" : "54c0d4", "c62e6b" : "4ca4d7", "a6154f" : "3e8cc8" },
+    { "d44272" : "54b1d4", "c62e6b" : "419ac4", "a6154f" : "358bb3", "881149" : "3a75a7", "6f0c3a" : "2e5e9f", "55042a" : "2d499a" },
     // PURPLE
-    { "d44272" : "b671de", "c62e6b" : "995bc9", "a6154f" : "8649b5" },
+    { "d44272" : "b671de", "c62e6b" : "995bc9", "a6154f" : "8649b5", "881149" : "713cb1", "6f0c3a" : "612da0", "55042a" : "50218a" },
     // PINK
-    { "d44272" : "e36fc9", "c62e6b" : "d05bb3", "a6154f" : "bc4aa0" },
+    { "d44272" : "e36fc9", "c62e6b" : "d05bb3", "a6154f" : "bc4aa0", "881149" : "b33a7e", "6f0c3a" : "a62f72", "55042a" : "912060" },
     // BROWN
-    { "d44272" : "b18161", "c62e6b" : "a26b47", "a6154f" : "88532f" }
+    { "d44272" : "b18161", "c62e6b" : "a26b47", "a6154f" : "88532f", "881149" : "793625", "6f0c3a" : "6b2b1a", "55042a" : "571f10" }
   ]
 }
