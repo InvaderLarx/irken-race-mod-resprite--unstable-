@@ -3,11 +3,12 @@
 		"path" : "/scriptConfig/dialog/hail/irken",
 		"value" : {
 			"default" : [
-				"Welcome",
-				"Not causing any trouble for the tallest, hmmm?",
+				"Greetings.",
+				"Not causing any trouble for anyone here, are you?",
 				"Going somewhere?",
-				"Greetings, lifeform",
-				"Watch yourself"
+				"Misbehavior won't be tolerated.",
+				"Don't disappoint me."
+				"Watch yourself."
 			]
 		}
 	}
