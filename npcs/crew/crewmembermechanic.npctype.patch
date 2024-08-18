@@ -4,8 +4,9 @@
     "value": 
     [ [0, [
           {
-            "chest" : [ { "name" : "irkentier4chest" } ],
-            "legs" : [ { "name" : "irkentier4pants" } ],
+		"head" : [ { "name" : "irkennavhead" } ],
+            "chest" : [ { "name" : "irkennavchest" } ],
+            "legs" : [ { "name" : "irkennav4pants" } ],
 			"back" : [ { "name" : "PAKback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9,10,11,12,13] } } ],
             "primary" : [  "npcwrench" ]
           }

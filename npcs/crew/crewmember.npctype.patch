@@ -4,10 +4,11 @@
 		"path" : "/scriptConfig/dialog/crewmember/offer/irken",
 		"value" : {
 			"default" : [
-				"I'm sick and tired of wandering around here. You take me with you",
+				"I'm sick and tired of wandering around here. You! Take me with you!",
 				"I, <selfname>, demand that you take me with you.",
 				"Operation Impending Doom just isn't for me. Do you need assistance?",
-				"Need any assistance in your travels?"
+				"Need any assistance in your travels?",
+				"I could use a little more excitement in my life. Let me join you."
 			]
 		}
 	},{
@@ -26,7 +27,8 @@
 		"value" : {
 			"default" : [
 				"I shall maintain my post until you return.",
-				"Very well. I will stand guard until you return."
+				"Very well. I will stand guard until you return.",
+				"Understood. I'll remain here until told otherwise."
 			]
 		}
 	},{
@@ -34,8 +36,10 @@
 		"path" : "/scriptConfig/dialog/crewmember/follow/irken",
 		"value" : {
 			"default" : [
-				"Reporting for duty, captain",
-				"Are we heading somewhere yet?"
+				"Reporting for duty, captain.",
+				"Are we heading somewhere yet?",
+				"Where are we going this time, captain?",
+				"I'm ready for whatever we'll face!"
 			]
 		}
 	},{
@@ -43,8 +47,9 @@
 		"path" : "/scriptConfig/dialog/crewmember/cantreach/irken",
 		"value" : {
 			"default" : [
-				"Get back here and fight",
-				"Coward"
+				"Get back here and fight!",
+				"Coward!",
+				"Quit running away!"
 			]
 		}
 	},{ 
