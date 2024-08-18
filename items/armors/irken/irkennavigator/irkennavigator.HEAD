@@ -1,0 +1,42 @@
+{
+  "itemName" : "irkennavhead",
+  "price" : 75,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "chestwear",
+  "description" : "A navigator's headset and collar.",
+  "shortdescription" : "Irken Navigator Headgear",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "colorOptions" : [
+    // DEFAULT SILVERS SLEEVES GENERAL LIGHT TO DARK
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "f392ab", "cf6782" : "cf6782", "c62e6b" : "c62e6b", "a6154f" : "a6154f", "881149" : "881149" },
+    // BLACK
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "9a9a9a", "cf6782" : "5e5e5e", "c62e6b" : "313131", "a6154f" : "1b1b1b", "881149" : "0d0d0d" },
+    // GREY
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "d2d2d2", "cf6782" : "494949", "c62e6b" : "7b7b7b", "a6154f" : "6f6f6f", "881149" : "585858" },
+    // WHITE
+    { "c8babf" : "babcc8", "b7a1aa" : "a1a6b7", "a48692" : "8688a4", "f392ab" : "ffffff", "cf6782" : "9f9f9f", "c62e6b" : "d9d9d9", "a6154f" : "c4c4c4", "881149" : "acacac" },
+    // RED
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "f17d8d", "cf6782" : "c45d6c", "c62e6b" : "c93535", "a6154f" : "ab2d2d", "881149" : "8e1e2d" },
+    // ORANGE
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "e8ba91", "cf6782" : "d2a37a", "c62e6b" : "d56f38", "a6154f" : "c85a2a", "881149" : "ba391f" },
+    // YELLOW
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "f6ef9e", "cf6782" : "ded28f", "c62e6b" : "deb041", "a6154f" : "c89c32", "881149" : "bd7928" },
+    // GREEN
+    { "c8babf" : "babcc8", "b7a1aa" : "a1a6b7", "a48692" : "8688a4", "f392ab" : "d7eca4", "cf6782" : "bfd48e", "c62e6b" : "99c431", "a6154f" : "7bae2a", "881149" : "52a027" },
+    // BLUE
+    { "c8babf" : "babcc8", "b7a1aa" : "a1a6b7", "a48692" : "8688a4", "f392ab" : "bde9f4", "cf6782" : "9fcdd9", "c62e6b" : "419ac4", "a6154f" : "358bb3", "881149" : "3a75a7" },
+    // PURPLE
+    { "c8babf" : "babcc8", "b7a1aa" : "a1a6b7", "a48692" : "8688a4", "f392ab" : "d0b1e1", "cf6782" : "b194c1", "c62e6b" : "995bc9", "a6154f" : "8649b5", "881149" : "713cb1" },
+    // PINK
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "e8b1db", "cf6782" : "c88bb9", "c62e6b" : "d05bb3", "a6154f" : "bc4aa0", "881149" : "b33a7e" },
+    // BROWN
+    { "c8babf" : "c8babf", "b7a1aa" : "b7a1aa", "a48692" : "a48692", "f392ab" : "d9b6a7", "cf6782" : "ba8d79", "c62e6b" : "a26b47", "a6154f" : "88532f", "881149" : "7c3825" }
+  ]
+}
