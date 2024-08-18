@@ -3,7 +3,7 @@
 	"charCreationTooltip" : {
 	"title" : "irken",
 	"subTitle" : "O2",
-	"description" : "The Irken are a proud race of insectiod lifeforms. Beware that, despite their size, they are known to invade multiple planets in an event known as operation Impending Doom in order to please their leaders, The Almighty Tallest.
+	"description" : "The Irken are a proud, insectoid species.  Despite their smaller stature, they are eager to do anything to aid in the expansion of their large interstellar empire - and to please their leaders, the Almighty Tallest.
  ^yellow;Attributes^reset;
  ^cyan;Max Health^reset;: ^red;70^reset;
  ^cyan;Max Energy^reset;: ^green;150^reset;
@@ -193,7 +193,13 @@
 	  { "item" : "irkenmonicle" },
 	  { "item" : "larxface" },
 	  { "item" : "shlooghorggoggles" },
-	  { "item" : "announcerhat"}
+	  { "item" : "announcerhat"},
+{ "item" : "irkennavhead" },
+{ "item" : "irkennavchest" },
+( "item" : "irkennavpants" },
+{ "item" : "irkenengihead" },
+{ "item" : "irkenengichest" },
+{ "item" : "irkenengipants" }
 	  ]
   },
   "headOptionAsFacialhair" : true,
