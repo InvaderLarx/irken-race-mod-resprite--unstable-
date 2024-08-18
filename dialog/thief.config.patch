@@ -1,0 +1,28 @@
+[
+  {
+    "op": "add",
+    "path": "/accuse/irken",
+    "value": {
+      "default": [
+        "Hey, put that back!",
+        "You know, you shouldn't steal from an irken.",
+        "I thought you'd actually respect the rules around here.",
+        "Looks like we have a thief around here!",
+        "Could you maybe try NOT taking things that aren't yours?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/alert/irken",
+    "value": {
+      "default": [
+        "Guards! Come take care of this criminal!",
+        "Alright, that's it! Guards!",
+        "Can't say you weren't warned. Guards, come over here!",
+        "We don't tolerate theives around here! Get'em, guards!",
+        "I'm calling the guards! I'm tired of your disrepect!"
+      ]
+    }
+  }
+]

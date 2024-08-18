@@ -6,6 +6,7 @@
 "default": [
 "Looking for anything particular?",
 "Are you going to buy, or just window shopping?",
+"Anything of interest catch your eye?",
 "See anything you like?"
 ]
 }
@@ -30,6 +31,7 @@
 "default": [
 "Right this way! I've got tons to show you!",
 "We can do business at my store, come with me.",
+"If you'll come with me, we can talk business.",
 "I can't take your monies here - follow me."
 ]
 }
@@ -53,7 +55,10 @@
 "Come on over!  I've got the finest goods this side of the galaxy!",
 "Nobody has anything better than <selfname>'s got in store.",
 "Hot deals! Cheap buys! Get your monies' worth here!",
-"Looking for something? I'm the irken to go to!"
+"Looking for something? I'm the irken to go to!",
+"Nobody's got deals like <selfname> has deals!",
+"You won't find goods this good anywhere else!",
+"The competition has nothing on my prices!"
 ]
 
 }
