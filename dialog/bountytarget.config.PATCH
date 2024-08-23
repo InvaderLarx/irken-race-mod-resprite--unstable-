@@ -1,0 +1,111 @@
+[
+  {
+    "op": "add",
+    "path": "/attack/irken",
+    "value": {
+      "default": [
+        "You think you've got me! Hah! You don't stand a chance!",
+        "It's time for a one-on-one showdown! Give me all you've got!",
+        "I've been waiting for you, Peacekeeper!",
+        "You're going to regeret ever come after the ^orange;<gangName>^reset;!",
+        "Messing with the ^orange;<gangName^reset; was your first and last mistake!",
+        "Pretty stupid of you to take on a member of the ^orange;<gangName>^reset;!",
+        "What, you think you can handle the ^orange;<gangName>^reset;? Not a chance!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/resistArrest/irken",
+    "value": {
+      "default": [
+        "No way I'm letting you take me like this!",
+        "So THIS is the kind of fight you want? Alright, let's dance!",
+        "You can't catch me if you're going to be that slow!",
+        "You don't think I'll make this easy for you, do you?",
+        "You're trying to arrest me? How cute!",
+        "Trying to arrest me? Nope! Gotta beat me in a fight first!",
+        "Do you have any idea who I am?! You insult me!",
+        "The ^orange;<gangName>^reset; are always three steps ahead of anyone else!",
+        "We're the ^orange;<gangName>^reset; - you can't stop us that easily!",
+        "Are you really trying to catch a member of the ^orange;<gangName>^reset;?",
+        "It won't be easy to catch a member of the ^orange;<gangName>^reset;!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/arrested/irken",
+    "value": {
+      "default": [
+        "Hey, hey! Let me go!",
+        "You're going to set off my handcuff-related allergies like this!",
+        "Well, this day is going horribly.",
+        "At least I didn't go down without a fight!",
+        "How are you so strong?!",
+        "I KNEW I should've ran!",
+        "These things are itchy!",
+        "I can't believe I got caught by someone like you!",
+        "These things are way too tight! Loosen them up, would you?",
+        "They can't be paying you that much for this! Why don't you work for me instead?",
+        "And what charges do you have me on, huh?!",
+        "The Tallest will hear about this! Just you wait!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/completeArrest/irken",
+    "value": {
+      "default": [
+        "You haven't seen the last of me!",
+        "I'll be back, just you wait and see!",
+        "There isn't a prison around that can hold me!",
+        "Nobody can keep an irken down for long! You'll see!",
+        "You guys aren't going to send me to Moo-Ping 10, right?",
+        "I'll get you back for this - I never forget a face!",
+        "You've just made an enemy for life!",
+        "You haven't seen the last of this irken!",
+        "The ^orange;<gangName>^reset; won't stand for this!",
+        "The ^orange;<gangName>^reset; will get you back for this!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/reattack/irken",
+    "value": {
+      "default": [
+        "Come back for more, have you? Bring it on!",
+        "You should've kept running for your pathetic little life!",
+        "Look at you, being brave and coming back to fight me! I'll be sure to make this quick!",
+        "So, you're up for another round against the ^orange;<gangName>^reset;?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/killedTarget/irken",
+    "value": {
+      "default": [
+        "Too easy! Could you be any weaker?!",
+        "I thought you'd put up more of a fight. Guess not!",
+        "The ^orange;<gangName>^reset; claims yet another victory!",
+        "And THIS is why you don't mess with the ^orange;<gangName>^reset;!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/lostTarget/irken",
+    "value": {
+      "default": [
+        "Did they jsut run away? Ha! Coward!",
+        "Looks like nobody's getting in my way anymore! I don't see them anywhere!",
+        "Huh? Where'd they go?",
+        "Come out, come out, wherever you are...",
+        "Well, I guess nobody's going to be messing with the ^orange;<gangName>^reset; anymore!"
+      ]
+    }
+  }
+]

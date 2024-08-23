@@ -1,0 +1,122 @@
+[
+  {
+    "op": "add",
+    "path": "/flee/irken",
+    "value": {
+      "default": [
+        "Can't catch me! Hahaha!",
+        "Looks likes time to get out of here!",
+        "Time to get moving!",
+        "No way I'm sticking around and getting caught!",
+        "Catch me if you can!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/caughtFleeing/irken",
+    "value": {
+      "default": [
+        "Aw, you caught me!",
+        "And here I thought I was pretty fast! You can really run, you know that?",
+        "So, do we have to fight this out, or..?",
+        "I was really sure I could outrun you. Guess not, huh?",
+        "Looks like you managed to catch me anyway..."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/crazy/irken",
+    "value": {
+      "default": [
+        "The MADNESS! THE MAAAAADNESS!",
+        "N-no! I'm not defective! Of course I'm not! You're the defective one!",
+        "Can't you see it? This world, our existences... it's all meaningless! There's no point to it all!",
+        "Clothes are for suckers. I'd rather be naked and free!",
+        "Oh, lighten up, little bumblebee! Everything's going to be fiiiine!",
+        "I don't know what I just drank, but I'm feeling AMAZING!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/deceptive/irken",
+    "value": {
+      "default": [
+        "A criminal? Where? I don't see any criminals!",
+        "Don't mind me, I'm just your normal, average, law-abiding citizen. Yup.",
+        "I'm not doing anything illegal. Nope. Totally not me.",
+        "Me, a criminal? No, you've got it all wrong! The criminal went THAT way!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/deceptiveEnd/irken",
+    "value": {
+      "default": [
+        "You might've thought I was an innocent, but it was me, <selfname>!",
+        "Oh, you... ahahaha... I guess my disguise didn't work, huh?",
+        "What?! You saw through my disguise?! How?!",
+        "This just isn't my day, is it? How did you know it was a ruse?!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/tricked/irken",
+    "value": {
+      "default": [
+        "Haha! Got you! Those were fake handcuffs!",
+        "Got you with the ol' fake handcuff trick! You're not getting me that easily!",
+        "What, did you think I'd go down that fast? Those are fake cuffs, buddy.",
+        "You don't ACTUALLY have me captured! Fake handcuffs, my beloved!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bribeWait/irken",
+    "value": {
+      "default": [
+        "Wait, wait! I want to make you an offer!",
+        "Hold on, before you do anything, I have an offer!",
+        "Stop for a second, I have a deal for you!"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bribeMysteryItem/irken",
+    "value": {
+      "default": [
+        "Okay, so, if you let me go I'll give you this ^orange;valuable item^reset;! What do you say?",
+        "It goes like this. Let me go free, and I'll hand over this ^orange;rare item^reset; in return!",
+        "I can give you this ^orange;special item^reset; if you don't caputre me. Sound good?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bribeHat/irken",
+    "value": {
+      "default": [
+        "Okay, so, if you let me go I'll give you, uh... ^orange;My hat^reset;? Is that good?",
+        "Let me be free and I'll let you have ^orange;my hat^reset;. It's really special!",
+        "Don't capture me and you can have ^orange;my hat^reset; in return! Does that sound good to you?"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bribeAccepted/irken",
+    "value": {
+      "default": [
+        "Good choice! I knew I chose right when making this offer to you!",
+        "Thanks for helping me get out of this! Enjoy your loot!",
+        "All yours! Pleasure doing business with you, pal!"
+      ]
+    }
+  }
+]
