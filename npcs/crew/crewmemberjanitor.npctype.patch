@@ -4,8 +4,9 @@
 		"path" : "/scriptConfig/dialog/crewmember/roleDescription/irken",
 		"value" : {
 			"default" : [
-				"If this is the will of the tallest...",
-				"I'm <selfname>, I think I might have been demoted."
+				"If this is the will of the Tallest...",
+				"I'm <selfname>. I think I might have been demoted.",
+				"I guess we're not all cut out to be invaders."
 			]
 		}
 	},
