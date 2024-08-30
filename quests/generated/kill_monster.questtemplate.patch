@@ -1,0 +1,34 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/first/irken",
+    "value": [
+      "First off, I need you to ^green;find the ^orange;<monster>^white; that's been a real pain lately. It snatched my ^orange;<items>^white; and ran off with it towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go and hunt that thing down for me!",
+      "So first thing's first, ^green;find the ^orange;<monster>^white; that's causing me some trouble. It ran off with my ^orange;<items>^white; towards the ^orange;<spawnPoint>^white;<spawnPoint.direction>. ^green;Go find that thing and hunt it!"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/text/default/irken",
+    "value": [
+      "The next thing I need is for you to ^green;hunt down the ^orange;<monster>^white; that took off with my ^orange;<items>^white;. I last saw it near the ^orange;<spawnPoint>^white;<spawnPoint.direction>.",
+      "The next step is to ^green;find and slay the ^orange;<monster>^white;. That thing took my ^orange;<items>^white;! It should be near the ^orange;<spawnPoint>^white;<spawnPoint.direction>."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/first/irken",
+    "value": [
+      "Huh, not bad. I wasn't sure you could handle that <monster>. Now we're ready for the next.",
+      "Ew, is this that <monster>'s spit all over my stuff? Ugh, whatever. You got it back so we can move on to the next step."
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/generatedText/completionText/default/irken",
+    "value": [
+      "Man, am I glad to be done with that <monster>. Now we can move on to the next step.",
+      "Hah! That'll teach that <monster> to take my stuff! Time to move on to the next phase of my plan!"
+    ]
+  }
+]
