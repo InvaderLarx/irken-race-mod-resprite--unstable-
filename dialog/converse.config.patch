@@ -14,7 +14,7 @@
 	"Try not to overstay your welcome, okay?",
 	"Oh, hey.",
 	"Hi there, I guess.",
-        "This is a quick visit, right?  ...Right?"
+        "This is a quick visit, right?"
       ]
     }
   },
@@ -23,15 +23,22 @@
     "path": "/converse/irken",
     "value": {
       "generic": [
-        "As long as you don't start anything, I guess you could stay for a bit.",
-        "You know, this place usually doesn't take visitors... but I guess I could let it slide this time.",
+        "As long as you don't start anything, I guess you could stay for a bit.",,
         "I'll be keeping my eye on you - don't try anything funny.",
         "I'm not really that keen on strangers.  Leave me be.",
         "I'm a bit busy right now, maybe we can chat another time.",
 	"My latest plans still need a little work before I can get them off the ground.",
 	"It looks like my snack stock is getting low... time to go shopping, I guess.",
-	"I need to clean out my ship - I accidentally spilled a soda in there yesterday.",
-        "Don't you have other things to be doing?"
+	"I need to clean out my ship - I accidentally spilled soda in there yesterday.",
+        "Don't you have other things to be doing?",
+	"It's hard for anyone to get anywhere close to matching irken excellence.",
+	"When there's two Almighty Tallest, everyone always ends up having one they like slightly more.",
+	"I've been itching to pick up a new weapon, but I can't decide - gun or blade?",
+	"The radio keeps playing Flibba Dibba Hoinka Smeedge. It's driving me nuts.",
+	"I could really go for some nachos right about now.",
+	"You look like you've seen better days.",
+	"Looking pretty rough there - have you considered taking a vacation?",
+	"I'm looking forward to Probing Day this year. My buddy and I are making bets on who gets pummeled."
       ],
       "default": [
         "Just what in the universe are you, anyway?  Maybe I need to get a scientist on this..."
@@ -44,7 +51,8 @@
         "I don't know why you came here. We're not here to help you, you know.",
         "Keep it brief. I don't have a lot of time to be talking to you.",
         "Who let you in here? I thought we agreed this was an irken space!",
-        "The only thing about your planet being gone that disappoints me is that we didn't do it ourselves."
+        "The only thing about your planet being gone that disappoints me is that we didn't do it ourselves.",
+	"Even with a destroyed planet, there's still some of you around? You're like roaches!",
       ],
       "avian": [
         "Give me some of your feathers. I have a bet to win.",
@@ -53,7 +61,10 @@
         "I've heard avian down makes good pillows. Maybe you're good for something after all.",
         "Your weapon could be way better, like mine. I've got a cool gun.",
         "Ritual sacrifice is kind of cool, I guess. Makes for a real spectacle, I'll give you that.",
-        "One of these days, I'm going to raid an Avian temple for the sheer thrill of it."
+        "One of these days, I'm going to raid an Avian temple for the sheer thrill of it.",
+	"I couldn't imagine being covered in feathers. They look so itchy.",
+	"Avians couldn't hope to match what an irken has to offer.",
+	"Maybe the Irken Empire could find some use for your people... making the universe's comfiest pillows."
       ],
       "apex": [
         "Are you shedding? You better not be shedding.",
@@ -64,7 +75,10 @@
         "So what made your miknog guys think this was worthwhile, anyway? I can't see any value in being hairy.",
         "Big Ape is such a stupid name. There, I said it.",
 	"You keep a statue of your leader in just about every town? If he weren't a monkey, I'd call it impressive.",
-        "Pathetic. You can't even keep your own in line. Get on our level!"
+        "Pathetic. You can't even keep your own in line. Get on our level!",
+	"The Ministry of Knowledge? More like the Ministry of Idiots.",
+	"Your people are pretty smart, but not smart enough. I think the Vortians are way ahead of you.",
+	"I guess I can agree with you guys on one thing - bananas and grapes really do make a nice combo."
       ],
       "floran": [
         "Don't touch the weapons. Yeah, it's tempting, but don't.",
@@ -74,7 +88,10 @@
         "I wonder how well you guys burn.",
 	"You look like one of the stronger ones. Maybe you'd be an okay sparring partner.",
         "I appreciate your thirst for violence, but not in here.",
-        "If you guys were actually more advanced, maybe you'd be an actual threat."
+        "If you guys were actually more advanced, maybe you'd be an actual threat.",
+	"You're not going to have an easy time 'hunting' an irken. We're just too skilled for you.",
+	"Credit where it's due, that whole thing where you prove yourselves by taking down a huge beast? I like that.",
+	"You guys are downright feral. I don't know whether to be disgusted, impressed, or both."
       ],
       "glitch": [
         "Out of all the weirdos that come here, you robot guys aren't the worst. You're not the best, either.",
@@ -83,7 +100,11 @@
         "My engineer buddy is fascinated with you guys. If you see him, watch out. He gets really excited.",
         "You're one of the last kinds of people I'd thought I'd see here. Seriously, who'd have thought?",
         "You kind of remind me of a SIR unit I once saw... but less aggressive.",
-        "If you don't mind being studied in the process, I know a guy who could always patch you up if you need it."
+        "If you don't mind being studied in the process, I know a guy who could always patch you up if you need it.",
+	"Being around you feels so much better than being around most other species.",
+	"Hey, do you know a smith good at making decorative weapons? Asking for a friend.",
+	"Machines bring me comfort, but I don't know how to feel about you. It's weird.",
+	"How sturdy is a Glitch, anyway? I'm genuinely curious about that."
       ],
       "hylotl": [
         "You better not have tracked in any water. I don't want to mop that up.",
@@ -93,7 +114,8 @@
         "You can stay for a bit, I guess. Not like you fishies are a threat to us.",
         "Your species is pathetic. Who would let the weeds get the best of them like that?",
         "Don't let the others know, but I actually enjoy the music at your clubs. A lot.",
-        "Your pacifism is going to be the death of your species."
+        "Your pacifism is going to be the death of your species.",
+	"We have artists too, they just don't make the kinds of stuff you guys like."
       ],
       "novakid": [
         "How do your people keep getting in? That nonstop glow should give you away!",
@@ -103,19 +125,23 @@
         "There's nothing for you here, so I don't know why you came.",
         "We're having a shooting contest later. Think you can match one of us?",
         "What are you hoping to achieve by walking into this place?  You're weird.",
-        "A scientist I know has been dying to know how you guys came to exist."
+        "A scientist I know has been dying to know how you guys came to exist.",
+	"How do you eat or drink without a mouth? Can you even taste things?"
       ],
       "irken": [
         "So, any news on how things are going? I've been out of the loop.",
-        "I heard a rumor that the almighty Tallests both grew an inch!",
+        "I heard a rumor that the Almighty Tallest both grew an inch!",
         "Shloogorgh's got a new menu item last week. I can't wait to try it.",
         "I wish I could have a ship even remotely as awesome as the Massive.",
         "I ran out of donuts earlier. Now I'm sad.",
         "Find any new snacks lately? I've been wanting to try something new.",
         "I think I misplaced my gun. Have you seen it anywhere?",
         "I was working on a new tool for invaders, but it exploded this morning.",
-        "I'm going to participate in my first ship race next week - and I'm going to win!",
-        "Things have been boring around here lately. I could use a little extra fun."
+        "I'm going to participate in my first ship race next week.",
+        "Things have been boring around here lately. I could use a little extra fun.",
+	"I saw an interesting movie lately. It was about two Elites hunting down a Novakid criminal.",
+	"There's so many species out there. Do you think any of them have a chance of comparing to us?",
+	"So, I need your opinion - spittle runner or ring cutter? Which is cooler?"
       ]
     }
   },
@@ -131,37 +157,50 @@
       "Rumor has it irkens eat fruit just as much as junk food. Have you tried bananas?",
       "I can't place why, but your eyes unnerve me.",
       "I'm not so sure we should be talking to each other.",
-      "It would be appreciated if you kept the hostilities to a minimum."
+      "You aren't here for anything harmful, are you?",
+      "I am certain the miiknog knows how to protect us from your invaders.",
+      "It is hard to believe irkens are as small as they are compared to apex.",
+      "Though your people have a frightening reputation, I believe we can be civil with one another.",
+      "Irkens spend so much time away from their home planet. Do you ever miss it?",
+      "Are the bends and curls in irken antennae natural, or is it a style?"
     ]
   },
   {
     "op": "add",
     "path": "/converse/hylotl/irken",
     "value": [
-      "I'm afraid your presence isn't an entirely welcome one here.",
-      "You would find more in common with the floran than me.",
+      "I'm afraid your presence isn't the most welcome one.",
+      "You would find more in common with the floran than me, I feel.",
       "An irken? What an unexpected sight.",
       "I do wish your peple would give up their warmongering ways.",
       "Perhaps if you were into the arts, we might be able to get along.",
-      "It would be in your best interest to keep things brief.",
+      "What kind of music do your people prefer to indulge in?",
       "Have you ever tried painting? It is very relaxing.",
       "You look tense. Maybe some meditation could help your nerves.",
       "The expansionist ways of your empire are worrisome to watch unfold.",
       "Please be on your best behavior. I have heard how aggressive your people can be.",
-      "I'd rather not talk to you. Please leave me be."
+      "I'd rather not talk to you. Please leave me be.",
+      "Irken antennae look quite sensitive. Do they ever cause you any trouble?",
+      "We keep the water as pure as possible here, you need not worry about any harm to your skin.",
+      "I must admit, I'd thought you would be a little taller in person than this."
     ]
   },
   {
     "op": "add",
     "path": "/converse/avian/irken",
     "value": [
-      "The weather has been lovely lately, wouldn't you say?",
+      "I have heard many things about your warriors. They're very impressive!",
       "Your eyes are like gemstones. They're very pretty.",
       "You look like you might make a fine sparring partner. Maybe we should train together.",
       "What's it like to travel the stars? Is it fun?",
-      "I'm making dinner right now. Would you like to join me?",
+      "What fruits do you favor most, sweet or sour?",
       "I once heard a story of a bug warrior that claimed many stars. Do you know anything about that?",
-      "You look like you could use more seeds in your diet."
+      "You look like you could use more seeds in your diet.",
+      "Even with access to guns, your soldiers still use spears. They must be talented to master multiple arms.",
+      "With what's said of irkens, I thought you might be a little... taller.",
+      "How big is the gap between the shortest and tallest irken?",
+      "Are your Tallest good leaders?",
+      "How do you keep warm without feathers?"
     ]
   },
   {
@@ -169,28 +208,38 @@
     "path": "/converse/human/irken",
     "value": [
       "Though Earth may be gone, I take satisfaction in knowing you won't have it.",
-      "How can you people eat all that junk? It makes me sick thinking about it.",
+      "How can you eat all that junk food? It makes me sick thinking about it.",
       "I've always wondered if humans and irkens really have to fight so much.",
       "How do you keep your antennae safe during all that fighting when you don't wear real helmets?",
       "I bet the Tallest aren't actually that tall.",
       "Haha, look at you! You're so short!",
       "You better not underestimate a human - we're much more capable than you think.",
-      "I've got 49 problems, but I'm not letting an irken be number 50!"
+      "I've got 49 problems, but I'm not letting an irken be number 50!",
+      "So irkens really ARE as short as I heard!",
+      "Do you ever miss your home planet? I really miss Earth.",
+      "Is it true that the Massive is as big as Earth's moon was?",
+      "I feel like you'd really enjoy waffles.",
+      "You look like you've been travelling way too long. Why don't you take a break?",
+      "Your Tallest look almost identical! They're like twins!"
     ]
   },
   {
     "op": "add",
     "path": "/converse/floran/irken",
     "value": [
-      "Weird floran'sss leaves don't look well. You okay?",
-      "Floran going on big hunt today! Floran isss excited!",
+      "If Floran stabsss you, what color comes out?",
+      "Floran going on big hunt today! Floran is excited!",
       "Has stranger seen ssstars? Floran wants to see, too!",
       "Floran wants to ssstab something. Want to ssstab, too?",
       "Floran thinks bug person looks weak.  Needs to ssstab more!",
       "Floran's friend got lotss of meat yesterday! Want sssome?",
       "You ssstab good. Floran likes.",
       "Everyone thinkss you are weird floran. Floran not convinced.",
-      "Floran likesss your weapon! Looksss ssstrong!"
+      "Floran likesss your weapon! Looksss ssstrong!",
+      "Stranger sssmells like lotsss of sugar.",
+      "Floran taller than ssstranger!",
+      "Why is bug person so short? Not enough meat?",
+      "Floran thinks bug person looksss fierce!"
     ]
   },
   {
@@ -198,14 +247,17 @@
     "path": "/converse/glitch/irken",
     "value": [
       "Cautious. I have heard rumors of your people.",
-      "Belligerent. I will not accept it if you cause us any problems!",
+      "Stern. I will not accept any troublemaking.",
       "Suspicious. I haven't seen anyone like you before.",
       "Fearful. The tales of warmongering insects aren't true, are they?",
       "Anxious. I hope you are not here to bring us trouble.",
       "Nervous. You aren't here for conquest, are you?",
       "Thoughtful. There are stories of invading forces that bring fire rain. Do you know anything?",
       "Curious. Where did you get such an unusual weapon?",
-      "Intrigued. The carryall on your back is unique."
+      "Intrigued. The carryall on your back is unique.",
+      "Awastruck. Your eyes resemble polished gemstones.",
+      "Amused. You are very short!",
+      "Fascinated. You carry yourself with an interesting air."
     ]
   },
   {
@@ -215,10 +267,15 @@
       "Ain't seen your kind around here before.",
       "Better not be here to start somethin', y'hear?",
       "What's them things stickin' out from your head supposed to be for?",
-      "Y'all got a heck of a reuptation far and wide. Makes me mighty uneasy.",
+      "Y'all got a heck of a reputation far and wide. Makes me mighty uneasy.",
       "You're lookin' at everyone mighty funny there, partner.",
       "I heard your kind have some real good shots among'em. You one of'em?",
-      "You got a suspicious look about you. Can't say I like it much."
+      "You got a suspicious look about you. Can't say I like it much.",
+      "That's a weird backpack you got there, partner. What'cha carryin'?",
+      "You're mighty short. Should've ate your veggies growin' up!",
+      "What kinda place do you come from? You got a fierce look about ya.",
+      "I feel like I've seen you before, but I ain't certain 'bout it.",
+      "You look like you've seen a lot. Fancy sharin' some tales over a drink?"
     ]
   }
 ]
