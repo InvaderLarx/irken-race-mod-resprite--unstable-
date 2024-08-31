@@ -9,7 +9,7 @@
         "Don't stay too long.",
         "Just where did you come from, anyway?  Haven't seen you before.",
         "You're a new face around here.",
-        "I'm <selfname>. You play your cards right, and maybe we might jsut get along.",
+        "I'm <selfname>. You play your cards right, and maybe we might just get along.",
         "I'd say it's nice to meet you, but I don't know if I like you enough to say it and mean it.",
 	"Try not to overstay your welcome, okay?",
 	"Oh, hey.",
@@ -52,7 +52,7 @@
         "Keep it brief. I don't have a lot of time to be talking to you.",
         "Who let you in here? I thought we agreed this was an irken space!",
         "The only thing about your planet being gone that disappoints me is that we didn't do it ourselves.",
-	"Even with a destroyed planet, there's still some of you around? You're like roaches!",
+	"Even with a destroyed planet, there's still some of you around? You're like roaches!"
       ],
       "avian": [
         "Give me some of your feathers. I have a bet to win.",
