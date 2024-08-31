@@ -23,7 +23,7 @@
     "path": "/converse/irken",
     "value": {
       "generic": [
-        "As long as you don't start anything, I guess you could stay for a bit.",,
+        "As long as you don't start anything, I guess you could stay for a bit.",
         "I'll be keeping my eye on you - don't try anything funny.",
         "I'm not really that keen on strangers.  Leave me be.",
         "I'm a bit busy right now, maybe we can chat another time.",
@@ -126,6 +126,7 @@
         "We're having a shooting contest later. Think you can match one of us?",
         "What are you hoping to achieve by walking into this place?  You're weird.",
         "A scientist I know has been dying to know how you guys came to exist.",
+	"This place isn't big enough for the two of us. It's just for me.",
 	"How do you eat or drink without a mouth? Can you even taste things?"
       ],
       "irken": [
