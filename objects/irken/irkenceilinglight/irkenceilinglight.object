@@ -15,9 +15,10 @@
   "avianDescription" : "This definitely isn't Avian in design.",
   "floranDescription" : "Strange glowing lightts.",
   "glitchDescription" : "Suspicious. This fixture is strange.",
-  "humanDescription" : "A odd ceiling light.",
+  "humanDescription" : "An odd ceiling light.",
   "hylotlDescription" : "This light is interesting.",
   "novakidDescription" : "A lamp made outta who knows what.",
+  "irkenDescription" : "It's just a ceiling light. Nothing fancy.",
   "inventoryIcon" : "irkenceilinglighticon.png",
   "orientations" : [
     {
