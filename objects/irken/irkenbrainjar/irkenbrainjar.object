@@ -11,11 +11,11 @@
   "apexDescription" : "This is a human brain...",
   "avianDescription" : "This brain is so average.",
   "floranDescription" : "Sssucculent pickled brain.",
-  "glitchDescription" : "Jealous. A real brain..",
+  "glitchDescription" : "Jealous. A real brain.",
   "humanDescription" : "Is that a... human brain?",
   "hylotlDescription" : "Foolishness, to believe the mind can be confined to a jar.",
   "novakidDescription" : "A brain in a jar? I ain't comfortable with that.",
-  "irkenDescription" : "What's in this one? A human's brain, a monkey's maybe? Wait, what's the difference again?",
+  "irkenDescription" : "What's in this one? A human's brain, maybe a monkey's? What's the difference?",
 
   "inventoryIcon" : "irkenbrainjaricon.png",
   "orientations" : [
