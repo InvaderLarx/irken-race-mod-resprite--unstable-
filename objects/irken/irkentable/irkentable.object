@@ -16,6 +16,7 @@
   "humanDescription" : "A table.",
   "hylotlDescription" : "An odd table.",
   "novakidDescription" : "Just a table.",
+  "irkenDescription" : "An ordinary table for doing ordinary things.",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
