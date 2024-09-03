@@ -9,12 +9,13 @@
   "race" : "irken",
 
   "apexDescription" : "They appear to be broken.",
-  "avianDescription" : "A selectition of strange weapons",
-  "floranDescription" : "It holdsss sssharp ssspears.",
+  "avianDescription" : "A selection of strange weapons.",
+  "floranDescription" : "It holdsss sharp ssspears.",
   "glitchDescription" : "Cautious. These may still work.",
   "humanDescription" : "They appear borken.",
   "hylotlDescription" : "A brazen display of violent intent.",
   "novakidDescription" : "A strange selection of some ol weapons.",
+  "irkenDescription" : "A delightful display of irken weapons.",
 
   "inventoryIcon" : "irkenweaponeackicon.png",
   "orientations" : [
