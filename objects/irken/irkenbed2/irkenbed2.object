@@ -11,11 +11,12 @@
   
   "apexDescription" : "This doesn't seem too comfortable.",
   "avianDescription" : "I don't like the look of this.",
-  "floranDescription" : "Itsss a small cell",
+  "floranDescription" : "Itsss a small cell.",
   "glitchDescription" : "Cautious. Wouldn't want to rest here.",
   "humanDescription" : "I'm not sleeping in that!",
   "hylotlDescription" : "Who would sleep in that?",
   "novakidDescription" : "Sure is an odd place to sleep.",
+  "irkenDescription" : "If I need to rest badly enough, I could use this.",
 
   "objectType" : "loungeable",
   "sitCoverImage" : "/objects/irken/irkenbed2/irkenbed2cover.png",
