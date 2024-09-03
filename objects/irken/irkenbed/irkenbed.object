@@ -11,11 +11,12 @@
   "lightColor" : [31, 44, 51],
   "apexDescription" : "A strange bed.",
   "avianDescription" : "This bed looks rather starnge.",
-  "floranDescription" : "Floran likes to ssleep",
+  "floranDescription" : "Floran likes to sssleep.",
   "glitchDescription" : "Pleased. A comfortable place for a nap.",
   "humanDescription" : "A strange bed.",
   "hylotlDescription" : "A crude bed.",
   "novakidDescription" : "Good a place as any to take a nap.",
+  "irkenDescription" : "A serviceable bed.",
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
   
