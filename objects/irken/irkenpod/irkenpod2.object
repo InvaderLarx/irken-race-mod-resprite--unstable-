@@ -14,14 +14,14 @@
   "description" : "The pod is empty.",
   "shortdescription" : "Empty Irken Life Support Pod",
   "race" : "irken",
-  "apexDescription" : "Thankfully this pod is empty. Reminds me of something?",
+  "apexDescription" : "Thankfully this pod is empty. Reminds me of something...",
   "avianDescription" : "This is dark science...",
-  "floranDescription" : "Sssuch machines are unnatural.",
+  "floranDescription" : "Floran think machine not right.",
   "glitchDescription" : "Attentive. Machine appears to attempt to alter DNA.",
   "humanDescription" : "This doesn't look good. I can't help but expect something to jump out at me.",
   "hylotlDescription" : "This machine attempts to alter DNA in a way that's not remotely sustainable.",
   "novakidDescription" : "I ain't going near that.",
-  "irkenDescription" : "Hey, this pod is sorely lacking a test subject!",
+  "irkenDescription" : "This pod is sorely lacking in a test subject!",
   "inventoryIcon" : "irkenpod2icon.png",
   "orientations" : [
     {
