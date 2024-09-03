@@ -14,6 +14,7 @@
   "humanDescription" : "Just strange.",
   "hylotlDescription" : "A rather strange seat found in urban bars.",
   "novakidDescription" : "A strange bar stool. I'm familiar with these. Too familiar.",
+  "irkenDescription" : "It's just a common bar stool.",
   "inventoryIcon" : "irkenbarstoolicon.png",
   "orientations" : [
     {
