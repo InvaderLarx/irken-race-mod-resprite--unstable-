@@ -27,6 +27,7 @@
   "humanDescription" : "A cooking table, handy!",
   "hylotlDescription" : "A simple table, to be used for the preparation of food.",
   "novakidDescription" : "Time to do some cookin'!",
+  "irkenDescription" : "A table for all of my snack-preparation needs!",
 
   "inventoryIcon" : "icon.png",
   "orientations" : [
