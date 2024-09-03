@@ -24,7 +24,8 @@
   "glitchDescription" : "Observant. Cooking device identified.",
   "humanDescription" : "A strange oven. I wonder how it cooks?",
   "hylotlDescription" : "We can quickly heat food here.",
-  "novakidDescription" : "It's for cookin' meals I think.",
+  "novakidDescription" : "It's for cookin' meals, I think.",
+  "irkenDescription" : "A standard oven for making standard food.",
   "statusEffects" : [ ],
   "inventoryIcon" : "irkenovenicon.png",
   "orientations" : [
