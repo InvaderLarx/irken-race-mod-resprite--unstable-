@@ -14,11 +14,12 @@
   "health" : 1.5,
   "apexDescription" : "A fridge. Let's hope there's food inside.",
   "avianDescription" : "What's in the fridge, I wonder?",
-  "floranDescription" : "Cold",
+  "floranDescription" : "Cold.",
   "glitchDescription" : "Wary. This fridge is suspicious.",
   "humanDescription" : "A fridge. I wonder if there are eggs in here?",
   "hylotlDescription" : "A food-chilling device.",
-  "novakidDescription" : "A fridge I wonder if anyone left any treats?",
+  "novakidDescription" : "A fridge. I wonder if anyone left any treats?",
+  "irkenDescription" : "A fridge, great for keeping snacks and drinks ice-cold.",
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
