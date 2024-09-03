@@ -14,11 +14,12 @@
   "health" : 1.5,
   "apexDescription" : "A mysterious crate.",
   "avianDescription" : "I wonder what's in here.",
-  "floranDescription" : "Floran ship Floran in crate. Leap out. Sssurprise",
+  "floranDescription" : "Floran ship Floran in crate. Leap out. Sssurprise!",
   "glitchDescription" : "Intrigued. A container - anything could be inside.",
-  "humanDescription" : "Ooh, stuff",
+  "humanDescription" : "Ooh, stuff!",
   "hylotlDescription" : "A crate of strange design.",
   "novakidDescription" : "A strange lookin' crate. Could hold valuable stuff...",
+  "irkenDescription" : "Made of resistium - perfect for keeping the most important of supplies safe!",
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
