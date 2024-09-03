@@ -17,6 +17,7 @@
   "humanDescription" : "An airlock. Useful!",
   "hylotlDescription" : "A basic airlock.",
   "novakidDescription" : "Looks like a airlock.",
+  "irkenDescription" : "A sturdy airlock of irken design."
 
   "inventoryIcon" : "irkenairlockicon.png",
   "orientations" : [
