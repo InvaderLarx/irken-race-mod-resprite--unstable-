@@ -10,6 +10,7 @@
         "co-worker",
 "fellow elite",
 "old acquaintance",
+"gossip buddy",
 "ally"
       ]
     ]
@@ -36,7 +37,7 @@
       "appreciationirken",
       [
         "Good work. Take this as a reward for your efforts.",
-        "<targetNpcType.pronoun.capitalSubject> has made it back safely. Nice work."
+        "Efforts like this deserve a reward."
       ]
     ]
   },

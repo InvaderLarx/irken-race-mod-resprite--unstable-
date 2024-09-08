@@ -10,6 +10,7 @@
         "co-worker",
         "fellow elite",
         "old acquaintance",
+	"gossip buddy",
         "ally"
       ]
     ]
@@ -50,7 +51,7 @@
       "appreciationirken",
       [
         "Good work. Take this as a reward for your efforts.",
-        "<targetNpcType.pronoun.capitalSubject> has made it back safely. Nice work."
+        "You deserve something for the good work out there."
       ]
     ]
   },
@@ -67,8 +68,8 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/goalText/irken",
     "value": [
-      "^cyan;The disappearance of my <friend> <victimNpcType> concerns me.",
-      "^cyan;My <friend> has gone missing."
+      "^cyan;The disappearance of my <friendirken> <victimNpcType> concerns me.",
+      "^cyan;My <friendirken> has gone missing."
     ]
   },
   {
@@ -83,8 +84,8 @@
     "op": "add",
     "path": "/scriptConfig/generatedText/completionText/default/irken",
     "value": [
-      "Good job bringing <targetNpcType> here. <appreciationirken>",
-      "You did some good work in making sure <targetNpcType> made it back safely. <appreciationirken>"
+      "Good job bringing <victimNpcType> here. <appreciationirken>",
+      "You did some good work in making sure <victimNpcType> made it back safely. <appreciationirken>"
     ]
   }
 ]
