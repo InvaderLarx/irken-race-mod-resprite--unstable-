@@ -1,0 +1,27 @@
+{
+  "id" : "irkenhoverjump",
+  "prerequisites" : [ ],
+  "title" : "^#1693d5;FLIGHT!",
+  "text" : "Soon enough, I will be unbound from the earth and the sky itself will be within my reach!",
+  "completionText" : "HAHAHAHA, SUCK ON THAT LOSER EARTH!!!",
+  "moneyRange" : [220, 320],
+  "rewards" : [ ],
+  "speaker" : "questGiver",
+  
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+
+    "portraits" : {
+      "questStarted" : "questGiver",
+      "questComplete" : "questGiver"
+    },
+
+    "requireTurnIn" : false,
+
+    "conditions" : [ ],
+    "showTech" : [
+      "irkenhoverjump"
+    ]
+  }
+}
