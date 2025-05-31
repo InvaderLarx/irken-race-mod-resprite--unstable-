@@ -1,0 +1,12 @@
+{
+  "itemName" : "irkenhoverjump",
+  "rarity" : "rare",
+  "price" : 100,
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "backicon.png",
+  "description" : "Enables personal flight by holding ^green;[SPACE]",
+  "shortdescription" : "^#77acc3;Hover PAK^reset;",
+    "pickupQuestTemplates" : [ "irkenhoverjump" ],
+  "consumeOnPickup" : true,
+  "itemTags" : [ "trophy" ]
+}
